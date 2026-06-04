@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Visual Studio cache
+.vs/
+
+# Build output
+dist/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor / logs
+*.log
+*.user
+*.suo

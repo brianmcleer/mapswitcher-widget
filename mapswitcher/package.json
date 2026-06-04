@@ -1,0 +1,17 @@
+{
+  "name": "mapswitcher",
+  "version": "1.0.0",
+  "description": "Dropdown widget for ArcGIS Experience Builder that navigates between Experience Builder apps while preserving the current map extent, zoom, and rotation.",
+  "main": "dist/runtime/widget.js",
+  "keywords": [
+    "exb-widget",
+    "experience-builder",
+    "exb",
+    "arcgis",
+    "map-switcher",
+    "navigation",
+    "extent"
+  ],
+  "license": "Apache-2.0",
+  "author": "Brian McLeer"
+}
