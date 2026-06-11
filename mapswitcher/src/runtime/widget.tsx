@@ -42,7 +42,20 @@ export default class Widget extends React.PureComponent<AllWidgetProps<IMConfig>
         const { config } = this.props;
         const sites = config?.sites || [];
         const selectedSite = sites.find((site: SiteConfig) => site.url === siteUrl);
-        const siteName = selectedSite?.label || 'selected map';
+        if (!selectedSite?.url) return;
+
+        let destinationUrl: URL;
+        try {
+            destinationUrl = new URL(selectedSite.url, window.location.origin);
+        } catch {
+            return;
+        }
+
+        if (destinationUrl.protocol !== 'http:' && destinationUrl.protocol !== 'https:') {
+            return;
+        }
+
+        const siteName = selectedSite.label || 'selected map';
 
         // Update state to show loading/navigating status
         this.setState({ isNavigating: true });
@@ -50,12 +63,11 @@ export default class Widget extends React.PureComponent<AllWidgetProps<IMConfig>
         // Announce navigation to screen readers
         this.announceToScreenReader(`Navigating to ${siteName}. Please wait.`, 'assertive');
 
-        const urlFragment = window.location.hash || '';
-        const fullUrl = `${siteUrl}${urlFragment}`;
+        destinationUrl.hash = window.location.hash || '';
 
         // Small delay to allow screen reader announcement
         setTimeout(() => {
-            window.location.href = fullUrl;
+            window.location.href = destinationUrl.toString();
         }, 100);
     };
 

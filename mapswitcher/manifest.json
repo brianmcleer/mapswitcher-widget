@@ -1,14 +1,16 @@
 {
   "name": "mapswitcher",
   "type": "widget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "exbVersion": "1.19.0",
   "author": "Brian McLeer",
   "description": "Switch between maps while preserving extent",
   "copyright": "City of Grand Junction, CO",
   "license": "http://www.apache.org/licenses/LICENSE-2.0",
   "properties": {},
-  "translatedLocales": ["en"],
+  "translatedLocales": [
+    "en"
+  ],
   "defaultSize": {
     "width": 300,
     "height": 40
