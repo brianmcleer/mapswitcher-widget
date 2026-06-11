@@ -84,3 +84,7 @@ https://community.esri.com/t5/experience-builder-custom-widgets/map-switcher-wid
 ## License
 
 Apache-2.0. Copyright City of Grand Junction, CO. See the `LICENSE` file.
+
+## Changelog
+
+- 2026-06-11 v1.0.1: Security fixes for CodeQL code scanning alerts
