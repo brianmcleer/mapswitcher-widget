@@ -3,292 +3,208 @@ import { React, jsx, AllWidgetProps } from 'jimu-core';
 import { Select, Option } from 'jimu-ui';
 import { IMConfig, SiteConfig } from '../config';
 
-interface State {
-    isNavigating: boolean;
-    announceMessage: string;
-}
+type WidgetProps = AllWidgetProps<IMConfig> & {
+  id: string;
+};
 
-export default class Widget extends React.PureComponent<AllWidgetProps<IMConfig>, State> {
-    private selectRef: React.RefObject<HTMLDivElement>;
-    private announcerRef: React.RefObject<HTMLDivElement>;
-    private widgetId: string;
+const visuallyHiddenStyle: React.CSSProperties = {
+  position: 'absolute',
+  width: '1px',
+  height: '1px',
+  padding: 0,
+  margin: '-1px',
+  overflow: 'hidden',
+  clip: 'rect(0, 0, 0, 0)',
+  whiteSpace: 'nowrap',
+  border: 0
+};
 
-    constructor(props: AllWidgetProps<IMConfig>) {
-        super(props);
-        this.selectRef = React.createRef();
-        this.announcerRef = React.createRef();
-        this.widgetId = `map-switcher-${props.id || 'default'}`;
-        this.state = {
-            isNavigating: false,
-            announceMessage: ''
-        };
+const Widget = (props: WidgetProps) => {
+  const [isNavigating, setIsNavigating] = React.useState(false);
+  const [announceMessage, setAnnounceMessage] = React.useState('');
+  const selectRef = React.useRef<HTMLDivElement>(null);
+  const announcerRef = React.useRef<HTMLDivElement>(null);
+  const announceTimerRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
+  const navigationTimerRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
+  const widgetIdRef = React.useRef(`map-switcher-${props.id || 'default'}`);
+
+  React.useEffect(() => {
+    return () => {
+      if (announceTimerRef.current) clearTimeout(announceTimerRef.current);
+      if (navigationTimerRef.current) clearTimeout(navigationTimerRef.current);
+    };
+  }, []);
+
+  const announceToScreenReader = (message: string) => {
+    if (announceTimerRef.current) clearTimeout(announceTimerRef.current);
+
+    setAnnounceMessage('');
+    announceTimerRef.current = setTimeout(() => {
+      setAnnounceMessage(message);
+    }, 50);
+  };
+
+  const handleSiteChange = (event: any) => {
+    const siteUrl = event.target?.value || event;
+    if (!siteUrl) return;
+
+    const sites = props.config?.sites || [];
+    const selectedSite = sites.find((site: SiteConfig) => site.url === siteUrl);
+    if (!selectedSite?.url) return;
+
+    let destinationUrl: URL;
+    try {
+      destinationUrl = new URL(selectedSite.url, window.location.origin);
+    } catch {
+      return;
     }
 
-    /**
-     * Announces a message to screen readers via live region
-     */
-    announceToScreenReader = (message: string, priority: 'polite' | 'assertive' = 'polite') => {
-        this.setState({ announceMessage: '' }, () => {
-            setTimeout(() => {
-                this.setState({ announceMessage: message });
-            }, 50);
-        });
-    };
+    if (destinationUrl.protocol !== 'http:' && destinationUrl.protocol !== 'https:') {
+      return;
+    }
 
-    handleSiteChange = (evt: any) => {
-        const siteUrl = evt.target?.value || evt;
-        if (!siteUrl) return;
+    const siteName = selectedSite.label || 'selected map';
+    setIsNavigating(true);
+    announceToScreenReader(`Navigating to ${siteName}. Please wait.`);
 
-        const { config } = this.props;
-        const sites = config?.sites || [];
-        const selectedSite = sites.find((site: SiteConfig) => site.url === siteUrl);
-        if (!selectedSite?.url) return;
+    destinationUrl.hash = window.location.hash || '';
 
-        let destinationUrl: URL;
-        try {
-            destinationUrl = new URL(selectedSite.url, window.location.origin);
-        } catch {
-            return;
-        }
+    navigationTimerRef.current = setTimeout(() => {
+      window.location.href = destinationUrl.toString();
+    }, 100);
+  };
 
-        if (destinationUrl.protocol !== 'http:' && destinationUrl.protocol !== 'https:') {
-            return;
-        }
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
+    if (event.key === 'Escape' && selectRef.current) {
+      (selectRef.current as any).blur?.();
+      announceToScreenReader('Selection cancelled');
+    }
+  };
 
-        const siteName = selectedSite.label || 'selected map';
+  const handleFocus = () => {
+    const siteCount = props.config?.sites?.length || 0;
+    announceToScreenReader(
+      `Map switcher. ${siteCount} map${siteCount !== 1 ? 's' : ''} available. Use arrow keys to browse options.`
+    );
+  };
 
-        // Update state to show loading/navigating status
-        this.setState({ isNavigating: true });
+  const sites = props.config?.sites || [];
+  const widgetId = widgetIdRef.current;
+  const selectId = `${widgetId}-select`;
+  const labelId = `${widgetId}-label`;
+  const descriptionId = `${widgetId}-description`;
+  const statusId = `${widgetId}-status`;
 
-        // Announce navigation to screen readers
-        this.announceToScreenReader(`Navigating to ${siteName}. Please wait.`, 'assertive');
+  if (sites.length === 0) {
+    return (
+      <div
+        className="widget-map-switcher"
+        style={{ padding: '10px' }}
+        role="region"
+        aria-label="Map Switcher"
+      >
+        <p role="status" aria-live="polite">
+          No sites configured. Please configure map sites in the widget settings.
+        </p>
+      </div>
+    );
+  }
 
-        destinationUrl.hash = window.location.hash || '';
+  return (
+    <div
+      className="widget-map-switcher jimu-widget"
+      style={{ padding: '5px', width: '100%' }}
+      role="region"
+      aria-labelledby={labelId}
+      aria-describedby={descriptionId}
+    >
+      <label id={labelId} htmlFor={selectId} style={visuallyHiddenStyle}>
+        Map Switcher - Select a map to navigate to
+      </label>
 
-        // Small delay to allow screen reader announcement
-        setTimeout(() => {
-            window.location.href = destinationUrl.toString();
-        }, 100);
-    };
+      <span id={descriptionId} style={visuallyHiddenStyle}>
+        {`Choose from ${sites.length} available map${sites.length !== 1 ? 's' : ''}. Selecting a map will navigate you to that location.`}
+      </span>
 
-    handleKeyDown = (evt: React.KeyboardEvent<HTMLDivElement>) => {
-        // Provide additional keyboard support
-        if (evt.key === 'Escape') {
-            // Reset selection on Escape
-            if (this.selectRef.current) {
-                (this.selectRef.current as any).blur?.();
-                this.announceToScreenReader('Selection cancelled');
-            }
-        }
-    };
-
-    handleFocus = () => {
-        const { config } = this.props;
-        const sites = config?.sites || [];
-        const siteCount = sites.length;
-
-        // Announce available options count when focused
-        this.announceToScreenReader(
-            `Map switcher. ${siteCount} map${siteCount !== 1 ? 's' : ''} available. Use arrow keys to browse options.`
-        );
-    };
-
-    render() {
-        const { config } = this.props;
-        const { isNavigating, announceMessage } = this.state;
-        const sites = config?.sites || [];
-        const selectId = `${this.widgetId}-select`;
-        const labelId = `${this.widgetId}-label`;
-        const descriptionId = `${this.widgetId}-description`;
-        const statusId = `${this.widgetId}-status`;
-
-        if (sites.length === 0) {
-            return (
-                <div
-                    className="widget-map-switcher"
-                    style={{ padding: '10px' }}
-                    role="region"
-                    aria-label="Map Switcher"
-                >
-                    <p
-                        role="status"
-                        aria-live="polite"
-                    >
-                        No sites configured. Please configure map sites in the widget settings.
-                    </p>
-                </div>
-            );
-        }
-
-        return (
-            <div
-                className="widget-map-switcher jimu-widget"
-                style={{ padding: '5px', width: '100%' }}
-                role="region"
-                aria-labelledby={labelId}
-                aria-describedby={descriptionId}
+      <div onKeyDown={handleKeyDown} onFocus={handleFocus} role="presentation">
+        <Select
+          id={selectId}
+          ref={selectRef as any}
+          value=""
+          onChange={handleSiteChange}
+          placeholder="Select map to view"
+          size="sm"
+          style={{ width: '100%' }}
+          aria-labelledby={labelId}
+          aria-describedby={`${descriptionId} ${statusId}`}
+          aria-busy={isNavigating}
+          disabled={isNavigating}
+          title="Select a map to navigate to a different view"
+        >
+          {sites.map((site: SiteConfig, index: number) => (
+            <Option
+              key={site.url || index}
+              value={site.url}
+              aria-label={`Navigate to ${site.label}`}
+              title={`Navigate to ${site.label}`}
             >
-                {/* Visually hidden label for screen readers */}
-                <label
-                    id={labelId}
-                    htmlFor={selectId}
-                    style={{
-                        position: 'absolute',
-                        width: '1px',
-                        height: '1px',
-                        padding: 0,
-                        margin: '-1px',
-                        overflow: 'hidden',
-                        clip: 'rect(0, 0, 0, 0)',
-                        whiteSpace: 'nowrap',
-                        border: 0
-                    }}
-                >
-                    Map Switcher - Select a map to navigate to
-                </label>
+              {site.label}
+            </Option>
+          ))}
+        </Select>
+      </div>
 
-                {/* Hidden description for additional context */}
-                <span
-                    id={descriptionId}
-                    style={{
-                        position: 'absolute',
-                        width: '1px',
-                        height: '1px',
-                        padding: 0,
-                        margin: '-1px',
-                        overflow: 'hidden',
-                        clip: 'rect(0, 0, 0, 0)',
-                        whiteSpace: 'nowrap',
-                        border: 0
-                    }}
-                >
-                    {`Choose from ${sites.length} available map${sites.length !== 1 ? 's' : ''}. Selecting a map will navigate you to that location.`}
-                </span>
+      {isNavigating && (
+        <div
+          id={statusId}
+          role="status"
+          aria-live="assertive"
+          aria-atomic="true"
+          style={{ marginTop: '5px', fontSize: '12px', color: '#666' }}
+        >
+          <span aria-hidden="true">Loading...</span>
+          <span style={visuallyHiddenStyle}>
+            Navigating to selected map. Please wait.
+          </span>
+        </div>
+      )}
 
-                {/* Wrapper for keyboard and focus event handling */}
-                <div
-                    onKeyDown={this.handleKeyDown}
-                    onFocus={this.handleFocus}
-                    role="presentation"
-                >
-                    <Select
-                        id={selectId}
-                        ref={this.selectRef as any}
-                        value=""
-                        onChange={this.handleSiteChange}
-                        placeholder="Select map to view"
-                        size="sm"
-                        style={{ width: '100%' }}
-                        aria-labelledby={labelId}
-                        aria-describedby={`${descriptionId} ${statusId}`}
-                        aria-busy={isNavigating}
-                        disabled={isNavigating}
-                        title="Select a map to navigate to a different view"
-                    >
-                        {sites.map((site: SiteConfig, index: number) => (
-                            <Option
-                                key={site.url || index}
-                                value={site.url}
-                                aria-label={`Navigate to ${site.label}`}
-                                title={`Navigate to ${site.label}`}
-                            >
-                                {site.label}
-                            </Option>
-                        ))}
-                    </Select>
-                </div>
+      <div
+        ref={announcerRef}
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+        style={visuallyHiddenStyle}
+      >
+        {announceMessage}
+      </div>
 
-                {/* Loading status indicator */}
-                {isNavigating && (
-                    <div
-                        id={statusId}
-                        role="status"
-                        aria-live="assertive"
-                        aria-atomic="true"
-                        style={{
-                            marginTop: '5px',
-                            fontSize: '12px',
-                            color: '#666'
-                        }}
-                    >
-                        <span aria-hidden="true">Loading...</span>
-                        <span
-                            style={{
-                                position: 'absolute',
-                                width: '1px',
-                                height: '1px',
-                                padding: 0,
-                                margin: '-1px',
-                                overflow: 'hidden',
-                                clip: 'rect(0, 0, 0, 0)',
-                                whiteSpace: 'nowrap',
-                                border: 0
-                            }}
-                        >
-                            Navigating to selected map. Please wait.
-                        </span>
-                    </div>
-                )}
+      <a
+        href="#main-content"
+        style={visuallyHiddenStyle}
+        onFocus={(event) => {
+          const target = event.target as HTMLElement;
+          target.style.position = 'static';
+          target.style.width = 'auto';
+          target.style.height = 'auto';
+          target.style.margin = '0';
+          target.style.clip = 'auto';
+          target.style.overflow = 'visible';
+        }}
+        onBlur={(event) => {
+          const target = event.target as HTMLElement;
+          target.style.position = 'absolute';
+          target.style.width = '1px';
+          target.style.height = '1px';
+          target.style.margin = '-1px';
+          target.style.clip = 'rect(0, 0, 0, 0)';
+          target.style.overflow = 'hidden';
+        }}
+      >
+        Skip to main content
+      </a>
+    </div>
+  );
+};
 
-                {/* Live region for screen reader announcements */}
-                <div
-                    ref={this.announcerRef}
-                    role="status"
-                    aria-live="polite"
-                    aria-atomic="true"
-                    style={{
-                        position: 'absolute',
-                        width: '1px',
-                        height: '1px',
-                        padding: 0,
-                        margin: '-1px',
-                        overflow: 'hidden',
-                        clip: 'rect(0, 0, 0, 0)',
-                        whiteSpace: 'nowrap',
-                        border: 0
-                    }}
-                >
-                    {announceMessage}
-                </div>
-
-                {/* Skip link for keyboard navigation (useful if widget is in a complex layout) */}
-                <a
-                    href="#main-content"
-                    style={{
-                        position: 'absolute',
-                        width: '1px',
-                        height: '1px',
-                        padding: 0,
-                        margin: '-1px',
-                        overflow: 'hidden',
-                        clip: 'rect(0, 0, 0, 0)',
-                        whiteSpace: 'nowrap',
-                        border: 0
-                    }}
-                    onFocus={(e) => {
-                        // Make visible on focus
-                        const target = e.target as HTMLElement;
-                        target.style.position = 'static';
-                        target.style.width = 'auto';
-                        target.style.height = 'auto';
-                        target.style.margin = '0';
-                        target.style.clip = 'auto';
-                        target.style.overflow = 'visible';
-                    }}
-                    onBlur={(e) => {
-                        // Hide again on blur
-                        const target = e.target as HTMLElement;
-                        target.style.position = 'absolute';
-                        target.style.width = '1px';
-                        target.style.height = '1px';
-                        target.style.margin = '-1px';
-                        target.style.clip = 'rect(0, 0, 0, 0)';
-                        target.style.overflow = 'hidden';
-                    }}
-                >
-                    Skip to main content
-                </a>
-            </div>
-        );
-    }
-}
+export default Widget;

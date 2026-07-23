@@ -1,12 +1,12 @@
-import { ImmutableObject } from 'seamless-immutable';
+import { ImmutableObject } from 'jimu-core';
 
 export interface SiteConfig {
-  label: string;
-  url: string;
+    label: string;
+    url: string;
 }
 
 export interface Config {
-  sites: SiteConfig[];
+    sites: SiteConfig[];
 }
 
 export type IMConfig = ImmutableObject<Config>;
