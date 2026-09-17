@@ -58,6 +58,12 @@ Experience Builder client install.
    one site per destination app, filling in a Label (the text shown in the dropdown) and the
    full URL of the target Experience Builder application.
 
+### The release zip and the editor shims
+
+The zip is the widget only. The Visual Studio type shims in the repo (`mapswitcher/src/exb-editor-shims.d.ts`, `mapswitcher/src/vendor-shims.d.ts`) are left out on purpose: their ambient `declare module` blocks are not file-scoped and would rewrite the react, jimu and esri types for every other widget in your `your-extensions` folder.
+
+If you clone the repository instead of using the zip, delete `mapswitcher/src/exb-editor-shims.d.ts` and the other shim files listed above before building; nothing else depends on them.
+
 ## Troubleshooting: `mapswitcher is duplicated`
 
 If `npm start` stops with `mapswitcher is duplicated`, Experience Builder found two copies of the

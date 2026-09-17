@@ -6,3 +6,7 @@ Thumbs.db
 *.log
 *.user
 *.suo
+
+# Cowork working folder and release zips never ship
+Claude outputs/
+*.zip

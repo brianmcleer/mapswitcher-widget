@@ -74,3 +74,10 @@ widget has no third-party dependencies, so the lockfile is small.
 ## License
 
 Apache-2.0. Copyright City of Grand Junction, CO. See `LICENSE`.
+
+### The release zip and the editor shims
+
+The zip is the widget only. The Visual Studio type shims in the repo (`mapswitcher/src/exb-editor-shims.d.ts`, `mapswitcher/src/vendor-shims.d.ts`) are left out on purpose: their ambient `declare module` blocks are not file-scoped and would rewrite the react, jimu and esri types for every other widget in your `your-extensions` folder.
+
+If you clone the repository instead of using the zip, delete `mapswitcher/src/exb-editor-shims.d.ts` and the other shim files listed above before building; nothing else depends on them.
+
