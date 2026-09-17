@@ -15,3 +15,6 @@ Thumbs.db
 *.log
 *.user
 *.suo
+
+# Community attachment zips built by publish-all.ps1 never get committed
+*.zip
