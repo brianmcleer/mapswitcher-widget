@@ -1,7 +1,7 @@
 {
   "name": "mapswitcher",
   "type": "widget",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "exbVersion": "1.21.0",
   "author": "Brian McLeer",
   "description": "Switch between maps while preserving extent",
