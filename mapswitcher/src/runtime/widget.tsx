@@ -2,6 +2,8 @@
 import { React, jsx, AllWidgetProps } from 'jimu-core';
 import { Select, Option } from 'jimu-ui';
 import { IMConfig, SiteConfig } from '../config';
+import { beacon } from '../shared/beacon';
+import type { BeaconHandle } from '../shared/beacon';
 
 type WidgetProps = AllWidgetProps<IMConfig> & {
   id: string;
@@ -27,6 +29,9 @@ const Widget = (props: WidgetProps) => {
   const announceTimerRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
   const navigationTimerRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
   const widgetIdRef = React.useRef(`map-switcher-${props.id || 'default'}`);
+  const beaconRef = React.useRef<BeaconHandle | null>(null);
+
+  React.useEffect(() => { beaconRef.current = beacon.init(props); }, []);
 
   React.useEffect(() => {
     return () => {
@@ -55,7 +60,8 @@ const Widget = (props: WidgetProps) => {
     let destinationUrl: URL;
     try {
       destinationUrl = new URL(selectedSite.url, window.location.origin);
-    } catch {
+    } catch (e) {
+      beaconRef.current?.error(e, 'switch');
       return;
     }
 
@@ -64,6 +70,7 @@ const Widget = (props: WidgetProps) => {
     }
 
     const siteName = selectedSite.label || 'selected map';
+    beaconRef.current?.action('switch');
     setIsNavigating(true);
     announceToScreenReader(`Navigating to ${siteName}. Please wait.`);
 

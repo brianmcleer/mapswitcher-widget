@@ -2,6 +2,10 @@
 
 Newest first. Every release bumps `manifest.json` and `package.json` together.
 
+## 1.0.4 (2026-09-18)
+
+- Added: anonymous usage and error telemetry (shared beacon module; off unless the portal publishes an exb-beacon-sink table; telemetry: false in config disables it).
+
 ## 1.0.3 (2026-09-17)
 
 - Packaging: removed `src/emotion-jsx-runtime.d.ts`; the master editor shim already declares `@emotion/react/jsx-runtime` and the release zip must not carry an ambient copy.
