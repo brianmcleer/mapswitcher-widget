@@ -1,5 +1,7 @@
 # mapswitcher-widget
 
+[![License](https://img.shields.io/github/license/brianmcleer/mapswitcher-widget)](LICENSE) [![Release](https://img.shields.io/github/v/release/brianmcleer/=tag)](https://github.com/brianmcleer/mapswitcher-widget/releases) [![Issues](https://img.shields.io/github/issues/brianmcleer/mapswitcher-widget)](https://github.com/brianmcleer/mapswitcher-widget/issues)
+
 Source repo for the **Map Switcher** custom widget for ArcGIS Experience Builder, by Brian
 McLeer (City of Grand Junction, CO).
 
@@ -19,21 +21,21 @@ folder. That README travels with the widget when someone downloads a release.
 
 ```
 mapswitcher-widget/            <- this repo
-├── README.md                  <- this file (GitHub landing page)
-├── LICENSE                    <- Apache-2.0
-├── .gitignore                 <- ignores node_modules, .vs, dist, OS cruft
-├── publish.ps1                <- one-command publish / update script
-└── mapswitcher/               <- the widget (drops into your-extensions\widgets)
-    ├── package.json
-    ├── package-lock.json      <- generated in the EB environment (see below)
-    ├── manifest.json
-    ├── config.json
-    ├── icon.svg
-    ├── README.md
-    ├── LICENSE
-    ├── .gitignore
-    ├── .npmignore
-    └── src/ ...
+â”œâ”€â”€ README.md                  <- this file (GitHub landing page)
+â”œâ”€â”€ LICENSE                    <- Apache-2.0
+â”œâ”€â”€ .gitignore                 <- ignores node_modules, .vs, dist, OS cruft
+â”œâ”€â”€ publish.ps1                <- one-command publish / update script
+â””â”€â”€ mapswitcher/               <- the widget (drops into your-extensions\widgets)
+    â”œâ”€â”€ package.json
+    â”œâ”€â”€ package-lock.json      <- generated in the EB environment (see below)
+    â”œâ”€â”€ manifest.json
+    â”œâ”€â”€ config.json
+    â”œâ”€â”€ icon.svg
+    â”œâ”€â”€ README.md
+    â”œâ”€â”€ LICENSE
+    â”œâ”€â”€ .gitignore
+    â”œâ”€â”€ .npmignore
+    â””â”€â”€ src/ ...
 ```
 
 ## Compatibility
