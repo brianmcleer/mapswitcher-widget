@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import { React, jsx } from 'jimu-core';
 import { AllWidgetSettingProps } from 'jimu-for-builder';
-import { TextInput, Button, Label } from 'jimu-ui';
-import { SettingSection } from 'jimu-ui/advanced/setting-components';
+import { TextInput, Button, Label, Switch } from 'jimu-ui';
+import { SettingSection, SettingRow, MapWidgetSelector } from 'jimu-ui/advanced/setting-components';
 import { IMConfig, SiteConfig } from '../config';
 
 type SettingProps = AllWidgetSettingProps<IMConfig> & {
@@ -61,10 +61,50 @@ const Setting = (props: SettingProps) => {
     saveSites(sites);
   };
 
+  const onMapWidgetSelected = (useMapWidgetIds: string[]) => {
+    props.onSettingChange({
+      id: props.id,
+      useMapWidgetIds
+    });
+  };
+
+  const onRememberBasemapChange = (event: any, checked?: boolean) => {
+    const value = typeof checked === 'boolean' ? checked : !!event?.target?.checked;
+    props.onSettingChange({
+      id: props.id,
+      config: props.config.set('rememberBasemap', value)
+    });
+  };
+
   const sites = props.config?.sites || [];
+  const rememberBasemap = props.config?.rememberBasemap !== false;
+  const hasMap = !!props.useMapWidgetIds?.[0];
 
   return (
     <div className="widget-setting-map-switcher" style={{ padding: '20px' }}>
+      <SettingSection title="Basemap">
+        <SettingRow flow="wrap" label="Map widget">
+          <MapWidgetSelector
+            useMapWidgetIds={props.useMapWidgetIds}
+            onSelect={onMapWidgetSelected}
+          />
+        </SettingRow>
+
+        <SettingRow label="Carry basemap to next map">
+          <Switch
+            checked={rememberBasemap}
+            onChange={onRememberBasemapChange}
+            aria-label="Carry basemap to next map"
+          />
+        </SettingRow>
+
+        <p style={{ fontSize: '12px', color: '#666', marginTop: '8px', marginBottom: 0 }}>
+          {hasMap
+            ? 'Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.'
+            : 'No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.'}
+        </p>
+      </SettingSection>
+
       <SettingSection title="Sites">
         {sites.map((site: SiteConfig, index: number) => (
           <div

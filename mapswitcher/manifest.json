@@ -1,12 +1,15 @@
 {
   "name": "mapswitcher",
   "type": "widget",
-  "version": "1.0.5",
+  "version": "1.1.3",
   "exbVersion": "1.21.0",
   "author": "Brian McLeer",
-  "description": "Switch between maps while preserving extent",
+  "description": "Switch between maps while preserving extent and basemap",
   "copyright": "City of Grand Junction, CO",
   "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "dependency": [
+    "jimu-arcgis"
+  ],
   "properties": {},
   "translatedLocales": [
     "en"

@@ -12,17 +12,22 @@ reference) and appends it to the destination URL, so the next app opens at the s
   level, scale, and rotation all come across.
 - Works with any coordinate system (Web Mercator, State Plane, WGS84, and others), because
   it passes through whatever is already in the hash.
-- No map widget connection required.
+- Carries the current basemap to the destination app (optional). Works with the Esri Basemap
+  Gallery and Basemap Gallery Custom: portal item basemaps, Esri well-known basemaps, and
+  basemaps added by URL. Select a map widget in settings to turn it on. The destination app
+  needs its own Map Switcher connected to its map to apply the basemap.
+- Map widget connection is optional. Without one, only the extent is carried.
 - Add, remove, and reorder sites (move up / move down) in the settings panel.
 - Built for accessibility: screen reader announcements on focus and navigation, an
   associated label and description, keyboard support, and a busy state while navigating.
 
 ## Requirements
 
-- ArcGIS Experience Builder Developer Edition 1.19 or 1.20 (these run React 19).
+- ArcGIS Experience Builder Developer Edition 1.21.
 - Experience Builder 1.18 and earlier run React 18 and are not supported.
 
-This widget uses only the Experience Builder framework modules (jimu-core and jimu-ui). It
+This widget uses only the Experience Builder framework modules (jimu-core, jimu-ui and
+jimu-arcgis) and the ArcGIS Maps SDK that ships with Experience Builder. It
 pulls in no third-party npm packages, so there is nothing extra to install beyond the normal
 Experience Builder client install.
 
@@ -57,6 +62,18 @@ Experience Builder client install.
 6. In the builder, drag the Map Switcher widget into your experience. Open its settings and add
    one site per destination app, filling in a Label (the text shown in the dropdown) and the
    full URL of the target Experience Builder application.
+
+7. To carry the basemap, open the Basemap section in settings, select the map widget, and
+   leave "Carry basemap to next map" on. Do the same in every destination app.
+
+### How the basemap carries over
+
+On switch, the widget adds `ms_basemap` (and `ms_portal` for portal item basemaps) to the
+destination URL. The destination Map Switcher applies that basemap once its map loads, then
+removes the parameters from the address bar so a refresh does not re-apply it. If Basemap
+Gallery Custom in the destination app has a default basemap set, the carried basemap still
+wins. A carried basemap only loads from Esri hosts, the app's own domain, the app portal's
+domain, or a portal a Basemap Gallery Custom widget in the app points at.
 
 ### The release zip and the editor shims
 
@@ -97,4 +114,5 @@ Apache-2.0. Copyright City of Grand Junction, CO. See the `LICENSE` file.
 
 ## Changelog
 
+- 2026-10-02 v1.1.0: Basemap carries to the destination app (see `CHANGELOG.md`)
 - 2026-06-11 v1.0.1: Security fixes for CodeQL code scanning alerts

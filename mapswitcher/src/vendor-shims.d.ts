@@ -26,3 +26,13 @@ declare module 'jimu-for-builder' {
     export const getAppConfigAction: any
     export const builderAppSync: any
 }
+
+// The master shim's 'esri/*' wildcard only has a default export, so the
+// namespace import `import * as reactiveUtils` needs named members.
+declare module 'esri/core/reactiveUtils' {
+    export const watch: (getValue: () => any, callback: (value: any, oldValue?: any) => void, options?: any) => { remove: () => void }
+    export const when: any
+    export const once: any
+    export const on: any
+    export const whenOnce: any
+}
