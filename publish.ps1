@@ -90,8 +90,10 @@ if ($Release -ne "") {
 }
 
 Write-Host "`n==> Syncing widget files (skipping $($ExcludeDirs -join ', '))..."
+# Exclude the translator's snapshots while keeping i18n status and review files.
+$backupSource = Join-Path $ExbWidgetPath "i18n\backup"
 # robocopy wants each excluded name as its own argument after /XD and /XF
-$xd = @("/XD") + $ExcludeDirs
+$xd = @("/XD") + $ExcludeDirs + @($backupSource)
 $xf = @("/XF") + $ExcludeFiles
 robocopy "$ExbWidgetPath" "$WidgetDest" /MIR @xd @xf /NFL /NDL /NJH /NJS /NP | Out-Null
 if ($LASTEXITCODE -ge 8) { throw "robocopy failed with exit code $LASTEXITCODE" }
@@ -104,6 +106,14 @@ foreach ($dir in $ExcludeDirs) {
         Write-Host "    Removing excluded folder from repo copy: $dir"
         Remove-Item $stale -Recurse -Force
     }
+}
+
+# /MIR does not delete excluded folders in the destination.
+# Remove backup snapshots left by older publish runs.
+$staleBackup = Join-Path $WidgetDest "i18n\backup"
+if (Test-Path $staleBackup) {
+    Write-Host "    Removing translation backup snapshots from repo copy."
+    Remove-Item $staleBackup -Recurse -Force
 }
 
 # The manifest has to sit directly inside the widget folder. A second level of nesting is
