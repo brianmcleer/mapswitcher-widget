@@ -4,12 +4,16 @@ import { AllWidgetSettingProps } from 'jimu-for-builder';
 import { TextInput, Button, Label, Switch } from 'jimu-ui';
 import { SettingSection, SettingRow, MapWidgetSelector } from 'jimu-ui/advanced/setting-components';
 import { IMConfig, SiteConfig } from '../config';
+import { hooks as __exbI18nHooks } from 'jimu-core';
+import __exbI18nMessages from './translations/default';
+
 
 type SettingProps = AllWidgetSettingProps<IMConfig> & {
   id: string;
 };
 
 const Setting = (props: SettingProps) => {
+  const t = __exbI18nHooks.useTranslation(__exbI18nMessages);
   const getSites = (): SiteConfig[] => (
     props.config?.sites ? [...props.config.sites] : []
   );
@@ -82,30 +86,30 @@ const Setting = (props: SettingProps) => {
 
   return (
     <div className="widget-setting-map-switcher" style={{ padding: '20px' }}>
-      <SettingSection title="Basemap">
-        <SettingRow flow="wrap" label="Map widget">
+      <SettingSection title={t('basemap')}>
+        <SettingRow flow="wrap" label={t('mapWidget')}>
           <MapWidgetSelector
             useMapWidgetIds={props.useMapWidgetIds}
             onSelect={onMapWidgetSelected}
           />
         </SettingRow>
 
-        <SettingRow label="Carry basemap to next map">
+        <SettingRow label={t('carryBasemapToNextMap')}>
           <Switch
             checked={rememberBasemap}
             onChange={onRememberBasemapChange}
-            aria-label="Carry basemap to next map"
+            aria-label={t('carryBasemapToNextMap')}
           />
         </SettingRow>
 
         <p style={{ fontSize: '12px', color: '#666', marginTop: '8px', marginBottom: 0 }}>
           {hasMap
-            ? 'Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.'
-            : 'No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.'}
+            ? t('sendsTheBasemapChosenInEither')
+            : t('noMapSelectedTheFirstMap')}
         </p>
       </SettingSection>
 
-      <SettingSection title="Sites">
+      <SettingSection title={t('sites')}>
         {sites.map((site: SiteConfig, index: number) => (
           <div
             key={index}
@@ -125,7 +129,7 @@ const Setting = (props: SettingProps) => {
               }}
             >
               <span style={{ fontWeight: 'bold', fontSize: '12px', color: '#666' }}>
-                Site {index + 1}
+                {t('siteIndex', { index: index + 1 })}
               </span>
               <div style={{ display: 'flex', gap: '4px' }}>
                 <Button
@@ -133,8 +137,8 @@ const Setting = (props: SettingProps) => {
                   type="tertiary"
                   onClick={() => moveSiteUp(index)}
                   disabled={index === 0}
-                  title="Move up"
-                  aria-label={`Move site ${index + 1} up`}
+                  title={t('moveUp')}
+                  aria-label={t('moveSiteIndexUp', { index: index + 1 })}
                   style={{ padding: '2px 6px', minWidth: 'auto' }}
                 >
                   ▲
@@ -144,8 +148,8 @@ const Setting = (props: SettingProps) => {
                   type="tertiary"
                   onClick={() => moveSiteDown(index)}
                   disabled={index === sites.length - 1}
-                  title="Move down"
-                  aria-label={`Move site ${index + 1} down`}
+                  title={t('moveDown')}
+                  aria-label={t('moveSiteIndexDown', { index: index + 1 })}
                   style={{ padding: '2px 6px', minWidth: 'auto' }}
                 >
                   ▼
@@ -153,15 +157,15 @@ const Setting = (props: SettingProps) => {
               </div>
             </div>
 
-            <Label style={{ marginBottom: '5px' }}>Label</Label>
+            <Label style={{ marginBottom: '5px' }}>{t('label')}</Label>
             <TextInput
               value={site.label}
               onChange={(event) => onSiteLabelChange(index, event.target.value)}
-              placeholder="Site name"
+              placeholder={t('siteName')}
               style={{ marginBottom: '10px' }}
             />
 
-            <Label style={{ marginBottom: '5px' }}>URL</Label>
+            <Label style={{ marginBottom: '5px' }}>{t('url')}</Label>
             <TextInput
               value={site.url}
               onChange={(event) => onSiteUrlChange(index, event.target.value)}
@@ -170,13 +174,13 @@ const Setting = (props: SettingProps) => {
             />
 
             <Button size="sm" type="danger" onClick={() => removeSite(index)}>
-              Remove
+              {t('remove')}
             </Button>
           </div>
         ))}
 
         <Button onClick={addSite} style={{ marginTop: '10px' }}>
-          Add Site
+          {t('addSite')}
         </Button>
       </SettingSection>
     </div>

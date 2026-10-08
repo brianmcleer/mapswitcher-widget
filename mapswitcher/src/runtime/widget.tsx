@@ -9,6 +9,9 @@ import * as reactiveUtils from 'esri/core/reactiveUtils';
 import { IMConfig, SiteConfig } from '../config';
 import { beacon } from '../shared/beacon';
 import type { BeaconHandle } from '../shared/beacon';
+import { hooks as __exbI18nHooks } from 'jimu-core';
+import __exbI18nMessages from './translations/default';
+
 
 type WidgetProps = AllWidgetProps<IMConfig> & {
   id: string;
@@ -298,6 +301,7 @@ const clearBasemapParams = () => {
 };
 
 const Widget = (props: WidgetProps) => {
+  const t = __exbI18nHooks.useTranslation(__exbI18nMessages);
   const [isNavigating, setIsNavigating] = React.useState(false);
   const [announceMessage, setAnnounceMessage] = React.useState('');
   const selectRef = React.useRef<HTMLDivElement>(null);
@@ -493,10 +497,10 @@ const Widget = (props: WidgetProps) => {
         className="widget-map-switcher"
         style={{ padding: '10px' }}
         role="region"
-        aria-label="Map Switcher"
+        aria-label={t('_widgetLabel')}
       >
         <p role="status" aria-live="polite">
-          No sites configured. Please configure map sites in the widget settings.
+          {t('noSitesConfiguredPleaseConfigureMap')}
         </p>
         {mapViewComponent}
       </div>
@@ -512,11 +516,11 @@ const Widget = (props: WidgetProps) => {
       aria-describedby={descriptionId}
     >
       <label id={labelId} htmlFor={selectId} style={visuallyHiddenStyle}>
-        Map Switcher - Select a map to navigate to
+        {t('mapSwitcherSelectAMapTo')}
       </label>
 
       <span id={descriptionId} style={visuallyHiddenStyle}>
-        {`Choose from ${sites.length} available map${sites.length !== 1 ? 's' : ''}. Selecting a map will navigate you to that location${rememberBasemap && mapWidgetId ? ' and keep the current basemap' : ''}.`}
+        {(sites.length !== 1 ? (rememberBasemap && mapWidgetId ? t('chooseFromSitesCountAvailableMapsSelecting', { sitesCount: sites.length }) : t('chooseFromSitesCountAvailableMapsSelecting2', { sitesCount: sites.length })) : (rememberBasemap && mapWidgetId ? t('chooseFromSitesCountAvailableMapSelecting', { sitesCount: sites.length }) : t('chooseFromSitesCountAvailableMapSelecting2', { sitesCount: sites.length })))}
       </span>
 
       <div onKeyDown={handleKeyDown} onFocus={handleFocus} role="presentation">
@@ -525,21 +529,21 @@ const Widget = (props: WidgetProps) => {
           ref={selectRef as any}
           value=""
           onChange={handleSiteChange}
-          placeholder="Select map to view"
+          placeholder={t('selectMapToView')}
           size="sm"
           style={{ width: '100%' }}
           aria-labelledby={labelId}
           aria-describedby={`${descriptionId} ${statusId}`}
           aria-busy={isNavigating}
           disabled={isNavigating}
-          title="Select a map to navigate to a different view"
+          title={t('selectAMapToNavigateTo')}
         >
           {sites.map((site: SiteConfig, index: number) => (
             <Option
               key={site.url || index}
               value={site.url}
-              aria-label={`Navigate to ${site.label}`}
-              title={`Navigate to ${site.label}`}
+              aria-label={t('navigateToLabel', { label: site.label })}
+              title={t('navigateToLabel', { label: site.label })}
             >
               {site.label}
             </Option>
@@ -555,9 +559,9 @@ const Widget = (props: WidgetProps) => {
           aria-atomic="true"
           style={{ marginTop: '5px', fontSize: '12px', color: '#666' }}
         >
-          <span aria-hidden="true">Loading...</span>
+          <span aria-hidden="true">{t('loading')}</span>
           <span style={visuallyHiddenStyle}>
-            Navigating to selected map. Please wait.
+            {t('navigatingToSelectedMapPleaseWait')}
           </span>
         </div>
       )}
@@ -594,7 +598,7 @@ const Widget = (props: WidgetProps) => {
           target.style.overflow = 'hidden';
         }}
       >
-        Skip to main content
+        {t('skipToMainContent')}
       </a>
 
       {mapViewComponent}
