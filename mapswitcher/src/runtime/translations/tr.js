@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Yükleniyor...",
         navigatingToSelectedMapPleaseWait: "Seçilmiş haritaya geçiş. Lütfen bekleyin.",
         skipToMainContent: "Skip to main content",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "Seçilen harita",
+        unknownError: "Bilinmeyen hata",
+        unserializableError: "Başarısız olmayan hata"
       })
     }
   }

@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Laster inn...",
         navigatingToSelectedMapPleaseWait: "Navigasjon til valgt kart. Vent.",
         skipToMainContent: "Hopp til hovedinnhold",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "valgt kart",
+        unknownError: "ukjent feil",
+        unserializableError: "uiserbar feil"
       })
     }
   }

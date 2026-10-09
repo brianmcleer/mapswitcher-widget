@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "جارِ التحميل...",
         navigatingToSelectedMapPleaseWait: "نهضت إلى خريطة مختارة انتظر من فضلك",
         skipToMainContent: "Skip to main content",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "خريطة مختارة",
+        unknownError: "خطأ مجهول",
+        unserializableError: "خطأ غير معقول"
       })
     }
   }

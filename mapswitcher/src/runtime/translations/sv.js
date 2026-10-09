@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Läser in...",
         navigatingToSelectedMapPleaseWait: "Navigera till vald karta. Vänta.",
         skipToMainContent: "Hoppa till huvudinnehåll",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "vald karta",
+        unknownError: "Okänd fel",
+        unserializableError: "oserialiserbart fel"
       })
     }
   }

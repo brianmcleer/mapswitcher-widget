@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "טוען...",
         navigatingToSelectedMapPleaseWait: "לנווט במפה שנבחרה. בבקשה חכה.",
         skipToMainContent: "לדלג על התוכן הראשי",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "מפה נבחרת",
+        unknownError: "טעות לא ידועה",
+        unserializableError: "טעות בלתי אפשרית"
       })
     }
   }

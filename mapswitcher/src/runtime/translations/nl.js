@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Bezig met laden...",
         navigatingToSelectedMapPleaseWait: "Navigeren naar geselecteerde kaart. Wacht even.",
         skipToMainContent: "Overslaan en naar de inhoud gaan",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "geselecteerde kaart",
+        unknownError: "onbekende fout",
+        unserializableError: "onuitwisbare fout"
       })
     }
   }

@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "S'està carregant...",
         navigatingToSelectedMapPleaseWait: "Navegar al mapa seleccionat. Espereu, si us plau.",
         skipToMainContent: "Salta al contingut principal",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "mapa seleccionat",
+        unknownError: "error desconegut",
+        unserializableError: "Error no llegible"
       })
     }
   }

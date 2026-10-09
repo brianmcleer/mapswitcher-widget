@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "กำลังโหลด...",
         navigatingToSelectedMapPleaseWait: "บินไปยังแผนที่ที่เลือก โปรดรอ",
         skipToMainContent: "ข้ามไปยังเนื้อหาหลัก",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "แผนที่ที่เลือก",
+        unknownError: "ข้อผิดพลาดไม่ทราบสาเหตุ",
+        unserializableError: "ข้อผิดพลาดที่ไม่สามารถตรวจสอบได้"
       })
     }
   }

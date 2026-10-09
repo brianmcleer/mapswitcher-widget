@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Ielādē...",
         navigatingToSelectedMapPleaseWait: "Virzīties uz izvēlēto karti. Lūdzu, uzgaidiet.",
         skipToMainContent: "Pāriet uz galveno saturu",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "Izvēlēties karti",
+        unknownError: "nezināma kļūda",
+        unserializableError: "nepārspējama kļūda"
       })
     }
   }

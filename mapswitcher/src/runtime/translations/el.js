@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Φόρτωση...",
         navigatingToSelectedMapPleaseWait: "Πλοήγηση σε επιλεγμένο χάρτη. Παρακαλώ περιμένετε.",
         skipToMainContent: "Μετάβαση στο κύριο περιεχόμενο",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "επιλεγμένος χάρτης",
+        unknownError: "άγνωστο σφάλμα",
+        unserializableError: "σφάλμα μη ανιχνεύσιμο"
       })
     }
   }

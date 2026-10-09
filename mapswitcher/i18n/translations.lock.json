@@ -27,16 +27,16 @@
       },
       "locales": {
         "ar": {
-          "file": "d5bd39e41d98",
+          "file": "ad69c3896a60",
           "counts": {
-            "esri": 0,
+            "esri": 2,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -108,20 +108,25 @@
               "t": "Skip to main content",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "خريطة مختارة",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "bg": {
-          "file": "3b981d727578",
+          "file": "a854c55f3fe3",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -193,6 +198,11 @@
               "t": "Премини към основното съдържание",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "Избрана карта",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
@@ -211,16 +221,16 @@
           "entries": {}
         },
         "ca": {
-          "file": "a941579d5392",
+          "file": "444fa6471c4c",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -292,20 +302,25 @@
               "t": "Salta al contingut principal",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "mapa seleccionat",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "cs": {
-          "file": "0e6487ac0794",
+          "file": "42310549eb40",
           "counts": {
-            "esri": 0,
+            "esri": 2,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -377,20 +392,25 @@
               "t": "Přeskočit na hlavní obsah",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "vybraná mapa",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "da": {
-          "file": "845d9dcc82a3",
+          "file": "c51e38746b37",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -462,20 +482,25 @@
               "t": "Spring til hovedindhold",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "Markeret kort",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "de": {
-          "file": "53f5de5e83a1",
+          "file": "987aabcc2409",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -547,20 +572,25 @@
               "t": "Überspringen zum Hauptinhalt",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "ausgewählte Karte",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "el": {
-          "file": "35dabed3ee2e",
+          "file": "2589e6e0bc14",
           "counts": {
-            "esri": 0,
+            "esri": 2,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -632,20 +662,25 @@
               "t": "Μετάβαση στο κύριο περιεχόμενο",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "επιλεγμένος χάρτης",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "es": {
-          "file": "8799731dff3b",
+          "file": "de17b8de4b77",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -717,20 +752,25 @@
               "t": "Pasar al contenido principal",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "mapa seleccionado",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "et": {
-          "file": "ed936659fdba",
+          "file": "57aec563bd29",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -802,20 +842,25 @@
               "t": "Liigu põhisisu juurde",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "valitud kaart",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "fi": {
-          "file": "8c43c84fe572",
+          "file": "e611eaa680f8",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -887,20 +932,25 @@
               "t": "Siirry pääsisältöön",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "valittu kartta",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "fr": {
-          "file": "cb7e4a23b595",
+          "file": "10f6895d4d62",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -972,20 +1022,25 @@
               "t": "Passer au contenu principal",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "Carte sélectionnée",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "he": {
-          "file": "20926aaf72b3",
+          "file": "fa071462882d",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -1057,6 +1112,11 @@
               "t": "לדלג על התוכן הראשי",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "מפה נבחרת",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
@@ -1075,16 +1135,16 @@
           "entries": {}
         },
         "hu": {
-          "file": "cb5b87572339",
+          "file": "68a6ab799d3c",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -1156,20 +1216,25 @@
               "t": "Ugrás a fő tartalomra",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "kijelölt térkép",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "id": {
-          "file": "7d5cb872edf1",
+          "file": "1760a3093dc6",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -1241,20 +1306,25 @@
               "t": "Lewati ke isi utama",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "peta terpilih",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "it": {
-          "file": "7a568c6ec13e",
+          "file": "66a4af449524",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -1326,20 +1396,25 @@
               "t": "Salta al contenuto principale",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "mappa selezionata",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "ja": {
-          "file": "4b11b300853c",
+          "file": "478927822be9",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -1411,20 +1486,25 @@
               "t": "メインコンテンツへスキップ",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "選択したマップ",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "ko": {
-          "file": "730bc2757b6b",
+          "file": "98a174f2f826",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -1496,20 +1576,25 @@
               "t": "본문 바로가기",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "선택지도",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "lt": {
-          "file": "aa7a2de6b5dc",
+          "file": "1c506738945a",
           "counts": {
-            "esri": 0,
+            "esri": 2,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -1581,20 +1666,25 @@
               "t": "Praleisti į pagrindinį turinį",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "pasirinktas žemėlapis",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "lv": {
-          "file": "c491d6da85a1",
+          "file": "82a90d8678dd",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -1666,20 +1756,25 @@
               "t": "Pāriet uz galveno saturu",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "Izvēlēties karti",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "no": {
-          "file": "28ed549125d0",
+          "file": "ac30235c5ab1",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -1751,20 +1846,25 @@
               "t": "Hopp til hovedinnhold",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "valgt kart",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "nl": {
-          "file": "dcf34711cd80",
+          "file": "5d4ca23767ec",
           "counts": {
-            "esri": 0,
+            "esri": 2,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -1836,20 +1936,25 @@
               "t": "Overslaan en naar de inhoud gaan",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "geselecteerde kaart",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "pl": {
-          "file": "f8a76a654204",
+          "file": "a767232b5075",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -1921,20 +2026,25 @@
               "t": "Przejdź do głównej treści",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "wybrana mapa",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "pt-br": {
-          "file": "d36d5e944fc9",
+          "file": "4b894f81a58e",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -2006,20 +2116,25 @@
               "t": "Ir para o conteúdo principal",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "mapa selecionado",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "pt-pt": {
-          "file": "f02a1fd59412",
+          "file": "7b420c2bd81c",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -2091,20 +2206,25 @@
               "t": "Saltar para o conteúdo principal",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "mapa selecionado",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "ro": {
-          "file": "cfb4b3f1fdd1",
+          "file": "2755f2f3e686",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -2176,20 +2296,25 @@
               "t": "Sari la conținutul principal",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "hartă selectată",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "ru": {
-          "file": "952a7237c522",
+          "file": "d77f38dbc850",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -2261,20 +2386,25 @@
               "t": "Пропустить основной контент",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "выбранная карта",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "sk": {
-          "file": "3dbe52773a6a",
+          "file": "37eea9aed9b4",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -2346,20 +2476,25 @@
               "t": "Preskočiť na hlavný obsah",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "vybraná mapa",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "sl": {
-          "file": "d4771dfefc62",
+          "file": "41cc3f54d3e3",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -2431,6 +2566,11 @@
               "t": "Preskoči na glavno vsebino",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "izbrana karta",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
@@ -2449,16 +2589,16 @@
           "entries": {}
         },
         "sv": {
-          "file": "ebbaea66f993",
+          "file": "78e78bc6f3aa",
           "counts": {
-            "esri": 0,
+            "esri": 2,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -2530,20 +2670,25 @@
               "t": "Hoppa till huvudinnehåll",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "vald karta",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "th": {
-          "file": "fbdff19d7fd0",
+          "file": "7099923d0b5a",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -2615,20 +2760,25 @@
               "t": "ข้ามไปยังเนื้อหาหลัก",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "แผนที่ที่เลือก",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "tr": {
-          "file": "01d845a0c5e5",
+          "file": "af4931be18c2",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -2700,20 +2850,25 @@
               "t": "Skip to main content",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "Seçilen harita",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "zh-cn": {
-          "file": "fb6e64225810",
+          "file": "c02a1fc71e69",
           "counts": {
-            "esri": 0,
+            "esri": 2,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -2785,20 +2940,25 @@
               "t": "跳转到主内容",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "选中的地图",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "uk": {
-          "file": "5881bc189a48",
+          "file": "526695b1d2f7",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -2870,20 +3030,25 @@
               "t": "Головна",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "вибрана карта",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "vi": {
-          "file": "2ccaa31df203",
+          "file": "931fc5662afa",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -2955,20 +3120,25 @@
               "t": "Bỏ qua nội dung chính",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "sơ đồ đã chọn",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "zh-hk": {
-          "file": "1f5dca49e556",
+          "file": "2d9d04aa7495",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -3040,20 +3210,25 @@
               "t": "跳到主內容",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "選取的地圖",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         },
         "zh-tw": {
-          "file": "1f5dca49e556",
+          "file": "2d9d04aa7495",
           "counts": {
-            "esri": 1,
+            "esri": 3,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 14,
+            "machine": 15,
             "stale": 0,
-            "missing": 3
+            "missing": 0
           },
           "entries": {
             "_widgetLabel": {
@@ -3125,6 +3300,11 @@
               "t": "跳到主內容",
               "src": "machine",
               "h": "be504f616fd1"
+            },
+            "selectedMap": {
+              "t": "選取的地圖",
+              "src": "machine",
+              "h": "1cb01881ead3"
             }
           }
         }

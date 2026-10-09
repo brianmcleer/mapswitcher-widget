@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Nalaganje...",
         navigatingToSelectedMapPleaseWait: "Navigacija na izbrano karto. Prosim, počakajte.",
         skipToMainContent: "Preskoči na glavno vsebino",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "izbrana karta",
+        unknownError: "neznana napaka",
+        unserializableError: "Neizvedljiva napaka"
       })
     }
   }

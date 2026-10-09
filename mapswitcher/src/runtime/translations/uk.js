@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Виконується завантаження...",
         navigatingToSelectedMapPleaseWait: "Навігація до вибраної карти. Будь ласка, почекайте.",
         skipToMainContent: "Головна",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "вибрана карта",
+        unknownError: "Невідома помилка",
+        unserializableError: "несеріалізована помилка"
       })
     }
   }

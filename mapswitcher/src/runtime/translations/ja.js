@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "読み込んでいます...",
         navigatingToSelectedMapPleaseWait: "選択したマップに移動します。 お問い合わせ",
         skipToMainContent: "メインコンテンツへスキップ",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "選択したマップ",
+        unknownError: "未知のエラー",
+        unserializableError: "unserializable エラー"
       })
     }
   }

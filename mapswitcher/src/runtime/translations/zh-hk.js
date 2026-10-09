@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "正在載入...",
         navigatingToSelectedMapPleaseWait: "導引到選取的地圖 。 等等",
         skipToMainContent: "跳到主內容",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "選取的地圖",
+        unknownError: "未知的錯誤",
+        unserializableError: "不串連的錯誤"
       })
     }
   }

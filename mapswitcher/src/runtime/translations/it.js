@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Caricamento in corso...",
         navigatingToSelectedMapPleaseWait: "Navigando alla mappa selezionata. Ti prego, aspetta.",
         skipToMainContent: "Salta al contenuto principale",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "mappa selezionata",
+        unknownError: "errore sconosciuto",
+        unserializableError: "errore non serializzabile"
       })
     }
   }

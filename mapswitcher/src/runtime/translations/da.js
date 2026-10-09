@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Indlæser...",
         navigatingToSelectedMapPleaseWait: "Navigering til valgt kort. Vent venligst.",
         skipToMainContent: "Spring til hovedindhold",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "Markeret kort",
+        unknownError: "ukendt fejl",
+        unserializableError: "userialiserbar fejl"
       })
     }
   }

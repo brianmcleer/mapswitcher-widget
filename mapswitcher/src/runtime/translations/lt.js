@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Įkeliama...",
         navigatingToSelectedMapPleaseWait: "Navigacija į pasirinktą žemėlapį. Palaukite.",
         skipToMainContent: "Praleisti į pagrindinį turinį",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "pasirinktas žemėlapis",
+        unknownError: "nežinoma klaida",
+        unserializableError: "nenustatoma klaida"
       })
     }
   }

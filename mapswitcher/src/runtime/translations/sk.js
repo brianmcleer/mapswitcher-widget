@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Načítava sa...",
         navigatingToSelectedMapPleaseWait: "Navigácia na vybranú mapu. Prosím, počkajte.",
         skipToMainContent: "Preskočiť na hlavný obsah",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "vybraná mapa",
+        unknownError: "neznáma chyba",
+        unserializableError: "neserializovateľná chyba"
       })
     }
   }

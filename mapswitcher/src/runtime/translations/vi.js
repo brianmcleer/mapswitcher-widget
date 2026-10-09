@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Đang tải...",
         navigatingToSelectedMapPleaseWait: "Chuyển sang bản đồ đã chọn. Đợi đã.",
         skipToMainContent: "Bỏ qua nội dung chính",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "sơ đồ đã chọn",
+        unknownError: "lỗi không rõ",
+        unserializableError: "Lỗi không thể gửi đi được"
       })
     }
   }

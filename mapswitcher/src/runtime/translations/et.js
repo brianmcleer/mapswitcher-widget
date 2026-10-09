@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Laadimine...",
         navigatingToSelectedMapPleaseWait: "Liikumine valitud kaardile. Palun oota.",
         skipToMainContent: "Liigu põhisisu juurde",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "valitud kaart",
+        unknownError: "tundmatu viga",
+        unserializableError: "seeriaviisiline viga"
       })
     }
   }

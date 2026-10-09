@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Betöltés...",
         navigatingToSelectedMapPleaseWait: "Navigáció a kijelölt térképre. Kérem, várjon.",
         skipToMainContent: "Ugrás a fő tartalomra",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "kijelölt térkép",
+        unknownError: "ismeretlen hiba",
+        unserializableError: "nem sorozható hiba"
       })
     }
   }

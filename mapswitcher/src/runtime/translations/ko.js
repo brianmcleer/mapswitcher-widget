@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "불러오는 중...",
         navigatingToSelectedMapPleaseWait: "선택된 지도로 이동합니다. 자주 묻는 질문",
         skipToMainContent: "본문 바로가기",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "선택지도",
+        unknownError: "알 수없는 오류",
+        unserializableError: "unserializable 오류"
       })
     }
   }

@@ -18,9 +18,9 @@ System.register([], function (e) {
         loading: "Se încarcă...",
         navigatingToSelectedMapPleaseWait: "Navigare către harta selectată. Te rog aşteaptă.",
         skipToMainContent: "Sari la conținutul principal",
-        selectedMap: "selected map",
-        unknownError: "unknown error",
-        unserializableError: "unserializable error"
+        selectedMap: "hartă selectată",
+        unknownError: "Eroare necunoscută",
+        unserializableError: "eroare inoperabilă"
       })
     }
   }
