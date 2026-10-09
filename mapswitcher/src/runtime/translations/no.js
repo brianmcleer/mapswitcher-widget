@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "Gå til {label}",
         loading: "Laster inn...",
         navigatingToSelectedMapPleaseWait: "Navigasjon til valgt kart. Vent.",
-        skipToMainContent: "Hopp til hovedinnhold"
+        skipToMainContent: "Hopp til hovedinnhold",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

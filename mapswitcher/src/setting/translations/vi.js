@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Bản đồ nền",
-        mapWidget: "Map widget",
+        mapWidget: "Thiết bị sơ đồ",
         carryBasemapToNextMap: "Đem sơ đồ cơ bản tới bản đồ kế tiếp",
         sendsTheBasemapChosenInEither: "Gửi sơ đồ cơ bản được chọn trong cả hai khung ảnh cơ bản tới ứng dụng tiếp theo. Ứng dụng đích cần một bộ chuyển bản đồ kết nối với bản đồ để áp dụng nó.",
         noMapSelectedTheFirstMap: "Chưa chọn bản đồ: các ô điều khiển sơ đồ đầu tiên trong ứng dụng này được dùng. Ở đây hãy chọn một nếu ứng dụng có nhiều bản đồ.",

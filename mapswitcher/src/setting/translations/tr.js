@@ -16,7 +16,7 @@ System.register([], function (e) {
         moveSiteIndexDown: "Move site {index} aşağı aşağı aşağı aşağı aşağı",
         label: "Etiket",
         siteName: "Site adı",
-        url: "URL",
+        url: "URL URL URL URL",
         remove: "Kaldır",
         addSite: "Add Site Ekle"
       })

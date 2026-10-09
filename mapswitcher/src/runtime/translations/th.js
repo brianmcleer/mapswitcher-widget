@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "นํามายัง {label}",
         loading: "กำลังโหลด...",
         navigatingToSelectedMapPleaseWait: "บินไปยังแผนที่ที่เลือก โปรดรอ",
-        skipToMainContent: "ข้ามไปยังเนื้อหาหลัก"
+        skipToMainContent: "ข้ามไปยังเนื้อหาหลัก",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

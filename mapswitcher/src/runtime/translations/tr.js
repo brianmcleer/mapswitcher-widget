@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "Navigate to {label}",
         loading: "Yükleniyor...",
         navigatingToSelectedMapPleaseWait: "Seçilmiş haritaya geçiş. Lütfen bekleyin.",
-        skipToMainContent: "Skip to main content"
+        skipToMainContent: "Skip to main content",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

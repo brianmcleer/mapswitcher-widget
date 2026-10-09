@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "Siirry {label}",
         loading: "Ladataan...",
         navigatingToSelectedMapPleaseWait: "Siirrytään valittuun karttaan. Odota.",
-        skipToMainContent: "Siirry pääsisältöön"
+        skipToMainContent: "Siirry pääsisältöön",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

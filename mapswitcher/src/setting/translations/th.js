@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "แผนที่ฐาน",
-        mapWidget: "Map widget",
+        mapWidget: "วิดเจ็ตของแผนที่",
         carryBasemapToNextMap: "ลากฐานแมพไปยังแผนที่ถัดไป",
         sendsTheBasemapChosenInEither: "ส่งบาแมปที่ถูกเลือกในคลังภาพฐานแมปไปยังโปรแกรมถัดไป App ปลายทางต้องการตัวสลับแผนที่ที่เชื่อมต่อกับแผนที่ของมันเพื่อนําไปใช้",
         noMapSelectedTheFirstMap: "ยังไม่มีการเลือกแผนที่: วิดเจ็ตแรกของแผนที่ในโปรแกรม เลือกที่นี่ หากโปรแกรมมีแผนที่มากกว่าหนึ่งตัว",
@@ -16,7 +16,7 @@ System.register([], function (e) {
         moveSiteIndexDown: "ย้ายไซต์ {index} ลง",
         label: "ป้ายชื่อ",
         siteName: "ชื่อไซต์",
-        url: "URL",
+        url: "ที่อยู่ URL",
         remove: "ลบทิ้ง",
         addSite: "เพิ่มไซต์"
       })

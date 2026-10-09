@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Mapa base",
-        mapWidget: "Map widget",
+        mapWidget: "Estri de mapa",
         carryBasemapToNextMap: "Carrega el mapa base al mapa següent",
         sendsTheBasemapChosenInEither: "Envia el mapa base seleccionat en una galeria basemap a la següent aplicació. L' aplicació de destí necessita un intercanvi de mapes connectat al seu mapa per aplicar- lo.",
         noMapSelectedTheFirstMap: "No s' ha seleccionat cap mapa: s' usa el primer estri de mapa de l' aplicació. Seleccioneu un aquí si l' aplicació té més d' un mapa.",

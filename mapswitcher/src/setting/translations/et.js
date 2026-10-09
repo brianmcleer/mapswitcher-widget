@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Aluskaart",
-        mapWidget: "Map widget",
+        mapWidget: "Kaardividina",
         carryBasemapToNextMap: "Aluskaardi kandmine järgmisele kaardile",
         sendsTheBasemapChosenInEither: "Saadab mõlemas aluskaardi galeriis valitud aluskaardi järgmisele rakendusele. Sihtkoha rakendus vajab selle rakendamiseks kaardilülitit, mis on ühendatud selle kaardiga.",
         noMapSelectedTheFirstMap: "Kaarti pole valitud: kasutatakse rakenduse esimest kaardividinat. Valige üks siin, kui rakendusel on rohkem kui üks kaart.",

@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "베이스맵",
-        mapWidget: "Map widget",
+        mapWidget: "지도 위젯",
         carryBasemapToNextMap: "다음 맵으로 이동",
         sendsTheBasemapChosenInEither: "basemap 갤러리에서 다음 앱으로 선택된 basemap을 보냅니다. 대상 앱은 지도에 연결된 Map Switcher가 필요합니다.",
         noMapSelectedTheFirstMap: "선택된 지도 없음: 앱의 첫번째 지도 위젯은 사용됩니다. 앱이 1 개 이상의지도가있는 경우 여기에서 하나를 선택하십시오.",
@@ -16,7 +16,7 @@ System.register([], function (e) {
         moveSiteIndexDown: "사이트 맵 {index} 맨 위로",
         label: "레이블",
         siteName: "사이트 이름",
-        url: "URL",
+        url: "사이트 맵",
         remove: "제거",
         addSite: "사이트 맵"
       })

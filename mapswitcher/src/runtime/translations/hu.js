@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "Naiv {label}",
         loading: "Betöltés...",
         navigatingToSelectedMapPleaseWait: "Navigáció a kijelölt térképre. Kérem, várjon.",
-        skipToMainContent: "Ugrás a fő tartalomra"
+        skipToMainContent: "Ugrás a fő tartalomra",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

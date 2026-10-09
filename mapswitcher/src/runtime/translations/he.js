@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "לנווט כדי {label}",
         loading: "טוען...",
         navigatingToSelectedMapPleaseWait: "לנווט במפה שנבחרה. בבקשה חכה.",
-        skipToMainContent: "לדלג על התוכן הראשי"
+        skipToMainContent: "לדלג על התוכן הראשי",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

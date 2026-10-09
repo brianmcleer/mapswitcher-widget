@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "Liikuge {label}",
         loading: "Laadimine...",
         navigatingToSelectedMapPleaseWait: "Liikumine valitud kaardile. Palun oota.",
-        skipToMainContent: "Liigu põhisisu juurde"
+        skipToMainContent: "Liigu põhisisu juurde",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

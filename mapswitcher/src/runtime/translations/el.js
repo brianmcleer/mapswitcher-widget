@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "Πλοηγηθείτε σε {label}",
         loading: "Φόρτωση...",
         navigatingToSelectedMapPleaseWait: "Πλοήγηση σε επιλεγμένο χάρτη. Παρακαλώ περιμένετε.",
-        skipToMainContent: "Μετάβαση στο κύριο περιεχόμενο"
+        skipToMainContent: "Μετάβαση στο κύριο περιεχόμενο",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

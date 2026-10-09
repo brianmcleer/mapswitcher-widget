@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Pagrindo žemėlapis",
-        mapWidget: "Map widget",
+        mapWidget: "Žemėlapio valdiklis",
         carryBasemapToNextMap: "Perkelti basemap į kitą žemėlapį",
         sendsTheBasemapChosenInEither: "Siunčia basemap pasirinktą arba basemap galerija į kitą programą. Paskirties programėlei reikia Žemėlapio perjungiklio, prijungto prie žemėlapio.",
         noMapSelectedTheFirstMap: "Nepasirinktas žemėlapis: naudojamas pirmasis programos Žemėlapio valdiklis. Pasirinkite vieną čia, jei programa turi daugiau nei vieną žemėlapį.",

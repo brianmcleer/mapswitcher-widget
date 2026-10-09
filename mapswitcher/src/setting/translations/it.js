@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Mappa di base",
-        mapWidget: "Map widget",
+        mapWidget: "Mappa widget",
         carryBasemapToNextMap: "Carry basemap per la prossima mappa",
         sendsTheBasemapChosenInEither: "Invia la mappa di base scelta nella galleria di basemap alla prossima app. L'app di destinazione ha bisogno di un Switcher Map collegato alla sua mappa per applicarlo.",
         noMapSelectedTheFirstMap: "Nessuna mappa selezionata: viene utilizzato il primo widget della mappa nell'app. Selezionare uno qui se l'applicazione ha più di una mappa.",
@@ -16,7 +16,7 @@ System.register([], function (e) {
         moveSiteIndexDown: "Spostare il sito {index} giù",
         label: "Etichetta",
         siteName: "Nome del sito",
-        url: "URL",
+        url: "URL pagina",
         remove: "Rimuovi",
         addSite: "Aggiungi il sito"
       })

@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "Chuyển tới {label}",
         loading: "Đang tải...",
         navigatingToSelectedMapPleaseWait: "Chuyển sang bản đồ đã chọn. Đợi đã.",
-        skipToMainContent: "Bỏ qua nội dung chính"
+        skipToMainContent: "Bỏ qua nội dung chính",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

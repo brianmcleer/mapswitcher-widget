@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Базова карта",
-        mapWidget: "Map widget",
+        mapWidget: "Карта віджет",
         carryBasemapToNextMap: "Карта каррі на карті",
         sendsTheBasemapChosenInEither: "Надсилання базової карти, обраної в галереї базової карти на наступний додаток. Програма призначення вимагає перемикача карти, підключеного до його карти, щоб застосувати його.",
         noMapSelectedTheFirstMap: "Немає вибраної карти: використовується перший віджет карти в додатку. Виберіть один тут, якщо додаток має більше однієї карти.",
@@ -16,7 +16,7 @@ System.register([], function (e) {
         moveSiteIndexDown: "Веб-сайт {index} вниз",
         label: "Напис",
         siteName: "Назва сайту",
-        url: "URL",
+        url: "Контакти",
         remove: "Вилучити",
         addSite: "Додати сайт"
       })

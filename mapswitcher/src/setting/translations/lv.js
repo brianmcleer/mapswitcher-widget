@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Pamatkarte",
-        mapWidget: "Map widget",
+        mapWidget: "Kartes sīkrīks",
         carryBasemapToNextMap: "Pārvietot bāzes karti uz nākamo karti",
         sendsTheBasemapChosenInEither: "Nosūta izvēlētās bāzes kartes vai nu bāzes kartes galerijā uz nākamo programmu. Lai to piemērotu, mērķa lietotnei ir nepieciešams ar karti savienots karšu pārslēdzējs.",
         noMapSelectedTheFirstMap: "Nav izvēlēta karte: tiek izmantota pirmā lietotnes karte. Šeit izvēlieties vienu, ja programmai ir vairāk nekā viena karte.",

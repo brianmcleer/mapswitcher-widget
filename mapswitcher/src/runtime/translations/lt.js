@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "Eiti į {label}",
         loading: "Įkeliama...",
         navigatingToSelectedMapPleaseWait: "Navigacija į pasirinktą žemėlapį. Palaukite.",
-        skipToMainContent: "Praleisti į pagrindinį turinį"
+        skipToMainContent: "Praleisti į pagrindinį turinį",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Taustakartta",
-        mapWidget: "Map widget",
+        mapWidget: "Karttaelementti",
         carryBasemapToNextMap: "Kantaa pohjakartta seuraavaan karttaan",
         sendsTheBasemapChosenInEither: "Lähettää joko basemap galleriassa valitun pohjakartta seuraavan sovelluksen. Kohdesovellus tarvitsee karttaan liitetyn karttakytkimen.",
         noMapSelectedTheFirstMap: "Karttaa ei ole valittu: käytetään sovelluksen ensimmäistä kartta-elementtiä. Valitse yksi tästä, jos sovelluksessa on useampi kuin yksi kartta.",

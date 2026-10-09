@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "Навигация към {label}",
         loading: "Зареждане...",
         navigatingToSelectedMapPleaseWait: "Навигация към избрана карта. Моля те, почакай.",
-        skipToMainContent: "Премини към основното съдържание"
+        skipToMainContent: "Премини към основното съдържание",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

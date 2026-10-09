@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Alaptérkép",
-        mapWidget: "Map widget",
+        mapWidget: "Térképek",
         carryBasemapToNextMap: "Basemap átvitele a következő térképre",
         sendsTheBasemapChosenInEither: "A bazemapot bármelyik basemap galériában a következő alkalmazásra küldi. A célalkalmazáshoz egy térképváltóra van szükség, amely a térképéhez csatlakozik.",
         noMapSelectedTheFirstMap: "Nincs kijelölve térkép: az alkalmazásban található első térkép widget. Válasszon ki egyet, ha az alkalmazásnak egynél több térképe van.",

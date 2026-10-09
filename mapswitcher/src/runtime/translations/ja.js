@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "ナビゲートへ {label}",
         loading: "読み込んでいます...",
         navigatingToSelectedMapPleaseWait: "選択したマップに移動します。 お問い合わせ",
-        skipToMainContent: "メインコンテンツへスキップ"
+        skipToMainContent: "メインコンテンツへスキップ",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

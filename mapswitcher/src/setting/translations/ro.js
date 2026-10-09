@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Hartă fundal",
-        mapWidget: "Map widget",
+        mapWidget: "Widget hartă",
         carryBasemapToNextMap: "Carry basemap la harta următoare",
         sendsTheBasemapChosenInEither: "Trimite harta de bază aleasă în oricare galerie de bază la următoarea aplicație. Aplicația de destinație are nevoie de un Switcher de hartă conectat la harta sa pentru a o aplica.",
         noMapSelectedTheFirstMap: "Nicio hartă selectată: prima hartă widget din aplicație este utilizată. Alegeți unul aici dacă aplicația are mai mult de o hartă.",

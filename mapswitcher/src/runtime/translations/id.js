@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "Navigasi ke {label}",
         loading: "Memuat...",
         navigatingToSelectedMapPleaseWait: "Navigasi ke peta terpilih. Tunggu sebentar.",
-        skipToMainContent: "Lewati ke isi utama"
+        skipToMainContent: "Lewati ke isi utama",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

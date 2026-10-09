@@ -11,6 +11,7 @@ import { beacon } from '../shared/beacon';
 import type { BeaconHandle } from '../shared/beacon';
 import { hooks as __exbI18nHooks } from 'jimu-core';
 import __exbI18nMessages from './translations/default';
+import { __setIntl, __tc } from './i18n-t'
 
 
 type WidgetProps = AllWidgetProps<IMConfig> & {
@@ -301,6 +302,7 @@ const clearBasemapParams = () => {
 };
 
 const Widget = (props: WidgetProps) => {
+  __setIntl((props as any).intl)
   const t = __exbI18nHooks.useTranslation(__exbI18nMessages);
   const [isNavigating, setIsNavigating] = React.useState(false);
   const [announceMessage, setAnnounceMessage] = React.useState('');
@@ -425,7 +427,7 @@ const Widget = (props: WidgetProps) => {
       return;
     }
 
-    const siteName = selectedSite.label || 'selected map';
+    const siteName = __tc(selectedSite.label, "selectedMap");
     beaconRef.current?.action('switch');
     setIsNavigating(true);
     announceToScreenReader(`Navigating to ${siteName}. Please wait.`);

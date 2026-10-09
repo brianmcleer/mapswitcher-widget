@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "Навігація {label}",
         loading: "Виконується завантаження...",
         navigatingToSelectedMapPleaseWait: "Навігація до вибраної карти. Будь ласка, почекайте.",
-        skipToMainContent: "Головна"
+        skipToMainContent: "Головна",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

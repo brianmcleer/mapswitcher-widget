@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Базовая карта",
-        mapWidget: "Map widget",
+        mapWidget: "Виджет карты",
         carryBasemapToNextMap: "Перенос базовой карты на следующую карту",
         sendsTheBasemapChosenInEither: "Отправляет базовую карту, выбранную в любой галерее базовой карты, в следующее приложение. Приложению назначения нужен коммутатор карты, подключенный к его карте, чтобы применить его.",
         noMapSelectedTheFirstMap: "Карта не выбрана: используется первый виджет карты в приложении. Выберите один из них, если приложение имеет более одной карты.",
@@ -16,7 +16,7 @@ System.register([], function (e) {
         moveSiteIndexDown: "Переместить сайт {index} вниз",
         label: "Подпись",
         siteName: "Название сайта",
-        url: "URL",
+        url: "URL-адрес",
         remove: "Удалить",
         addSite: "Добавить сайт"
       })

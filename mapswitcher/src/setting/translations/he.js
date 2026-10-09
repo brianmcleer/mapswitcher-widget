@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "מפת בסיס",
-        mapWidget: "Map widget",
+        mapWidget: "מפה widget",
         carryBasemapToNextMap: "ערכת בסיס למפה הבאה",
         sendsTheBasemapChosenInEither: "שולח את מפת הבסיס שנבחרה בגלריית מפת בסיס לאפליקציית הבאה. אפליקציית היעד זקוקה ל- Map Switcher המחובר למפה כדי ליישם אותה.",
         noMapSelectedTheFirstMap: "אין מפה שנבחרה: הראשון מפה widget ביישום משמש. בחרו כאן אם לאפליקציית יש יותר ממפה אחת.",

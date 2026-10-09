@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "Přejít na {label}",
         loading: "Nahrávání…",
         navigatingToSelectedMapPleaseWait: "Navigace na vybranou mapu. Prosím, počkejte.",
-        skipToMainContent: "Přeskočit na hlavní obsah"
+        skipToMainContent: "Přeskočit na hlavní obsah",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

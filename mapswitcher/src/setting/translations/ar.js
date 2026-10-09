@@ -16,7 +16,7 @@ System.register([], function (e) {
         moveSiteIndexDown: "موقع النقل {index} للأسفل",
         label: "التسمية",
         siteName: "اسم الموقع",
-        url: "URL",
+        url: "عنوان URL",
         remove: "إزالة",
         addSite: "مضبوطة"
       })

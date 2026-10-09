@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Fond de carte",
-        mapWidget: "Map widget",
+        mapWidget: "Widget de carte",
         carryBasemapToNextMap: "Porter la carte de base à la carte suivante",
         sendsTheBasemapChosenInEither: "Envoie la carte de base choisie dans chaque galerie de carte de base à l'application suivante. L'application de destination a besoin d'un commutateur de carte connecté à sa carte pour l'appliquer.",
         noMapSelectedTheFirstMap: "Aucune carte sélectionnée : le premier widget Map de l'application est utilisé. Sélectionnez-en un ici si l'application a plus d'une carte.",

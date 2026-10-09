@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Baggrundskort",
-        mapWidget: "Map widget",
+        mapWidget: "Kortkontrol",
         carryBasemapToNextMap: "Bær basemap til næste kort",
         sendsTheBasemapChosenInEither: "Sender basemap valgt i enten basemap galleri til den næste app. Destinationen app har brug for en kort switcher tilsluttet til sit kort til at anvende det.",
         noMapSelectedTheFirstMap: "Intet kort valgt: Den første kortkontrol i appen bruges. Vælg en her hvis appen har mere end et kort.",

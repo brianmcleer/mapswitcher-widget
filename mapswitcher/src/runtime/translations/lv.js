@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "Pārvietoties uz {label}",
         loading: "Ielādē...",
         navigatingToSelectedMapPleaseWait: "Virzīties uz izvēlēto karti. Lūdzu, uzgaidiet.",
-        skipToMainContent: "Pāriet uz galveno saturu"
+        skipToMainContent: "Pāriet uz galveno saturu",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

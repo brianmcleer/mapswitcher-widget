@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "바로가기 {label}",
         loading: "불러오는 중...",
         navigatingToSelectedMapPleaseWait: "선택된 지도로 이동합니다. 자주 묻는 질문",
-        skipToMainContent: "본문 바로가기"
+        skipToMainContent: "본문 바로가기",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

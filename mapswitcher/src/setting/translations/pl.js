@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Mapa bazowa",
-        mapWidget: "Map widget",
+        mapWidget: "Widżet mapy",
         carryBasemapToNextMap: "Przenieś Basemap do następnej mapy",
         sendsTheBasemapChosenInEither: "Wysyła do następnej aplikacji mapę bazową wybraną w każdej galerii. Aplikacja docelowa potrzebuje Map Switcher podłączonego do mapy, aby ją zastosować.",
         noMapSelectedTheFirstMap: "Nie wybrano mapy: używany jest pierwszy widget mapy w aplikacji. Wybierz tutaj, jeśli aplikacja ma więcej niż jedną mapę.",

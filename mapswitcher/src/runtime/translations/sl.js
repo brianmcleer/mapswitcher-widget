@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "Navigacija za {label}",
         loading: "Nalaganje...",
         navigatingToSelectedMapPleaseWait: "Navigacija na izbrano karto. Prosim, počakajte.",
-        skipToMainContent: "Preskoči na glavno vsebino"
+        skipToMainContent: "Preskoči na glavno vsebino",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

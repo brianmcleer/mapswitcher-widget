@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Baskarta",
-        mapWidget: "Map widget",
+        mapWidget: "Karta widget",
         carryBasemapToNextMap: "Carry Basemap till nästa karta",
         sendsTheBasemapChosenInEither: "Skickar baskartan som valts i antingen basemap galleri till nästa app. Den destination app behöver en karta Switcher ansluten till sin karta för att tillämpa den.",
         noMapSelectedTheFirstMap: "Ingen karta vald: den första kartan widget i appen används. Välj en här om appen har mer än en karta.",

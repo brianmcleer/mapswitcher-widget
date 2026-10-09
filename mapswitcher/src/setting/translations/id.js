@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Peta Dasar",
-        mapWidget: "Map widget",
+        mapWidget: "Widget peta",
         carryBasemapToNextMap: "Bawa peta dasar ke peta berikutnya",
         sendsTheBasemapChosenInEither: "Mengirim peta dasar yang dipilih dalam galeri peta dasar ke aplikasi berikutnya. Aplikasi tujuan memerlukan Pengalih Peta yang terhubung ke peta untuk menerapkannya.",
         noMapSelectedTheFirstMap: "Tak ada peta yang dipilih: Widget Peta pertama di aplikasi dipakai. Pilih satu di sini jika aplikasi memiliki lebih dari satu peta.",

@@ -17,7 +17,10 @@ System.register([], function (e) {
         navigateToLabel: "導航到 {label}",
         loading: "正在載入...",
         navigatingToSelectedMapPleaseWait: "導引到選取的地圖 。 等等",
-        skipToMainContent: "跳到主內容"
+        skipToMainContent: "跳到主內容",
+        selectedMap: "selected map",
+        unknownError: "unknown error",
+        unserializableError: "unserializable error"
       })
     }
   }

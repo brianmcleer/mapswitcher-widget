@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "底图",
-        mapWidget: "Map widget",
+        mapWidget: "地图部件",
         carryBasemapToNextMap: "将基准映射到下一张地图",
         sendsTheBasemapChosenInEither: "将任一碱性映射画廊中选择的碱性映射发送到下一个应用程序 。 目的地应用需要连接到其地图的地图切换器来应用.",
         noMapSelectedTheFirstMap: "没有选择地图: 应用中的第一个地图部件被使用 。 如果应用程序有多个地图, 请在此选择一个 。",
@@ -16,7 +16,7 @@ System.register([], function (e) {
         moveSiteIndexDown: "移动网站 {index} 下来",
         label: "标注",
         siteName: "站点名称",
-        url: "URL",
+        url: "網址",
         remove: "移除",
         addSite: "添加站点"
       })

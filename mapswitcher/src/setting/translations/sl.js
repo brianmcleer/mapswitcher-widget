@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Temeljna karta",
-        mapWidget: "Map widget",
+        mapWidget: "Gradnik zemljevida",
         carryBasemapToNextMap: "Prenos osnovne karte na naslednjo karto",
         sendsTheBasemapChosenInEither: "V naslednji aplikaciji pošlje izbrano osnovno karto v galeriji. Ciljna aplikacija za uporabo potrebuje Map Switcher, ki je povezan z zemljevidom.",
         noMapSelectedTheFirstMap: "Ni izbrane karte: uporabljen je prvi gradnik zemljevida v aplikaciji. Tu izberite enega, če ima aplikacija več kot en zemljevid.",

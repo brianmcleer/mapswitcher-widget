@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Podkladová mapa",
-        mapWidget: "Map widget",
+        mapWidget: "Name",
         carryBasemapToNextMap: "Přenést basemap na další mapu",
         sendsTheBasemapChosenInEither: "Odesílá basemap vybraný v každé z nich galerie na další aplikaci. Cílová aplikace potřebuje přepínač mapy připojený k její mapě, aby ji mohl použít.",
         noMapSelectedTheFirstMap: "Není zvolena žádná mapa: je použit první widget mapy v aplikaci. Vyberte jednu zde, pokud aplikace má více než jednu mapu.",
@@ -16,7 +16,7 @@ System.register([], function (e) {
         moveSiteIndexDown: "Přesun {index} dolů",
         label: "Popisek",
         siteName: "Název lokality",
-        url: "URL",
+        url: "Adresa URL",
         remove: "Odebrat",
         addSite: "Přidat místo"
       })

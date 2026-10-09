@@ -4,7 +4,7 @@ System.register([], function (e) {
     execute: function () {
       e({
         basemap: "Базова карта",
-        mapWidget: "Map widget",
+        mapWidget: "Name",
         carryBasemapToNextMap: "Пренасяне на базова карта към следващата карта",
         sendsTheBasemapChosenInEither: "Изпращане на основната карта, избрана в някоя от базовите карти галерия към следващото приложение. Приложението за местоназначение се нуждае от Map Switcher, свързан към картата му, за да го прилага.",
         noMapSelectedTheFirstMap: "Не е избрана карта: се използва първата карта джаджа в приложението. Изберете един тук, ако приложението има повече от една карта.",
