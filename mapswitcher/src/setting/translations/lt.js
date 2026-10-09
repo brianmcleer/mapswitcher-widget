@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Pagrindo žemėlapis",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "Perkelti basemap į kitą žemėlapį",
+        sendsTheBasemapChosenInEither: "Siunčia basemap pasirinktą arba basemap galerija į kitą programą. Paskirties programėlei reikia Žemėlapio perjungiklio, prijungto prie žemėlapio.",
+        noMapSelectedTheFirstMap: "Nepasirinktas žemėlapis: naudojamas pirmasis programos Žemėlapio valdiklis. Pasirinkite vieną čia, jei programa turi daugiau nei vieną žemėlapį.",
+        sites: "Teritorijos",
+        siteIndex: "Vieta {index}",
         moveUp: "Pakelti aukštyn",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Perkelti vietą {index} aukštyn",
         moveDown: "Nuleisti žemyn",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Perkelti vietą {index} žemyn",
         label: "Žymė",
-        siteName: "Site name",
+        siteName: "Teritorijos pavadinimas",
         url: "URL",
         remove: "Panaikinti",
-        addSite: "Add Site"
+        addSite: "Pridėti svetainę"
       })
     }
   }

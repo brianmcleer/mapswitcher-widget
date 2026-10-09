@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "ตัวสลับผังแผนที่",
+        switchTo: "สลับไปยัง...",
+        noSitesConfigured: "ยังไม่มีการกําหนดเว็บไซต์ใด ๆ",
+        noSitesConfiguredPleaseConfigureMap: "ยังไม่มีการปรับแต่งเว็บไซต์ โปรดทําการปรับแต่งไซต์แผนที่ในการตั้งค่าวิดเจ็ต",
+        mapSwitcherSelectAMapTo: "โปรแกรมสลับแผนที่ - เลือกแผนที่ที่จะใช้นําทางไปยัง",
+        chooseFromSitesCountAvailableMapsSelecting: "เลือกจาก {sitesCount} มีแผนที่อยู่ การเลือกแผนที่จะนําทางคุณไปยังสถานที่นั้น และเก็บฐานแมปปัจจุบันไว้",
+        chooseFromSitesCountAvailableMapsSelecting2: "เลือกจาก {sitesCount} มีแผนที่อยู่ การเลือกแผนที่จะนําทางคุณไปยังสถานที่นั้น",
+        chooseFromSitesCountAvailableMapSelecting: "เลือกจาก {sitesCount} มีแผนที่อยู่ การเลือกแผนที่จะนําทางคุณไปยังสถานที่นั้น และเก็บฐานแมปปัจจุบันไว้",
+        chooseFromSitesCountAvailableMapSelecting2: "เลือกจาก {sitesCount} มีแผนที่อยู่ การเลือกแผนที่จะนําทางคุณไปยังสถานที่นั้น",
+        selectMapToView: "เลือกแผนที่ที่จะแสดง",
+        selectAMapToNavigateTo: "เลือกแผนที่ที่จะนําทางไปยังมุมมองอื่น",
+        navigateToLabel: "นํามายัง {label}",
         loading: "กำลังโหลด...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "บินไปยังแผนที่ที่เลือก โปรดรอ",
+        skipToMainContent: "ข้ามไปยังเนื้อหาหลัก"
       })
     }
   }

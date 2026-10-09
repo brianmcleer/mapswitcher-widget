@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Kortskifter",
+        switchTo: "Skift til...",
+        noSitesConfigured: "Ingen steder indstillet",
+        noSitesConfiguredPleaseConfigureMap: "Ingen steder indstillet. Opsætning af kortsider i kontrolindstillingerne.",
+        mapSwitcherSelectAMapTo: "Kort Switcher - Vælg et kort at navigere til",
+        chooseFromSitesCountAvailableMapsSelecting: "Vælg mellem {sitesCount} tilgængelige kort. At vælge et kort vil navigere dig til dette sted og holde den aktuelle basemap.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Vælg mellem {sitesCount} tilgængelige kort. At vælge et kort vil navigere dig til det sted.",
+        chooseFromSitesCountAvailableMapSelecting: "Vælg mellem {sitesCount} tilgængeligt kort. At vælge et kort vil navigere dig til dette sted og holde den aktuelle basemap.",
+        chooseFromSitesCountAvailableMapSelecting2: "Vælg mellem {sitesCount} tilgængeligt kort. At vælge et kort vil navigere dig til det sted.",
+        selectMapToView: "Vælg kort der skal vises",
+        selectAMapToNavigateTo: "Vælg et kort for at navigere til en anden visning",
+        navigateToLabel: "Naviger til {label}",
         loading: "Indlæser...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Navigering til valgt kort. Vent venligst.",
+        skipToMainContent: "Spring til hovedindhold"
       })
     }
   }

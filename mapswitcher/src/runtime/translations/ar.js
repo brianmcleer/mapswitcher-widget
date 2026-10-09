@@ -3,20 +3,20 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
+        _widgetLabel: "مسح الخرائط",
+        switchTo: "ابدلوا...",
         noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
+        noSitesConfiguredPleaseConfigureMap: "لا توجد مواقع تم تشكيلها يرجى تحديد مواقع الخرائط في مواقع النوافذ.",
+        mapSwitcherSelectAMapTo: "مُفتاح الخرائط - إختار خريطة للملاحة -",
+        chooseFromSitesCountAvailableMapsSelecting: "الاختيار من {sitesCount} الخرائط المتاحة. اختيار خريطة سينقلك إلى ذلك الموقع ويبقي القاعدة الحالية",
+        chooseFromSitesCountAvailableMapsSelecting2: "الاختيار من {sitesCount} الخرائط المتاحة. اختيار خريطة سينقلك إلى ذلك الموقع",
+        chooseFromSitesCountAvailableMapSelecting: "الاختيار من {sitesCount} خريطة متاحة اختيار خريطة سينقلك إلى ذلك الموقع ويبقي القاعدة الحالية",
+        chooseFromSitesCountAvailableMapSelecting2: "الاختيار من {sitesCount} خريطة متاحة اختيار خريطة سينقلك إلى ذلك الموقع",
+        selectMapToView: "خريطة مختارة للنظر",
+        selectAMapToNavigateTo: "اختيار خريطة للبحر إلى وجهة نظر مختلفة",
         navigateToLabel: "Navigate to {label}",
         loading: "جارِ التحميل...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
+        navigatingToSelectedMapPleaseWait: "نهضت إلى خريطة مختارة انتظر من فضلك",
         skipToMainContent: "Skip to main content"
       })
     }

@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Basiskaart",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
+        carryBasemapToNextMap: "Basiskaart naar volgende kaart dragen",
+        sendsTheBasemapChosenInEither: "Stuurt de basismap die in beide basismapgalerijen is gekozen naar de volgende app. De bestemmingsapp heeft een kaartwisselaar nodig die is aangesloten op de kaart om deze toe te passen.",
+        noMapSelectedTheFirstMap: "Geen kaart geselecteerd: de eerste kaartwidget in de app wordt gebruikt. Selecteer hier één als de app meer dan één kaart heeft.",
         sites: "Sites",
         siteIndex: "Site {index}",
         moveUp: "Naar boven verplaatsen",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Plaats verplaatsen {index} omhoog",
         moveDown: "Naar beneden verplaatsen",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Plaats verplaatsen {index} omlaag",
         label: "Label",
-        siteName: "Site name",
+        siteName: "Sitenaam",
         url: "URL",
         remove: "Verwijderen",
-        addSite: "Add Site"
+        addSite: "Site toevoegen"
       })
     }
   }

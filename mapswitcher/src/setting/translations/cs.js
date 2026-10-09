@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Podkladová mapa",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "Přenést basemap na další mapu",
+        sendsTheBasemapChosenInEither: "Odesílá basemap vybraný v každé z nich galerie na další aplikaci. Cílová aplikace potřebuje přepínač mapy připojený k její mapě, aby ji mohl použít.",
+        noMapSelectedTheFirstMap: "Není zvolena žádná mapa: je použit první widget mapy v aplikaci. Vyberte jednu zde, pokud aplikace má více než jednu mapu.",
+        sites: "Stránky",
+        siteIndex: "Místo {index}",
         moveUp: "Přesunout nahoru",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Přesun {index} Nahoru",
         moveDown: "Přesunout dolů",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Přesun {index} dolů",
         label: "Popisek",
-        siteName: "Site name",
+        siteName: "Název lokality",
         url: "URL",
         remove: "Odebrat",
-        addSite: "Add Site"
+        addSite: "Přidat místo"
       })
     }
   }

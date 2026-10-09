@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Commutador de mapes",
+        switchTo: "Canvia a...",
+        noSitesConfigured: "No s' ha configurat cap lloc",
+        noSitesConfiguredPleaseConfigureMap: "No s' ha configurat cap lloc. Si us plau, configureu els llocs del mapa a l' arranjament de l' estri.",
+        mapSwitcherSelectAMapTo: "Canviador de mapa - Seleccioneu un mapa a on navegar",
+        chooseFromSitesCountAvailableMapsSelecting: "Escolliu des de {sitesCount} mapes disponibles. Seleccionant un mapa us navegarà fins a aquesta localització i manté el mapa de base actual.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Escolliu des de {sitesCount} mapes disponibles. Si seleccioneu un mapa us navegarà fins a aquesta ubicació.",
+        chooseFromSitesCountAvailableMapSelecting: "Escolliu des de {sitesCount} Mapa disponible. Seleccionant un mapa us navegarà fins a aquesta localització i manté el mapa de base actual.",
+        chooseFromSitesCountAvailableMapSelecting2: "Escolliu des de {sitesCount} Mapa disponible. Si seleccioneu un mapa us navegarà fins a aquesta ubicació.",
+        selectMapToView: "Seleccioneu el mapa a veure",
+        selectAMapToNavigateTo: "Seleccioneu un mapa per a navegar a una vista diferent",
+        navigateToLabel: "Navega fins {label}",
         loading: "S'està carregant...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Navegar al mapa seleccionat. Espereu, si us plau.",
+        skipToMainContent: "Salta al contingut principal"
       })
     }
   }

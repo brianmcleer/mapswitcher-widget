@@ -5,18 +5,18 @@ System.register([], function (e) {
       e({
         _widgetLabel: "Map Switcher",
         switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
+        noSitesConfigured: "Hiçbir site yapılandırılmış",
+        noSitesConfiguredPleaseConfigureMap: "Hiçbir site yapılandırılmadı. Please configure map sites in the widget settings.",
+        mapSwitcherSelectAMapTo: "Map Switcher - gezinmek için bir harita seçin",
+        chooseFromSitesCountAvailableMapsSelecting: "Select from Select from {sitesCount} Mevcut haritalar. Bir haritayı seçmek sizi o yere götürecek ve mevcut bazmap tutacaktır.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Select from Select from {sitesCount} Mevcut haritalar. Bir harita seçmek sizi bu yere götürecek.",
+        chooseFromSitesCountAvailableMapSelecting: "Select from Select from {sitesCount} Mevcut harita. Bir haritayı seçmek sizi o yere götürecek ve mevcut bazmap tutacaktır.",
+        chooseFromSitesCountAvailableMapSelecting2: "Select from Select from {sitesCount} Mevcut harita. Bir harita seçmek sizi bu yere götürecek.",
+        selectMapToView: "Görmek için harita seçin",
+        selectAMapToNavigateTo: "Farklı bir görüşe gitmek için bir harita seçin",
         navigateToLabel: "Navigate to {label}",
         loading: "Yükleniyor...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
+        navigatingToSelectedMapPleaseWait: "Seçilmiş haritaya geçiş. Lütfen bekleyin.",
         skipToMainContent: "Skip to main content"
       })
     }

@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Commutateur de carte",
+        switchTo: "Passez à...",
+        noSitesConfigured: "Aucun site configuré",
+        noSitesConfiguredPleaseConfigureMap: "Aucun site configuré. Veuillez configurer les sites de carte dans les paramètres du widget.",
+        mapSwitcherSelectAMapTo: "Commutateur de carte - Sélectionnez une carte pour naviguer dans",
+        chooseFromSitesCountAvailableMapsSelecting: "Choisissez parmi {sitesCount} les cartes disponibles. La sélection d'une carte vous permettra de naviguer à cet endroit et de conserver la carte de base actuelle.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Choisissez parmi {sitesCount} les cartes disponibles. Sélectionner une carte vous permettra de naviguer à cet endroit.",
+        chooseFromSitesCountAvailableMapSelecting: "Choisissez parmi {sitesCount} carte disponible. La sélection d'une carte vous permettra de naviguer à cet endroit et de conserver la carte de base actuelle.",
+        chooseFromSitesCountAvailableMapSelecting2: "Choisissez parmi {sitesCount} carte disponible. Sélectionner une carte vous permettra de naviguer à cet endroit.",
+        selectMapToView: "Sélectionnez la carte à afficher",
+        selectAMapToNavigateTo: "Sélectionnez une carte pour naviguer vers une vue différente",
+        navigateToLabel: "Naviguez vers {label}",
         loading: "Chargement...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Naviguer sur la carte sélectionnée. Attendez.",
+        skipToMainContent: "Passer au contenu principal"
       })
     }
   }

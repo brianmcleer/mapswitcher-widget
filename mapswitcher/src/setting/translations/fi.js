@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Taustakartta",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "Kantaa pohjakartta seuraavaan karttaan",
+        sendsTheBasemapChosenInEither: "Lähettää joko basemap galleriassa valitun pohjakartta seuraavan sovelluksen. Kohdesovellus tarvitsee karttaan liitetyn karttakytkimen.",
+        noMapSelectedTheFirstMap: "Karttaa ei ole valittu: käytetään sovelluksen ensimmäistä kartta-elementtiä. Valitse yksi tästä, jos sovelluksessa on useampi kuin yksi kartta.",
+        sites: "Sivustot",
+        siteIndex: "Alue {index}",
         moveUp: "Siirrä ylös",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Siirrä sivusto {index} ylös",
         moveDown: "Siirry alas",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Siirrä sivusto {index} alas",
         label: "Tunnusteksti",
-        siteName: "Site name",
+        siteName: "Kohteen nimi",
         url: "URL-osoite",
         remove: "Poista",
-        addSite: "Add Site"
+        addSite: "Lisää sivu"
       })
     }
   }

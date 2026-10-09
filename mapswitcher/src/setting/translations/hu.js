@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Alaptérkép",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "Basemap átvitele a következő térképre",
+        sendsTheBasemapChosenInEither: "A bazemapot bármelyik basemap galériában a következő alkalmazásra küldi. A célalkalmazáshoz egy térképváltóra van szükség, amely a térképéhez csatlakozik.",
+        noMapSelectedTheFirstMap: "Nincs kijelölve térkép: az alkalmazásban található első térkép widget. Válasszon ki egyet, ha az alkalmazásnak egynél több térképe van.",
+        sites: "Oldalak",
+        siteIndex: "Helyszín {index}",
         moveUp: "Feljebb",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Mozgatás {index} Fel",
         moveDown: "Lejjebb",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Mozgatás {index} lefelé",
         label: "Felirat",
-        siteName: "Site name",
+        siteName: "Webhely neve",
         url: "URL",
         remove: "Eltávolítás",
-        addSite: "Add Site"
+        addSite: "Helyszín hozzáadása"
       })
     }
   }

@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Карта Switcher",
+        switchTo: "Перемикач...",
+        noSitesConfigured: "Немає сайтів, налаштованих",
+        noSitesConfiguredPleaseConfigureMap: "Немає сайтів, налаштованих. Будь ласка, налаштуйте сайти на карті в налаштуваннях віджету.",
+        mapSwitcherSelectAMapTo: "Карта Switcher - Виберіть карту для навігації",
+        chooseFromSitesCountAvailableMapsSelecting: "Виберіть {sitesCount} доступні карти. Вибір карти буде навігувати вас до цього місця розташування і зберігати поточний базовий карти.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Виберіть {sitesCount} доступні карти. Вибір карти буде навігати вас на це місце.",
+        chooseFromSitesCountAvailableMapSelecting: "Виберіть {sitesCount} доступна карта. Вибір карти буде навігувати вас до цього місця розташування і зберігати поточний базовий карти.",
+        chooseFromSitesCountAvailableMapSelecting2: "Виберіть {sitesCount} доступна карта. Вибір карти буде навігати вас на це місце.",
+        selectMapToView: "Виберіть карту для перегляду",
+        selectAMapToNavigateTo: "Виберіть карту для навігації в інший вид",
+        navigateToLabel: "Навігація {label}",
         loading: "Виконується завантаження...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Навігація до вибраної карти. Будь ласка, почекайте.",
+        skipToMainContent: "Головна"
       })
     }
   }

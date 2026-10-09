@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Bản đồ nền",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "Đem sơ đồ cơ bản tới bản đồ kế tiếp",
+        sendsTheBasemapChosenInEither: "Gửi sơ đồ cơ bản được chọn trong cả hai khung ảnh cơ bản tới ứng dụng tiếp theo. Ứng dụng đích cần một bộ chuyển bản đồ kết nối với bản đồ để áp dụng nó.",
+        noMapSelectedTheFirstMap: "Chưa chọn bản đồ: các ô điều khiển sơ đồ đầu tiên trong ứng dụng này được dùng. Ở đây hãy chọn một nếu ứng dụng có nhiều bản đồ.",
+        sites: "Nơi ngồi",
+        siteIndex: "Nơi Mạng {index}",
         moveUp: "Di chuyển lên trên",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Chuyển vị trí {index} lên",
         moveDown: "Di chuyển xuống dưới",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Chuyển vị trí {index} & Xuống",
         label: "Nhãn",
-        siteName: "Site name",
+        siteName: "Tên chỗ",
         url: "URL",
         remove: "Gỡ bỏ",
-        addSite: "Add Site"
+        addSite: "Thêm chỗ ngồi"
       })
     }
   }

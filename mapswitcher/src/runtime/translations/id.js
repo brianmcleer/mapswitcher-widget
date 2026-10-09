@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Pengalih Peta",
+        switchTo: "Ganti ke...",
+        noSitesConfigured: "Tidak ada situs yang dikonfigurasi",
+        noSitesConfiguredPleaseConfigureMap: "Tidak ada situs yang dikonfigurasi. Silakan konfigurasi situs peta di pengaturan widget.",
+        mapSwitcherSelectAMapTo: "Pengalih Peta - Pilih peta untuk menavigasi ke",
+        chooseFromSitesCountAvailableMapsSelecting: "Pilih dari {sitesCount} peta yang tersedia. Memilih sebuah peta akan menavigasi Anda ke lokasi itu dan menjaga peta bawah tanah saat ini.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Pilih dari {sitesCount} peta yang tersedia. Memilih peta akan menavigasi Anda ke lokasi itu.",
+        chooseFromSitesCountAvailableMapSelecting: "Pilih dari {sitesCount} peta yang tersedia. Memilih sebuah peta akan menavigasi Anda ke lokasi itu dan menjaga peta bawah tanah saat ini.",
+        chooseFromSitesCountAvailableMapSelecting2: "Pilih dari {sitesCount} peta yang tersedia. Memilih peta akan menavigasi Anda ke lokasi itu.",
+        selectMapToView: "Pilih peta yang akan ditampilkan",
+        selectAMapToNavigateTo: "Pilih peta untuk menavigasi ke tampilan lain",
+        navigateToLabel: "Navigasi ke {label}",
         loading: "Memuat...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Navigasi ke peta terpilih. Tunggu sebentar.",
+        skipToMainContent: "Lewati ke isi utama"
       })
     }
   }

@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "מפה Switcher",
+        switchTo: "לעבור ל...",
+        noSitesConfigured: "אין אתרים שנקבעו",
+        noSitesConfiguredPleaseConfigureMap: "שום אתר לא מוגדר. אנא הגדרת אתרי מפות בהגדרות widget.",
+        mapSwitcherSelectAMapTo: "Map Switcher - בחר מפה לנווט",
+        chooseFromSitesCountAvailableMapsSelecting: "בחר מתוך {sitesCount} מפות זמינות בחירת מפה ת לנווט אותך למיקום זה ולשמור את מפת הבסיס הנוכחית.",
+        chooseFromSitesCountAvailableMapsSelecting2: "בחר מתוך {sitesCount} מפות זמינות בחירת מפה ת לנווט אותך למיקום הזה.",
+        chooseFromSitesCountAvailableMapSelecting: "בחר מתוך {sitesCount} מפה זמינה בחירת מפה ת לנווט אותך למיקום זה ולשמור את מפת הבסיס הנוכחית.",
+        chooseFromSitesCountAvailableMapSelecting2: "בחר מתוך {sitesCount} מפה זמינה בחירת מפה ת לנווט אותך למיקום הזה.",
+        selectMapToView: "בחר מפה כדי להציג",
+        selectAMapToNavigateTo: "בחר מפה לנווט להשקפה שונה",
+        navigateToLabel: "לנווט כדי {label}",
         loading: "טוען...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "לנווט במפה שנבחרה. בבקשה חכה.",
+        skipToMainContent: "לדלג על התוכן הראשי"
       })
     }
   }

@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Comutador de mapas",
+        switchTo: "Mude para...",
+        noSitesConfigured: "Nenhum site configurado",
+        noSitesConfiguredPleaseConfigureMap: "Nenhum site configurado. Por favor, configure os sites de mapas nas configurações do widget.",
+        mapSwitcherSelectAMapTo: "Seleciona um mapa para onde navegar",
+        chooseFromSitesCountAvailableMapsSelecting: "Escolha entre {sitesCount} mapas disponíveis. Se selecionar um mapa irá navegar até esse local e manterá o mapa de base atual.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Escolha entre {sitesCount} mapas disponíveis. Selecionar um mapa irá navegar até esse local.",
+        chooseFromSitesCountAvailableMapSelecting: "Escolha entre {sitesCount} mapa disponível. Se selecionar um mapa irá navegar até esse local e manterá o mapa de base atual.",
+        chooseFromSitesCountAvailableMapSelecting2: "Escolha entre {sitesCount} mapa disponível. Selecionar um mapa irá navegar até esse local.",
+        selectMapToView: "Selecione o mapa para ver",
+        selectAMapToNavigateTo: "Selecione um mapa para navegar para uma visão diferente",
+        navigateToLabel: "Navegar para {label}",
         loading: "Carregando...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Navegando para o mapa selecionado. Por favor, espere.",
+        skipToMainContent: "Ir para o conteúdo principal"
       })
     }
   }

@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "지도 Switcher",
+        switchTo: "스위치 ...",
+        noSitesConfigured: "사이트 구성",
+        noSitesConfiguredPleaseConfigureMap: "사이트가 없습니다. 위젯 설정에서 맵 사이트를 구성하십시오.",
+        mapSwitcherSelectAMapTo: "Map Switcher - 지도를 선택하여 탐색",
+        chooseFromSitesCountAvailableMapsSelecting: "구매하기 {sitesCount} 가능한지도. 지도를 선택하면 그 위치로 이동하고 현재 Basemap을 유지합니다.",
+        chooseFromSitesCountAvailableMapsSelecting2: "구매하기 {sitesCount} 가능한지도. 지도를 선택하면 해당 위치로 이동합니다.",
+        chooseFromSitesCountAvailableMapSelecting: "구매하기 {sitesCount} 가능한 지도. 지도를 선택하면 그 위치로 이동하고 현재 Basemap을 유지합니다.",
+        chooseFromSitesCountAvailableMapSelecting2: "구매하기 {sitesCount} 가능한 지도. 지도를 선택하면 해당 위치로 이동합니다.",
+        selectMapToView: "지도 보기",
+        selectAMapToNavigateTo: "다른 보기로 이동할지도를 선택",
+        navigateToLabel: "바로가기 {label}",
         loading: "불러오는 중...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "선택된 지도로 이동합니다. 자주 묻는 질문",
+        skipToMainContent: "본문 바로가기"
       })
     }
   }

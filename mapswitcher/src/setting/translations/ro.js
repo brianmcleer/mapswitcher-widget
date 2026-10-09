@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Hartă fundal",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
+        carryBasemapToNextMap: "Carry basemap la harta următoare",
+        sendsTheBasemapChosenInEither: "Trimite harta de bază aleasă în oricare galerie de bază la următoarea aplicație. Aplicația de destinație are nevoie de un Switcher de hartă conectat la harta sa pentru a o aplica.",
+        noMapSelectedTheFirstMap: "Nicio hartă selectată: prima hartă widget din aplicație este utilizată. Alegeți unul aici dacă aplicația are mai mult de o hartă.",
+        sites: "Locuri",
         siteIndex: "Site {index}",
         moveUp: "Deplasare în sus",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Mută locul {index} sus",
         moveDown: "Deplasare în jos",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Mută locul {index} jos",
         label: "Etichetă",
-        siteName: "Site name",
+        siteName: "Numele locului",
         url: "URL",
         remove: "Eliminare",
-        addSite: "Add Site"
+        addSite: "Adaugă site"
       })
     }
   }

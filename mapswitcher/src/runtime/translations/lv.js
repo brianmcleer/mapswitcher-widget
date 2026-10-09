@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Kartes pārslēdzējs",
+        switchTo: "Pārslēgties uz...",
+        noSitesConfigured: "Nav konfigurēta neviena vietne",
+        noSitesConfiguredPleaseConfigureMap: "Nav konfigurēta neviena vietne. Lūdzu konfigurējiet kartes vietnes logdaļu iestatījumos.",
+        mapSwitcherSelectAMapTo: "Kartes pārslēdzējs - Izvēlieties karti, uz kuru doties",
+        chooseFromSitesCountAvailableMapsSelecting: "Izvēlieties {sitesCount} pieejamās kartes. Izvēloties karti, jūs pārcelsiet uz šo vietu un saglabāsiet pašreizējo bāzes karti.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Izvēlieties {sitesCount} pieejamās kartes. Izvēloties karti, jūs pārvietos uz šo vietu.",
+        chooseFromSitesCountAvailableMapSelecting: "Izvēlieties {sitesCount} pieejamā karte. Izvēloties karti, jūs pārcelsiet uz šo vietu un saglabāsiet pašreizējo bāzes karti.",
+        chooseFromSitesCountAvailableMapSelecting2: "Izvēlieties {sitesCount} pieejamā karte. Izvēloties karti, jūs pārvietos uz šo vietu.",
+        selectMapToView: "Izvēlieties apskatāmo karti",
+        selectAMapToNavigateTo: "Izvēlieties karti, ko pārvietot uz citu skatu",
+        navigateToLabel: "Pārvietoties uz {label}",
         loading: "Ielādē...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Virzīties uz izvēlēto karti. Lūdzu, uzgaidiet.",
+        skipToMainContent: "Pāriet uz galveno saturu"
       })
     }
   }

@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Térképváltó",
+        switchTo: "Váltás...",
+        noSitesConfigured: "Nincs beállított oldal",
+        noSitesConfiguredPleaseConfigureMap: "Nincs beállított oldal. Kérjük, állítsa be a térkép oldalait a widget beállításokban.",
+        mapSwitcherSelectAMapTo: "Térkép switcher - Válasszon ki egy térképet navigálni",
+        chooseFromSitesCountAvailableMapsSelecting: "Válasszon {sitesCount} elérhető térképek. A térkép kiválasztása elvezet arra a helyre, és megtartja az aktuális alaplapot.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Válasszon {sitesCount} elérhető térképek. A térkép kiválasztása arra a helyre fog irányítani.",
+        chooseFromSitesCountAvailableMapSelecting: "Válasszon {sitesCount} elérhető térkép. A térkép kiválasztása elvezet arra a helyre, és megtartja az aktuális alaplapot.",
+        chooseFromSitesCountAvailableMapSelecting2: "Válasszon {sitesCount} elérhető térkép. A térkép kiválasztása arra a helyre fog irányítani.",
+        selectMapToView: "Válassza ki a megtekintendő térképet",
+        selectAMapToNavigateTo: "Válasszon ki egy térképet egy másik nézethez",
+        navigateToLabel: "Naiv {label}",
         loading: "Betöltés...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Navigáció a kijelölt térképre. Kérem, várjon.",
+        skipToMainContent: "Ugrás a fő tartalomra"
       })
     }
   }

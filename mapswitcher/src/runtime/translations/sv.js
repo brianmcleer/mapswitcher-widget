@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Karta Switcher",
+        switchTo: "Växla till...",
+        noSitesConfigured: "Inga webbplatser konfigurerade",
+        noSitesConfiguredPleaseConfigureMap: "Inga webbplatser konfigurerade. Konfigurera kartplatser i widgetinställningarna.",
+        mapSwitcherSelectAMapTo: "Karta Switcher - Välj en karta för att navigera för att",
+        chooseFromSitesCountAvailableMapsSelecting: "Välj mellan {sitesCount} tillgängliga kartor. Välja en karta kommer att navigera dig till den platsen och hålla den aktuella baskartan.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Välj mellan {sitesCount} tillgängliga kartor. Välja en karta kommer att navigera dig till den platsen.",
+        chooseFromSitesCountAvailableMapSelecting: "Välj mellan {sitesCount} tillgänglig karta. Välja en karta kommer att navigera dig till den platsen och hålla den aktuella baskartan.",
+        chooseFromSitesCountAvailableMapSelecting2: "Välj mellan {sitesCount} tillgänglig karta. Välja en karta kommer att navigera dig till den platsen.",
+        selectMapToView: "Välj karta för att visa",
+        selectAMapToNavigateTo: "Välj en karta för att navigera till en annan vy",
+        navigateToLabel: "Navigera till {label}",
         loading: "Läser in...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Navigera till vald karta. Vänta.",
+        skipToMainContent: "Hoppa till huvudinnehåll"
       })
     }
   }

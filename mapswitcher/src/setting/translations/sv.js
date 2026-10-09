@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Baskarta",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "Carry Basemap till nästa karta",
+        sendsTheBasemapChosenInEither: "Skickar baskartan som valts i antingen basemap galleri till nästa app. Den destination app behöver en karta Switcher ansluten till sin karta för att tillämpa den.",
+        noMapSelectedTheFirstMap: "Ingen karta vald: den första kartan widget i appen används. Välj en här om appen har mer än en karta.",
+        sites: "Webbplatser",
+        siteIndex: "Webbplats {index}",
         moveUp: "Flytta uppåt",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Flytta plats {index} Upp",
         moveDown: "Flytta nedåt",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Flytta plats {index} ner",
         label: "Etikett",
-        siteName: "Site name",
+        siteName: "Webbplatsnamn",
         url: "URL",
         remove: "Ta bort",
-        addSite: "Add Site"
+        addSite: "Lägg till webbplats"
       })
     }
   }

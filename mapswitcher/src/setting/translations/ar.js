@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "خريطة أساس",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
+        carryBasemapToNextMap: "خريطة الأساس",
+        sendsTheBasemapChosenInEither: "يرسل خريطة القاعدة التي تم اختيارها في أي من معرض ألعاب القاعدة إلى التطبيق التالي The destination app needs a Map Switcher connected to its map to apply it.",
+        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. اختيار واحد هنا إذا كان التطبيق لديه أكثر من خريطة واحدة.",
+        sites: "المقاعد",
         siteIndex: "Site {index}",
         moveUp: "انتقال إلى أعلى",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "موقع النقل {index} استيقظ",
         moveDown: "انتقال إلى أسفل",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "موقع النقل {index} للأسفل",
         label: "التسمية",
-        siteName: "Site name",
+        siteName: "اسم الموقع",
         url: "URL",
         remove: "إزالة",
-        addSite: "Add Site"
+        addSite: "مضبوطة"
       })
     }
   }

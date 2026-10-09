@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Превключвател на карти",
+        switchTo: "Превключи на...",
+        noSitesConfigured: "Няма конфигурирани сайтове",
+        noSitesConfiguredPleaseConfigureMap: "Няма конфигурирани сайтове. Моля, конфигурирайте сайтовете на картата в настройките на джаджата.",
+        mapSwitcherSelectAMapTo: "Превключвател на карти - Изберете карта, към която да преминете",
+        chooseFromSitesCountAvailableMapsSelecting: "Избор от {sitesCount} наличните карти. Избирането на карта ще ви насочи към това място и ще запази текущата базова карта.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Избор от {sitesCount} наличните карти. Изборът на карта ще ви насочи към това място.",
+        chooseFromSitesCountAvailableMapSelecting: "Избор от {sitesCount} Налична карта. Избирането на карта ще ви насочи към това място и ще запази текущата базова карта.",
+        chooseFromSitesCountAvailableMapSelecting2: "Избор от {sitesCount} Налична карта. Изборът на карта ще ви насочи към това място.",
+        selectMapToView: "Избор на карта за преглед",
+        selectAMapToNavigateTo: "Изберете карта за навигация към различен изглед",
+        navigateToLabel: "Навигация към {label}",
         loading: "Зареждане...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Навигация към избрана карта. Моля те, почакай.",
+        skipToMainContent: "Премини към основното съдържание"
       })
     }
   }

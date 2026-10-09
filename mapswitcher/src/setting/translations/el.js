@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Υπόβαθρο",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "Μεταφορά χάρτη βάσης στον επόμενο χάρτη",
+        sendsTheBasemapChosenInEither: "Στέλνει τον χάρτη βάσης που επιλέγεται σε οποιαδήποτε γκαλερί basemap στην επόμενη εφαρμογή. Η εφαρμογή προορισμού χρειάζεται ένα Map Switcher συνδεδεμένο στο χάρτη του για να το εφαρμόσει.",
+        noMapSelectedTheFirstMap: "Δεν επιλέχθηκε χάρτης: χρησιμοποιείται το πρώτο γραφικό συστατικό χάρτη στην εφαρμογή. Επιλέξτε ένα εδώ αν η εφαρμογή έχει περισσότερους από έναν χάρτες.",
+        sites: "Τόποι",
+        siteIndex: "Ιστοσελίδα {index}",
         moveUp: "Μετακίνηση προς τα επάνω",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Μετακίνηση τοποθεσίας {index} Πάνω",
         moveDown: "Μετακίνηση προς τα κάτω",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Μετακίνηση τοποθεσίας {index} Κάτω",
         label: "Ετικέτα",
-        siteName: "Site name",
+        siteName: "Όνομα τοποθεσίας",
         url: "Διεύθυνση URL",
         remove: "Κατάργηση",
-        addSite: "Add Site"
+        addSite: "Προσθήκη τοποθεσίας"
       })
     }
   }

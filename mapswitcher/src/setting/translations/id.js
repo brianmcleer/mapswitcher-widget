@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Peta Dasar",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "Bawa peta dasar ke peta berikutnya",
+        sendsTheBasemapChosenInEither: "Mengirim peta dasar yang dipilih dalam galeri peta dasar ke aplikasi berikutnya. Aplikasi tujuan memerlukan Pengalih Peta yang terhubung ke peta untuk menerapkannya.",
+        noMapSelectedTheFirstMap: "Tak ada peta yang dipilih: Widget Peta pertama di aplikasi dipakai. Pilih satu di sini jika aplikasi memiliki lebih dari satu peta.",
+        sites: "Situs",
+        siteIndex: "Situs {index}",
         moveUp: "Geser ke atas",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Pindah situs {index} naik",
         moveDown: "Geser ke bawah",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Pindah situs {index} turun",
         label: "Label",
-        siteName: "Site name",
+        siteName: "Nama tempat",
         url: "URL",
         remove: "Hapus",
-        addSite: "Add Site"
+        addSite: "Tambah Situs"
       })
     }
   }

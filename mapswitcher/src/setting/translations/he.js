@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "מפת בסיס",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "ערכת בסיס למפה הבאה",
+        sendsTheBasemapChosenInEither: "שולח את מפת הבסיס שנבחרה בגלריית מפת בסיס לאפליקציית הבאה. אפליקציית היעד זקוקה ל- Map Switcher המחובר למפה כדי ליישם אותה.",
+        noMapSelectedTheFirstMap: "אין מפה שנבחרה: הראשון מפה widget ביישום משמש. בחרו כאן אם לאפליקציית יש יותר ממפה אחת.",
+        sites: "אתרים",
+        siteIndex: "אתר Site {index}",
         moveUp: "הזז למעלה",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "העברת אתר {index} למעלה",
         moveDown: "הזז למטה",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "העברת אתר {index} למטה למטה",
         label: "תווית",
-        siteName: "Site name",
+        siteName: "שם אתר",
         url: "כתובת URL",
         remove: "הסר",
-        addSite: "Add Site"
+        addSite: "הוסף אתר"
       })
     }
   }

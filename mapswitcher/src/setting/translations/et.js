@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Aluskaart",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
+        carryBasemapToNextMap: "Aluskaardi kandmine järgmisele kaardile",
+        sendsTheBasemapChosenInEither: "Saadab mõlemas aluskaardi galeriis valitud aluskaardi järgmisele rakendusele. Sihtkoha rakendus vajab selle rakendamiseks kaardilülitit, mis on ühendatud selle kaardiga.",
+        noMapSelectedTheFirstMap: "Kaarti pole valitud: kasutatakse rakenduse esimest kaardividinat. Valige üks siin, kui rakendusel on rohkem kui üks kaart.",
+        sites: "Saidid",
         siteIndex: "Site {index}",
         moveUp: "Liiguta ülespoole",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Liikumiskoht {index} üles",
         moveDown: "Liiguta allapoole",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Liikumiskoht {index} alla",
         label: "Märgis",
-        siteName: "Site name",
+        siteName: "Saidi nimi",
         url: "URL",
         remove: "Eemalda",
-        addSite: "Add Site"
+        addSite: "Lisa veebileht"
       })
     }
   }

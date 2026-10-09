@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Comutator hartă",
+        switchTo: "Comută pe...",
+        noSitesConfigured: "Niciun site configurat",
+        noSitesConfiguredPleaseConfigureMap: "Niciun site configurat. Configurează site-urile hărților în setările widget.",
+        mapSwitcherSelectAMapTo: "Switcher hartă - Selectați o hartă la care să navigați",
+        chooseFromSitesCountAvailableMapsSelecting: "Alege din {sitesCount} hărți disponibile. Selectați o hartă vă va naviga la acea locație și să păstreze harta de bază curentă.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Alege din {sitesCount} hărți disponibile. Alegeți o hartă vă va naviga la acea locație.",
+        chooseFromSitesCountAvailableMapSelecting: "Alege din {sitesCount} harta disponibilă. Selectați o hartă vă va naviga la acea locație și să păstreze harta de bază curentă.",
+        chooseFromSitesCountAvailableMapSelecting2: "Alege din {sitesCount} harta disponibilă. Alegeți o hartă vă va naviga la acea locație.",
+        selectMapToView: "Alegeți harta de văzut",
+        selectAMapToNavigateTo: "Alegeți o hartă pentru a naviga la o vizualizare diferită",
+        navigateToLabel: "Navighează la {label}",
         loading: "Se încarcă...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Navigare către harta selectată. Te rog aşteaptă.",
+        skipToMainContent: "Sari la conținutul principal"
       })
     }
   }

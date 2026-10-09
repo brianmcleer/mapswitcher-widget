@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "底图",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "将基准映射到下一张地图",
+        sendsTheBasemapChosenInEither: "将任一碱性映射画廊中选择的碱性映射发送到下一个应用程序 。 目的地应用需要连接到其地图的地图切换器来应用.",
+        noMapSelectedTheFirstMap: "没有选择地图: 应用中的第一个地图部件被使用 。 如果应用程序有多个地图, 请在此选择一个 。",
+        sites: "站点",
+        siteIndex: "站点 {index}",
         moveUp: "上移",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "移动网站 {index} 上来",
         moveDown: "下移",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "移动网站 {index} 下来",
         label: "标注",
-        siteName: "Site name",
+        siteName: "站点名称",
         url: "URL",
         remove: "移除",
-        addSite: "Add Site"
+        addSite: "添加站点"
       })
     }
   }

@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Pamatkarte",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "Pārvietot bāzes karti uz nākamo karti",
+        sendsTheBasemapChosenInEither: "Nosūta izvēlētās bāzes kartes vai nu bāzes kartes galerijā uz nākamo programmu. Lai to piemērotu, mērķa lietotnei ir nepieciešams ar karti savienots karšu pārslēdzējs.",
+        noMapSelectedTheFirstMap: "Nav izvēlēta karte: tiek izmantota pirmā lietotnes karte. Šeit izvēlieties vienu, ja programmai ir vairāk nekā viena karte.",
+        sites: "Vietnes",
+        siteIndex: "Vieta {index}",
         moveUp: "Pārvietot uz augšu",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Pārvietot vietu {index} līdz",
         moveDown: "Pārvietot uz leju",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Pārvietot vietu {index} lejup",
         label: "Nosaukums",
-        siteName: "Site name",
+        siteName: "Vietas nosaukums",
         url: "Vietrādis (URL)",
         remove: "Noņemt",
-        addSite: "Add Site"
+        addSite: "Pievienot vietni"
       })
     }
   }

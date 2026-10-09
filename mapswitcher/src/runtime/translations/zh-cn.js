@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "地图切换器",
+        switchTo: "切换到...",
+        noSitesConfigured: "没有配置站点",
+        noSitesConfiguredPleaseConfigureMap: "未配置站点 。 请在部件设置中配置地图站点 。",
+        mapSwitcherSelectAMapTo: "地图切换器 - 选择要导航的地图",
+        chooseFromSitesCountAvailableMapsSelecting: "选择从 {sitesCount} 可用地图。 选择一个地图将引导您到该位置, 并保留当前底图 。",
+        chooseFromSitesCountAvailableMapsSelecting2: "选择从 {sitesCount} 可用地图。 选择地图将引导您前往该位置 。",
+        chooseFromSitesCountAvailableMapSelecting: "选择从 {sitesCount} 可用地图。 选择一个地图将引导您到该位置, 并保留当前底图 。",
+        chooseFromSitesCountAvailableMapSelecting2: "选择从 {sitesCount} 可用地图。 选择地图将引导您前往该位置 。",
+        selectMapToView: "选择要查看的地图",
+        selectAMapToNavigateTo: "选择导航到不同视图的地图",
+        navigateToLabel: "导航到 {label}",
         loading: "正在加载...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "导航到选中的地图 。 请等一下",
+        skipToMainContent: "跳转到主内容"
       })
     }
   }

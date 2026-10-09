@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Altlık Harita",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "Basemap'ı bir sonraki haritaya taşıyın",
+        sendsTheBasemapChosenInEither: "Bazmap galeride bir sonraki uygulama için seçilen üssü gönderin. Hedef uygulama, onu uygulamak için haritasına bağlı bir Map Switcher'e ihtiyaç duyar.",
+        noMapSelectedTheFirstMap: "Seçilen harita yok: Uygulamadaki ilk Map widget kullanılır. Uygulamanın birden fazla haritaya sahip olup olmadığını buradan seçin.",
+        sites: "Siteler",
+        siteIndex: "Site Sitesi {index}",
         moveUp: "Yukarı taşı",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Move site {index} yukarı yukarı yukarı",
         moveDown: "Aşağı taşı",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Move site {index} aşağı aşağı aşağı aşağı aşağı",
         label: "Etiket",
-        siteName: "Site name",
+        siteName: "Site adı",
         url: "URL",
         remove: "Kaldır",
-        addSite: "Add Site"
+        addSite: "Add Site Ekle"
       })
     }
   }

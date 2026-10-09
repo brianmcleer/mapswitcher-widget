@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Διακόπτης χαρτών",
+        switchTo: "Αλλαγή σε...",
+        noSitesConfigured: "Δεν έχουν ρυθμιστεί περιοχές",
+        noSitesConfiguredPleaseConfigureMap: "Δεν έχουν ρυθμιστεί τοποθεσίες. Παρακαλώ ρυθμίστε τις τοποθεσίες χάρτη στις ρυθμίσεις widget.",
+        mapSwitcherSelectAMapTo: "Διακόπτης χαρτών - Επιλέξτε έναν χάρτη για πλοήγηση",
+        chooseFromSitesCountAvailableMapsSelecting: "Επιλογή από {sitesCount} διαθέσιμους χάρτες. Η επιλογή ενός χάρτη θα σας πλοηγήσει σε αυτή την τοποθεσία και να κρατήσει τον τρέχοντα χάρτη βάσης.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Επιλογή από {sitesCount} διαθέσιμους χάρτες. Η επιλογή ενός χάρτη θα σας οδηγήσει σε αυτή την τοποθεσία.",
+        chooseFromSitesCountAvailableMapSelecting: "Επιλογή από {sitesCount} διαθέσιμος χάρτης. Η επιλογή ενός χάρτη θα σας πλοηγήσει σε αυτή την τοποθεσία και να κρατήσει τον τρέχοντα χάρτη βάσης.",
+        chooseFromSitesCountAvailableMapSelecting2: "Επιλογή από {sitesCount} διαθέσιμος χάρτης. Η επιλογή ενός χάρτη θα σας οδηγήσει σε αυτή την τοποθεσία.",
+        selectMapToView: "Επιλογή χάρτη για προβολή",
+        selectAMapToNavigateTo: "Επιλέξτε ένα χάρτη για να περιηγηθείτε σε μια διαφορετική προβολή",
+        navigateToLabel: "Πλοηγηθείτε σε {label}",
         loading: "Φόρτωση...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Πλοήγηση σε επιλεγμένο χάρτη. Παρακαλώ περιμένετε.",
+        skipToMainContent: "Μετάβαση στο κύριο περιεχόμενο"
       })
     }
   }

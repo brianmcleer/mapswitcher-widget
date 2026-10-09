@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Karttakytkin",
+        switchTo: "Vaihda...",
+        noSitesConfigured: "Asetuksia ei ole määritetty",
+        noSitesConfiguredPleaseConfigureMap: "Sivustoja ei ole määritetty. Määrittele karttasivustot widget-asetuksissa.",
+        mapSwitcherSelectAMapTo: "Karttavaihtaja - Valitse kartta, johon navigoidaan",
+        chooseFromSitesCountAvailableMapsSelecting: "Valitse mistä {sitesCount} saatavilla olevat kartat. Kartan valinta navigoi tähän paikkaan ja pitää nykyisen pohjakartta.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Valitse mistä {sitesCount} saatavilla olevat kartat. Kartan valinta navigoi tähän paikkaan.",
+        chooseFromSitesCountAvailableMapSelecting: "Valitse mistä {sitesCount} käytettävissä oleva kartta. Kartan valinta navigoi tähän paikkaan ja pitää nykyisen pohjakartta.",
+        chooseFromSitesCountAvailableMapSelecting2: "Valitse mistä {sitesCount} käytettävissä oleva kartta. Kartan valinta navigoi tähän paikkaan.",
+        selectMapToView: "Valitse tarkasteltava kartta",
+        selectAMapToNavigateTo: "Valitse toiseen näkymään navigoitava kartta",
+        navigateToLabel: "Siirry {label}",
         loading: "Ladataan...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Siirrytään valittuun karttaan. Odota.",
+        skipToMainContent: "Siirry pääsisältöön"
       })
     }
   }

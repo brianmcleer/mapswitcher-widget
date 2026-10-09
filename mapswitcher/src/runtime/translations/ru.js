@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Переключатель карт",
+        switchTo: "Переключитесь на...",
+        noSitesConfigured: "Сайты не настроены",
+        noSitesConfiguredPleaseConfigureMap: "Сайты не настроены. Пожалуйста, настройте сайты карты в настройках виджета.",
+        mapSwitcherSelectAMapTo: "Map Switcher - Выберите карту для навигации",
+        chooseFromSitesCountAvailableMapsSelecting: "Выбрать из {sitesCount} Доступные карты. Выбор карты приведет вас к этому месту и сохранит текущую базовую карту.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Выбрать из {sitesCount} Доступные карты. Выбор карты приведет вас к этому месту.",
+        chooseFromSitesCountAvailableMapSelecting: "Выбрать из {sitesCount} Доступная карта. Выбор карты приведет вас к этому месту и сохранит текущую базовую карту.",
+        chooseFromSitesCountAvailableMapSelecting2: "Выбрать из {sitesCount} Доступная карта. Выбор карты приведет вас к этому месту.",
+        selectMapToView: "Выберите карту для просмотра",
+        selectAMapToNavigateTo: "Выберите карту, чтобы перейти к другому виду",
+        navigateToLabel: "Навигация для {label}",
         loading: "Загрузка...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Переход на выбранную карту. Пожалуйста, подождите.",
+        skipToMainContent: "Пропустить основной контент"
       })
     }
   }

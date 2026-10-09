@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Kaardilüliti",
+        switchTo: "Lülitu...",
+        noSitesConfigured: "Saite pole seadistatud",
+        noSitesConfiguredPleaseConfigureMap: "Saite pole seadistatud. Palun seadista kaardisaite vidina seadistustes.",
+        mapSwitcherSelectAMapTo: "Kaardilüliti - vali kaart, kuhu navigeerida",
+        chooseFromSitesCountAvailableMapsSelecting: "Vali {sitesCount} olemasolevad kaardid. Kaardi valimine viib teid sellesse asukohta ja hoiab praegust aluskaarti.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Vali {sitesCount} olemasolevad kaardid. Kaardi valimine suunab teid sellesse asukohta.",
+        chooseFromSitesCountAvailableMapSelecting: "Vali {sitesCount} vaba kaart. Kaardi valimine viib teid sellesse asukohta ja hoiab praegust aluskaarti.",
+        chooseFromSitesCountAvailableMapSelecting2: "Vali {sitesCount} vaba kaart. Kaardi valimine suunab teid sellesse asukohta.",
+        selectMapToView: "Vaadetava kaardi valimine",
+        selectAMapToNavigateTo: "Vali kaart teise vaatesse navigeerimiseks",
+        navigateToLabel: "Liikuge {label}",
         loading: "Laadimine...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Liikumine valitud kaardile. Palun oota.",
+        skipToMainContent: "Liigu põhisisu juurde"
       })
     }
   }

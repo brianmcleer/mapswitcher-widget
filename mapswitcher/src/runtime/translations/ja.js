@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "地図のスイッチャー",
+        switchTo: "スイッチ...",
+        noSitesConfigured: "サイト構成なし",
+        noSitesConfiguredPleaseConfigureMap: "設定されていないサイト ウィジェットの設定でマップサイトを設定してください。",
+        mapSwitcherSelectAMapTo: "地図のスイッチャー - 地図を選択してナビゲーション",
+        chooseFromSitesCountAvailableMapsSelecting: "から選ぶ {sitesCount} サイトマップ 地図を選択すると、その場所に移動し、現在のベースマップを保持します。",
+        chooseFromSitesCountAvailableMapsSelecting2: "から選ぶ {sitesCount} サイトマップ 地図を選択すると、その場所に移動します。",
+        chooseFromSitesCountAvailableMapSelecting: "から選ぶ {sitesCount} サイトマップ 地図を選択すると、その場所に移動し、現在のベースマップを保持します。",
+        chooseFromSitesCountAvailableMapSelecting2: "から選ぶ {sitesCount} サイトマップ 地図を選択すると、その場所に移動します。",
+        selectMapToView: "地図を選択",
+        selectAMapToNavigateTo: "異なるビューに移動するためのマップを選択します",
+        navigateToLabel: "ナビゲートへ {label}",
         loading: "読み込んでいます...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "選択したマップに移動します。 お問い合わせ",
+        skipToMainContent: "メインコンテンツへスキップ"
       })
     }
   }

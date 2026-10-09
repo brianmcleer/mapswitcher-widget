@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Žemėlapio perjungiklis",
+        switchTo: "Persijungti į...",
+        noSitesConfigured: "Nenurodytos svetainės",
+        noSitesConfiguredPleaseConfigureMap: "Nėra sukonfigūruotų svetainių. @ info: whatsthis",
+        mapSwitcherSelectAMapTo: "Žemėlapio perjungiklis - Pasirinkite naršyti žemėlapį",
+        chooseFromSitesCountAvailableMapsSelecting: "Pasirinkite {sitesCount} turimus žemėlapius. Pasirinkus žemėlapį bus naršyti toje vietoje ir išlaikyti esamą basemap.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Pasirinkite {sitesCount} turimus žemėlapius. Pasirinkus žemėlapį nukeliausite į tą vietą.",
+        chooseFromSitesCountAvailableMapSelecting: "Pasirinkite {sitesCount} prieinamas žemėlapis. Pasirinkus žemėlapį bus naršyti toje vietoje ir išlaikyti esamą basemap.",
+        chooseFromSitesCountAvailableMapSelecting2: "Pasirinkite {sitesCount} prieinamas žemėlapis. Pasirinkus žemėlapį nukeliausite į tą vietą.",
+        selectMapToView: "Pažymėti rodomą žemėlapį",
+        selectAMapToNavigateTo: "Pasirinkite žemėlapį naršymui į kitą rodinį",
+        navigateToLabel: "Eiti į {label}",
         loading: "Įkeliama...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Navigacija į pasirinktą žemėlapį. Palaukite.",
+        skipToMainContent: "Praleisti į pagrindinį turinį"
       })
     }
   }

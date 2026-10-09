@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Mapa base",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "Carrega el mapa base al mapa següent",
+        sendsTheBasemapChosenInEither: "Envia el mapa base seleccionat en una galeria basemap a la següent aplicació. L' aplicació de destí necessita un intercanvi de mapes connectat al seu mapa per aplicar- lo.",
+        noMapSelectedTheFirstMap: "No s' ha seleccionat cap mapa: s' usa el primer estri de mapa de l' aplicació. Seleccioneu un aquí si l' aplicació té més d' un mapa.",
+        sites: "Llocs",
+        siteIndex: "Lloc {index}",
         moveUp: "Mou cap amunt",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Mou el lloc {index} amunt",
         moveDown: "Mou cap avall",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Mou el lloc {index} avall",
         label: "Etiqueta",
-        siteName: "Site name",
+        siteName: "Nom del lloc",
         url: "URL",
         remove: "Elimina",
-        addSite: "Add Site"
+        addSite: "Afegeix lloc"
       })
     }
   }

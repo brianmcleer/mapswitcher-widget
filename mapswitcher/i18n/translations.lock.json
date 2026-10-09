@@ -24,32 +24,174 @@
       },
       "locales": {
         "ar": {
-          "file": "84304fb7638f",
+          "file": "d9b173a39eec",
           "counts": {
             "esri": 0,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "مسح الخرائط",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "ابدلوا...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "No sites configured",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "لا توجد مواقع تم تشكيلها يرجى تحديد مواقع الخرائط في مواقع النوافذ.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "مُفتاح الخرائط - إختار خريطة للملاحة -",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "الاختيار من {sitesCount} الخرائط المتاحة. اختيار خريطة سينقلك إلى ذلك الموقع ويبقي القاعدة الحالية",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "الاختيار من {sitesCount} الخرائط المتاحة. اختيار خريطة سينقلك إلى ذلك الموقع",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "الاختيار من {sitesCount} خريطة متاحة اختيار خريطة سينقلك إلى ذلك الموقع ويبقي القاعدة الحالية",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "الاختيار من {sitesCount} خريطة متاحة اختيار خريطة سينقلك إلى ذلك الموقع",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "خريطة مختارة للنظر",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "اختيار خريطة للبحر إلى وجهة نظر مختلفة",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Navigate to {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "نهضت إلى خريطة مختارة انتظر من فضلك",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Skip to main content",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "bg": {
-          "file": "3e4f181bd064",
+          "file": "d6eacba8e589",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Превключвател на карти",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Превключи на...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Няма конфигурирани сайтове",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Няма конфигурирани сайтове. Моля, конфигурирайте сайтовете на картата в настройките на джаджата.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Превключвател на карти - Изберете карта, към която да преминете",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Избор от {sitesCount} наличните карти. Избирането на карта ще ви насочи към това място и ще запази текущата базова карта.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Избор от {sitesCount} наличните карти. Изборът на карта ще ви насочи към това място.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Избор от {sitesCount} Налична карта. Избирането на карта ще ви насочи към това място и ще запази текущата базова карта.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Избор от {sitesCount} Налична карта. Изборът на карта ще ви насочи към това място.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Избор на карта за преглед",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Изберете карта за навигация към различен изглед",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Навигация към {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Навигация към избрана карта. Моля те, почакай.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Премини към основното съдържание",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "bs": {
           "file": "77d1471d95aa",
@@ -66,144 +208,854 @@
           "entries": {}
         },
         "ca": {
-          "file": "49fbff964d96",
+          "file": "c7ffda9dcc35",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Commutador de mapes",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Canvia a...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "No s' ha configurat cap lloc",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "No s' ha configurat cap lloc. Si us plau, configureu els llocs del mapa a l' arranjament de l' estri.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Canviador de mapa - Seleccioneu un mapa a on navegar",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Escolliu des de {sitesCount} mapes disponibles. Seleccionant un mapa us navegarà fins a aquesta localització i manté el mapa de base actual.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Escolliu des de {sitesCount} mapes disponibles. Si seleccioneu un mapa us navegarà fins a aquesta ubicació.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Escolliu des de {sitesCount} Mapa disponible. Seleccionant un mapa us navegarà fins a aquesta localització i manté el mapa de base actual.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Escolliu des de {sitesCount} Mapa disponible. Si seleccioneu un mapa us navegarà fins a aquesta ubicació.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Seleccioneu el mapa a veure",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Seleccioneu un mapa per a navegar a una vista diferent",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Navega fins {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navegar al mapa seleccionat. Espereu, si us plau.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Salta al contingut principal",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "cs": {
-          "file": "bdfa1b99b9bc",
+          "file": "5dcef673deb2",
           "counts": {
             "esri": 0,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Přepínač mapy",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Přepnout na...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Žádné stránky nenakonfigurované",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Žádné stránky nenakonfigurovány. Nastavte prosím mapy v nastavení widget.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Přepínač mapy - vyberte mapu pro přecházení na",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Vyberte si {sitesCount} dostupné mapy. Volba mapy vás nasměruje na toto místo a uchová aktuální základ.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Vyberte si {sitesCount} dostupné mapy. Volba mapy vás navede na toto místo.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Vyberte si {sitesCount} dostupná mapa. Volba mapy vás nasměruje na toto místo a uchová aktuální základ.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Vyberte si {sitesCount} dostupná mapa. Volba mapy vás navede na toto místo.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Zvolte mapu pro zobrazení",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Vyberte si mapu pro navigaci do jiného pohledu",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Přejít na {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navigace na vybranou mapu. Prosím, počkejte.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Přeskočit na hlavní obsah",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "da": {
-          "file": "2bb0b4475a3c",
+          "file": "4e0d3379dfd3",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Kortskifter",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Skift til...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Ingen steder indstillet",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Ingen steder indstillet. Opsætning af kortsider i kontrolindstillingerne.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Kort Switcher - Vælg et kort at navigere til",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Vælg mellem {sitesCount} tilgængelige kort. At vælge et kort vil navigere dig til dette sted og holde den aktuelle basemap.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Vælg mellem {sitesCount} tilgængelige kort. At vælge et kort vil navigere dig til det sted.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Vælg mellem {sitesCount} tilgængeligt kort. At vælge et kort vil navigere dig til dette sted og holde den aktuelle basemap.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Vælg mellem {sitesCount} tilgængeligt kort. At vælge et kort vil navigere dig til det sted.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Vælg kort der skal vises",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Vælg et kort for at navigere til en anden visning",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Naviger til {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navigering til valgt kort. Vent venligst.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Spring til hovedindhold",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "de": {
-          "file": "546938aeb50d",
+          "file": "484a94d8320d",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Kartenumschalter",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Wechsel zu ...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Keine Sites konfiguriert",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Keine Sites konfiguriert. Bitte konfigurieren Sie Kartenseiten in den Widget-Einstellungen.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Map Switcher - Wählen Sie eine Karte, um zu navigieren",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Wählen Sie aus {sitesCount} verfügbare Karten. Wenn Sie eine Karte auswählen, navigieren Sie zu diesem Ort und behalten die aktuelle Basiskarte bei.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Wählen Sie aus {sitesCount} verfügbare Karten. Wenn Sie eine Karte auswählen, navigieren Sie zu diesem Ort.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Wählen Sie aus {sitesCount} verfügbare Karte. Wenn Sie eine Karte auswählen, navigieren Sie zu diesem Ort und behalten die aktuelle Basiskarte bei.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Wählen Sie aus {sitesCount} verfügbare Karte. Wenn Sie eine Karte auswählen, navigieren Sie zu diesem Ort.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Karte auswählen zur Ansicht",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Wählen Sie eine Karte aus, um zu einer anderen Ansicht zu navigieren",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Navigieren zum {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navigieren zur ausgewählten Karte. Bitte warten Sie.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Überspringen zum Hauptinhalt",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "el": {
-          "file": "952dd1fac72b",
+          "file": "59e5118d899e",
           "counts": {
             "esri": 0,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Διακόπτης χαρτών",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Αλλαγή σε...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Δεν έχουν ρυθμιστεί περιοχές",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Δεν έχουν ρυθμιστεί τοποθεσίες. Παρακαλώ ρυθμίστε τις τοποθεσίες χάρτη στις ρυθμίσεις widget.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Διακόπτης χαρτών - Επιλέξτε έναν χάρτη για πλοήγηση",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Επιλογή από {sitesCount} διαθέσιμους χάρτες. Η επιλογή ενός χάρτη θα σας πλοηγήσει σε αυτή την τοποθεσία και να κρατήσει τον τρέχοντα χάρτη βάσης.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Επιλογή από {sitesCount} διαθέσιμους χάρτες. Η επιλογή ενός χάρτη θα σας οδηγήσει σε αυτή την τοποθεσία.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Επιλογή από {sitesCount} διαθέσιμος χάρτης. Η επιλογή ενός χάρτη θα σας πλοηγήσει σε αυτή την τοποθεσία και να κρατήσει τον τρέχοντα χάρτη βάσης.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Επιλογή από {sitesCount} διαθέσιμος χάρτης. Η επιλογή ενός χάρτη θα σας οδηγήσει σε αυτή την τοποθεσία.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Επιλογή χάρτη για προβολή",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Επιλέξτε ένα χάρτη για να περιηγηθείτε σε μια διαφορετική προβολή",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Πλοηγηθείτε σε {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Πλοήγηση σε επιλεγμένο χάρτη. Παρακαλώ περιμένετε.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Μετάβαση στο κύριο περιεχόμενο",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "es": {
-          "file": "000170828942",
+          "file": "aa2bef061297",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Map Switcher",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Cambia a...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "No hay sitios configurados",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "No hay sitios configurados. Por favor configure los sitios de mapa en la configuración del widget.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Map Switcher - Seleccione un mapa para navegar",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Elija entre {sitesCount} mapas disponibles. Seleccionar un mapa le navegará a esa ubicación y mantendrá el mapa base actual.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Elija entre {sitesCount} mapas disponibles. Seleccionar un mapa te navegará a esa ubicación.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Elija entre {sitesCount} mapa disponible. Seleccionar un mapa le navegará a esa ubicación y mantendrá el mapa base actual.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Elija entre {sitesCount} mapa disponible. Seleccionar un mapa te navegará a esa ubicación.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Seleccionar mapa para ver",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Seleccione un mapa para navegar a una vista diferente",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Navigate a {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navegando para el mapa seleccionado. Por favor, espera.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Pasar al contenido principal",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "et": {
-          "file": "d3380c4b2032",
+          "file": "e9d82276dd85",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Kaardilüliti",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Lülitu...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Saite pole seadistatud",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Saite pole seadistatud. Palun seadista kaardisaite vidina seadistustes.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Kaardilüliti - vali kaart, kuhu navigeerida",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Vali {sitesCount} olemasolevad kaardid. Kaardi valimine viib teid sellesse asukohta ja hoiab praegust aluskaarti.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Vali {sitesCount} olemasolevad kaardid. Kaardi valimine suunab teid sellesse asukohta.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Vali {sitesCount} vaba kaart. Kaardi valimine viib teid sellesse asukohta ja hoiab praegust aluskaarti.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Vali {sitesCount} vaba kaart. Kaardi valimine suunab teid sellesse asukohta.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Vaadetava kaardi valimine",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Vali kaart teise vaatesse navigeerimiseks",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Liikuge {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Liikumine valitud kaardile. Palun oota.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Liigu põhisisu juurde",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "fi": {
-          "file": "3b8a3abc3bf3",
+          "file": "b5804229ddcb",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Karttakytkin",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Vaihda...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Asetuksia ei ole määritetty",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Sivustoja ei ole määritetty. Määrittele karttasivustot widget-asetuksissa.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Karttavaihtaja - Valitse kartta, johon navigoidaan",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Valitse mistä {sitesCount} saatavilla olevat kartat. Kartan valinta navigoi tähän paikkaan ja pitää nykyisen pohjakartta.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Valitse mistä {sitesCount} saatavilla olevat kartat. Kartan valinta navigoi tähän paikkaan.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Valitse mistä {sitesCount} käytettävissä oleva kartta. Kartan valinta navigoi tähän paikkaan ja pitää nykyisen pohjakartta.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Valitse mistä {sitesCount} käytettävissä oleva kartta. Kartan valinta navigoi tähän paikkaan.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Valitse tarkasteltava kartta",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Valitse toiseen näkymään navigoitava kartta",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Siirry {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Siirrytään valittuun karttaan. Odota.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Siirry pääsisältöön",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "fr": {
-          "file": "2c74bc79eabe",
+          "file": "b5b83704b9a5",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Commutateur de carte",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Passez à...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Aucun site configuré",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Aucun site configuré. Veuillez configurer les sites de carte dans les paramètres du widget.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Commutateur de carte - Sélectionnez une carte pour naviguer dans",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Choisissez parmi {sitesCount} les cartes disponibles. La sélection d'une carte vous permettra de naviguer à cet endroit et de conserver la carte de base actuelle.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Choisissez parmi {sitesCount} les cartes disponibles. Sélectionner une carte vous permettra de naviguer à cet endroit.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Choisissez parmi {sitesCount} carte disponible. La sélection d'une carte vous permettra de naviguer à cet endroit et de conserver la carte de base actuelle.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Choisissez parmi {sitesCount} carte disponible. Sélectionner une carte vous permettra de naviguer à cet endroit.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Sélectionnez la carte à afficher",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Sélectionnez une carte pour naviguer vers une vue différente",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Naviguez vers {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Naviguer sur la carte sélectionnée. Attendez.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Passer au contenu principal",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "he": {
-          "file": "afda928d8651",
+          "file": "f34e786f08f6",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "מפה Switcher",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "לעבור ל...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "אין אתרים שנקבעו",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "שום אתר לא מוגדר. אנא הגדרת אתרי מפות בהגדרות widget.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Map Switcher - בחר מפה לנווט",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "בחר מתוך {sitesCount} מפות זמינות בחירת מפה ת לנווט אותך למיקום זה ולשמור את מפת הבסיס הנוכחית.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "בחר מתוך {sitesCount} מפות זמינות בחירת מפה ת לנווט אותך למיקום הזה.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "בחר מתוך {sitesCount} מפה זמינה בחירת מפה ת לנווט אותך למיקום זה ולשמור את מפת הבסיס הנוכחית.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "בחר מתוך {sitesCount} מפה זמינה בחירת מפה ת לנווט אותך למיקום הזה.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "בחר מפה כדי להציג",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "בחר מפה לנווט להשקפה שונה",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "לנווט כדי {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "לנווט במפה שנבחרה. בבקשה חכה.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "לדלג על התוכן הראשי",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "hr": {
           "file": "77d1471d95aa",
@@ -220,228 +1072,1364 @@
           "entries": {}
         },
         "hu": {
-          "file": "441f0c1914d5",
+          "file": "033911758f89",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Térképváltó",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Váltás...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Nincs beállított oldal",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Nincs beállított oldal. Kérjük, állítsa be a térkép oldalait a widget beállításokban.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Térkép switcher - Válasszon ki egy térképet navigálni",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Válasszon {sitesCount} elérhető térképek. A térkép kiválasztása elvezet arra a helyre, és megtartja az aktuális alaplapot.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Válasszon {sitesCount} elérhető térképek. A térkép kiválasztása arra a helyre fog irányítani.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Válasszon {sitesCount} elérhető térkép. A térkép kiválasztása elvezet arra a helyre, és megtartja az aktuális alaplapot.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Válasszon {sitesCount} elérhető térkép. A térkép kiválasztása arra a helyre fog irányítani.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Válassza ki a megtekintendő térképet",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Válasszon ki egy térképet egy másik nézethez",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Naiv {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navigáció a kijelölt térképre. Kérem, várjon.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Ugrás a fő tartalomra",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "id": {
-          "file": "0fbba216a643",
+          "file": "f811db16a176",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Pengalih Peta",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Ganti ke...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Tidak ada situs yang dikonfigurasi",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Tidak ada situs yang dikonfigurasi. Silakan konfigurasi situs peta di pengaturan widget.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Pengalih Peta - Pilih peta untuk menavigasi ke",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Pilih dari {sitesCount} peta yang tersedia. Memilih sebuah peta akan menavigasi Anda ke lokasi itu dan menjaga peta bawah tanah saat ini.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Pilih dari {sitesCount} peta yang tersedia. Memilih peta akan menavigasi Anda ke lokasi itu.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Pilih dari {sitesCount} peta yang tersedia. Memilih sebuah peta akan menavigasi Anda ke lokasi itu dan menjaga peta bawah tanah saat ini.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Pilih dari {sitesCount} peta yang tersedia. Memilih peta akan menavigasi Anda ke lokasi itu.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Pilih peta yang akan ditampilkan",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Pilih peta untuk menavigasi ke tampilan lain",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Navigasi ke {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navigasi ke peta terpilih. Tunggu sebentar.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Lewati ke isi utama",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "it": {
-          "file": "e5ea801bf3b2",
+          "file": "cee05b5842eb",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Mappa Switcher",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Passa a...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Nessun sito configurato",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Nessun sito configurato. Si prega di configurare i siti di mappa nelle impostazioni del widget.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Mappa Switcher - Seleziona una mappa per navigare",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Scegli tra {sitesCount} mappe disponibili. La selezione di una mappa ti porterà in quella posizione e manterrà la mappa di base corrente.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Scegli tra {sitesCount} mappe disponibili. La selezione di una mappa ti porterà in quella posizione.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Scegli tra {sitesCount} mappa disponibile. La selezione di una mappa ti porterà in quella posizione e manterrà la mappa di base corrente.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Scegli tra {sitesCount} mappa disponibile. La selezione di una mappa ti porterà in quella posizione.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Seleziona la mappa per visualizzare",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Seleziona una mappa per navigare in una vista diversa",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Navigare per {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navigando alla mappa selezionata. Ti prego, aspetta.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Salta al contenuto principale",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "ja": {
-          "file": "259b8d68c3d1",
+          "file": "a098eefdeec2",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "地図のスイッチャー",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "スイッチ...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "サイト構成なし",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "設定されていないサイト ウィジェットの設定でマップサイトを設定してください。",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "地図のスイッチャー - 地図を選択してナビゲーション",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "から選ぶ {sitesCount} サイトマップ 地図を選択すると、その場所に移動し、現在のベースマップを保持します。",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "から選ぶ {sitesCount} サイトマップ 地図を選択すると、その場所に移動します。",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "から選ぶ {sitesCount} サイトマップ 地図を選択すると、その場所に移動し、現在のベースマップを保持します。",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "から選ぶ {sitesCount} サイトマップ 地図を選択すると、その場所に移動します。",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "地図を選択",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "異なるビューに移動するためのマップを選択します",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "ナビゲートへ {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "選択したマップに移動します。 お問い合わせ",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "メインコンテンツへスキップ",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "ko": {
-          "file": "fd51797bd9a4",
+          "file": "0dc978a843ea",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "지도 Switcher",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "스위치 ...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "사이트 구성",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "사이트가 없습니다. 위젯 설정에서 맵 사이트를 구성하십시오.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Map Switcher - 지도를 선택하여 탐색",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "구매하기 {sitesCount} 가능한지도. 지도를 선택하면 그 위치로 이동하고 현재 Basemap을 유지합니다.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "구매하기 {sitesCount} 가능한지도. 지도를 선택하면 해당 위치로 이동합니다.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "구매하기 {sitesCount} 가능한 지도. 지도를 선택하면 그 위치로 이동하고 현재 Basemap을 유지합니다.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "구매하기 {sitesCount} 가능한 지도. 지도를 선택하면 해당 위치로 이동합니다.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "지도 보기",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "다른 보기로 이동할지도를 선택",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "바로가기 {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "선택된 지도로 이동합니다. 자주 묻는 질문",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "본문 바로가기",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "lt": {
-          "file": "b47d5c4d7e8c",
+          "file": "a6f4aadc37c3",
           "counts": {
             "esri": 0,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Žemėlapio perjungiklis",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Persijungti į...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Nenurodytos svetainės",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Nėra sukonfigūruotų svetainių. @ info: whatsthis",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Žemėlapio perjungiklis - Pasirinkite naršyti žemėlapį",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Pasirinkite {sitesCount} turimus žemėlapius. Pasirinkus žemėlapį bus naršyti toje vietoje ir išlaikyti esamą basemap.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Pasirinkite {sitesCount} turimus žemėlapius. Pasirinkus žemėlapį nukeliausite į tą vietą.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Pasirinkite {sitesCount} prieinamas žemėlapis. Pasirinkus žemėlapį bus naršyti toje vietoje ir išlaikyti esamą basemap.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Pasirinkite {sitesCount} prieinamas žemėlapis. Pasirinkus žemėlapį nukeliausite į tą vietą.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Pažymėti rodomą žemėlapį",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Pasirinkite žemėlapį naršymui į kitą rodinį",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Eiti į {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navigacija į pasirinktą žemėlapį. Palaukite.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Praleisti į pagrindinį turinį",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "lv": {
-          "file": "277888e2f871",
+          "file": "8553e0168250",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Kartes pārslēdzējs",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Pārslēgties uz...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Nav konfigurēta neviena vietne",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Nav konfigurēta neviena vietne. Lūdzu konfigurējiet kartes vietnes logdaļu iestatījumos.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Kartes pārslēdzējs - Izvēlieties karti, uz kuru doties",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Izvēlieties {sitesCount} pieejamās kartes. Izvēloties karti, jūs pārcelsiet uz šo vietu un saglabāsiet pašreizējo bāzes karti.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Izvēlieties {sitesCount} pieejamās kartes. Izvēloties karti, jūs pārvietos uz šo vietu.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Izvēlieties {sitesCount} pieejamā karte. Izvēloties karti, jūs pārcelsiet uz šo vietu un saglabāsiet pašreizējo bāzes karti.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Izvēlieties {sitesCount} pieejamā karte. Izvēloties karti, jūs pārvietos uz šo vietu.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Izvēlieties apskatāmo karti",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Izvēlieties karti, ko pārvietot uz citu skatu",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Pārvietoties uz {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Virzīties uz izvēlēto karti. Lūdzu, uzgaidiet.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Pāriet uz galveno saturu",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "no": {
-          "file": "552d167bbacf",
+          "file": "4e6904cbe403",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Kartbryter",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Bytt til...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Ingen nettsteder satt opp",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Ingen nettsteder konfigurert. Vennligst konfigurer kartsider i elementinnstillingene.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Kartbryter - Velg et kart for å navigere til",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Velg mellom {sitesCount} tilgjengelige kart. Å velge et kart vil navigere deg til den plasseringen og holde gjeldende basiskart.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Velg mellom {sitesCount} tilgjengelige kart. Å velge et kart vil navigere deg til det stedet.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Velg mellom {sitesCount} Tilgjengelig kart. Å velge et kart vil navigere deg til den plasseringen og holde gjeldende basiskart.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Velg mellom {sitesCount} Tilgjengelig kart. Å velge et kart vil navigere deg til det stedet.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Velg kart som skal vises",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Velg et kart for å navigere til en annen visning",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Gå til {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navigasjon til valgt kart. Vent.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Hopp til hovedinnhold",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "nl": {
-          "file": "28f4ad4b4103",
+          "file": "c79c06230d80",
           "counts": {
             "esri": 0,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Kaartenwisselaar",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Overschakelen naar...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Geen sites ingesteld",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Geen sites geconfigureerd. Configureren van kaart sites in de widget-instellingen.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Kaartenwisselaar - Selecteer een kaart om naar te navigeren",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Kies uit {sitesCount} beschikbare kaarten. Een kaart selecteren zal u naar die locatie navigeren en de huidige basismap behouden.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Kies uit {sitesCount} beschikbare kaarten. Een kaart selecteren zal u naar die locatie navigeren.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Kies uit {sitesCount} beschikbare kaart. Een kaart selecteren zal u naar die locatie navigeren en de huidige basismap behouden.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Kies uit {sitesCount} beschikbare kaart. Een kaart selecteren zal u naar die locatie navigeren.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Selecteer de kaart om te bekijken",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Selecteer een kaart om naar een andere weergave te navigeren",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Navigeren naar {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navigeren naar geselecteerde kaart. Wacht even.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Overslaan en naar de inhoud gaan",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "pl": {
-          "file": "1ce36a5e7b48",
+          "file": "ca86e1f54d80",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Przełącznik map",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Przełącz na...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Brak skonfigurowanych stron",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Brak skonfigurowanych stron. Proszę skonfigurować strony mapy w ustawieniach widget.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Map Switcher - Wybierz mapę do nawigacji",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Wybierz {sitesCount} dostępne mapy. Wybierając mapę, przejdziesz do tego miejsca i zachowasz obecną bazę danych.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Wybierz {sitesCount} dostępne mapy. Wybór mapy poprowadzi cię do tego miejsca.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Wybierz {sitesCount} dostępna mapa. Wybierając mapę, przejdziesz do tego miejsca i zachowasz obecną bazę danych.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Wybierz {sitesCount} dostępna mapa. Wybór mapy poprowadzi cię do tego miejsca.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Wybierz mapę do wyświetlenia",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Wybierz mapę do nawigacji do innego widoku",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Przejdź do {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Nawigacja do wybranej mapy. Proszę poczekać.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Przejdź do głównej treści",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "pt-br": {
-          "file": "e0d1c1c8d426",
+          "file": "4cec78c2b196",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Comutador de mapas",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Mude para...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Nenhum site configurado",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Nenhum site configurado. Por favor, configure os sites de mapas nas configurações do widget.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Seleciona um mapa para onde navegar",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Escolha entre {sitesCount} mapas disponíveis. Se selecionar um mapa irá navegar até esse local e manterá o mapa de base atual.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Escolha entre {sitesCount} mapas disponíveis. Selecionar um mapa irá navegar até esse local.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Escolha entre {sitesCount} mapa disponível. Se selecionar um mapa irá navegar até esse local e manterá o mapa de base atual.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Escolha entre {sitesCount} mapa disponível. Selecionar um mapa irá navegar até esse local.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Selecione o mapa para ver",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Selecione um mapa para navegar para uma visão diferente",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Navegar para {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navegando para o mapa selecionado. Por favor, espere.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Ir para o conteúdo principal",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "pt-pt": {
-          "file": "3adf2f502499",
+          "file": "23ac8e5c93bf",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Comutador de mapas",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Mudar para...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Nenhum site configurado",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Nenhum site configurado. Por favor, configure os sites do mapa nas configurações do widget.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Comutador de mapas - Selecione um mapa para onde navegar",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Escolher entre {sitesCount} mapas disponíveis. Selecionar um mapa irá navegar até esse local e manter o mapa de base atual.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Escolher entre {sitesCount} mapas disponíveis. Selecionar um mapa irá navegar até esse local.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Escolher entre {sitesCount} mapa disponível. Selecionar um mapa irá navegar até esse local e manter o mapa de base atual.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Escolher entre {sitesCount} mapa disponível. Selecionar um mapa irá navegar até esse local.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Seleccione o mapa a ver",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Selecione um mapa para navegar para uma visão diferente",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Navegar para {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navegando para o mapa selecionado. Por favor, espere.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Saltar para o conteúdo principal",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "ro": {
-          "file": "2bb4d20c9529",
+          "file": "68d7d321757e",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Comutator hartă",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Comută pe...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Niciun site configurat",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Niciun site configurat. Configurează site-urile hărților în setările widget.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Switcher hartă - Selectați o hartă la care să navigați",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Alege din {sitesCount} hărți disponibile. Selectați o hartă vă va naviga la acea locație și să păstreze harta de bază curentă.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Alege din {sitesCount} hărți disponibile. Alegeți o hartă vă va naviga la acea locație.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Alege din {sitesCount} harta disponibilă. Selectați o hartă vă va naviga la acea locație și să păstreze harta de bază curentă.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Alege din {sitesCount} harta disponibilă. Alegeți o hartă vă va naviga la acea locație.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Alegeți harta de văzut",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Alegeți o hartă pentru a naviga la o vizualizare diferită",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Navighează la {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navigare către harta selectată. Te rog aşteaptă.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Sari la conținutul principal",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "ru": {
-          "file": "c0279f38c42a",
+          "file": "c7668438c676",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Переключатель карт",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Переключитесь на...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Сайты не настроены",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Сайты не настроены. Пожалуйста, настройте сайты карты в настройках виджета.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Map Switcher - Выберите карту для навигации",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Выбрать из {sitesCount} Доступные карты. Выбор карты приведет вас к этому месту и сохранит текущую базовую карту.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Выбрать из {sitesCount} Доступные карты. Выбор карты приведет вас к этому месту.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Выбрать из {sitesCount} Доступная карта. Выбор карты приведет вас к этому месту и сохранит текущую базовую карту.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Выбрать из {sitesCount} Доступная карта. Выбор карты приведет вас к этому месту.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Выберите карту для просмотра",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Выберите карту, чтобы перейти к другому виду",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Навигация для {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Переход на выбранную карту. Пожалуйста, подождите.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Пропустить основной контент",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "sk": {
-          "file": "241f73631c9d",
+          "file": "db3c9821b0c9",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Prepínač mapy",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Prepnúť na...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Žiadne konfigurované stránky",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Žiadne stránky konfigurované. Prosím, konfigurujte mapové stránky v nastaveniach widgetu.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Mapový switcher - Vyberte mapu pre navigáciu",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Vyberte z {sitesCount} dostupné mapy. Výber mapy vás naviguje na toto miesto a zachová aktuálnu mapu.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Vyberte z {sitesCount} dostupné mapy. Výberom mapy sa dostanete na toto miesto.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Vyberte z {sitesCount} dostupná mapa. Výber mapy vás naviguje na toto miesto a zachová aktuálnu mapu.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Vyberte z {sitesCount} dostupná mapa. Výberom mapy sa dostanete na toto miesto.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Vyberte mapu pre zobrazenie",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Vyberte mapu pre prechod na iný pohľad",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Navigovať do {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navigácia na vybranú mapu. Prosím, počkajte.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Preskočiť na hlavný obsah",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "sl": {
-          "file": "708a4bdce57e",
+          "file": "44233706f74a",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Preklopnik zemljevidov",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Preklopi na...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Ni nastavljenih mest",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Ni nastavljenih mest. Nastavite mesta zemljevida v nastavitvah gradnikov.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Preklopnik zemljevidov - Izberite zemljevid za navigacijo",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Izberite med {sitesCount} razpoložljive zemljevide. Izbira zemljevida vas bo usmerila na to lokacijo in ohranila trenutno osnovno karto.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Izberite med {sitesCount} razpoložljive zemljevide. Izbira zemljevida vas bo napotila na to lokacijo.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Izberite med {sitesCount} razpoložljiv zemljevid. Izbira zemljevida vas bo usmerila na to lokacijo in ohranila trenutno osnovno karto.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Izberite med {sitesCount} razpoložljiv zemljevid. Izbira zemljevida vas bo napotila na to lokacijo.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Izberite zemljevid za ogled",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Izberite zemljevid za navigacijo v drug prikaz",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Navigacija za {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navigacija na izbrano karto. Prosim, počakajte.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Preskoči na glavno vsebino",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "sr": {
           "file": "071a859d0099",
@@ -458,116 +2446,684 @@
           "entries": {}
         },
         "sv": {
-          "file": "3040c9d1d3d2",
+          "file": "1b0b51ca0059",
           "counts": {
             "esri": 0,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Karta Switcher",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Växla till...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Inga webbplatser konfigurerade",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Inga webbplatser konfigurerade. Konfigurera kartplatser i widgetinställningarna.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Karta Switcher - Välj en karta för att navigera för att",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Välj mellan {sitesCount} tillgängliga kartor. Välja en karta kommer att navigera dig till den platsen och hålla den aktuella baskartan.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Välj mellan {sitesCount} tillgängliga kartor. Välja en karta kommer att navigera dig till den platsen.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Välj mellan {sitesCount} tillgänglig karta. Välja en karta kommer att navigera dig till den platsen och hålla den aktuella baskartan.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Välj mellan {sitesCount} tillgänglig karta. Välja en karta kommer att navigera dig till den platsen.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Välj karta för att visa",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Välj en karta för att navigera till en annan vy",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Navigera till {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Navigera till vald karta. Vänta.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Hoppa till huvudinnehåll",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "th": {
-          "file": "7a0b457c86e7",
+          "file": "bae54c0bcd55",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "ตัวสลับผังแผนที่",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "สลับไปยัง...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "ยังไม่มีการกําหนดเว็บไซต์ใด ๆ",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "ยังไม่มีการปรับแต่งเว็บไซต์ โปรดทําการปรับแต่งไซต์แผนที่ในการตั้งค่าวิดเจ็ต",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "โปรแกรมสลับแผนที่ - เลือกแผนที่ที่จะใช้นําทางไปยัง",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "เลือกจาก {sitesCount} มีแผนที่อยู่ การเลือกแผนที่จะนําทางคุณไปยังสถานที่นั้น และเก็บฐานแมปปัจจุบันไว้",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "เลือกจาก {sitesCount} มีแผนที่อยู่ การเลือกแผนที่จะนําทางคุณไปยังสถานที่นั้น",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "เลือกจาก {sitesCount} มีแผนที่อยู่ การเลือกแผนที่จะนําทางคุณไปยังสถานที่นั้น และเก็บฐานแมปปัจจุบันไว้",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "เลือกจาก {sitesCount} มีแผนที่อยู่ การเลือกแผนที่จะนําทางคุณไปยังสถานที่นั้น",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "เลือกแผนที่ที่จะแสดง",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "เลือกแผนที่ที่จะนําทางไปยังมุมมองอื่น",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "นํามายัง {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "บินไปยังแผนที่ที่เลือก โปรดรอ",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "ข้ามไปยังเนื้อหาหลัก",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "tr": {
-          "file": "583459fd9944",
+          "file": "4a214b8cd815",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Map Switcher",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Switch to...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Hiçbir site yapılandırılmış",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Hiçbir site yapılandırılmadı. Please configure map sites in the widget settings.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Map Switcher - gezinmek için bir harita seçin",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Select from Select from {sitesCount} Mevcut haritalar. Bir haritayı seçmek sizi o yere götürecek ve mevcut bazmap tutacaktır.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Select from Select from {sitesCount} Mevcut haritalar. Bir harita seçmek sizi bu yere götürecek.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Select from Select from {sitesCount} Mevcut harita. Bir haritayı seçmek sizi o yere götürecek ve mevcut bazmap tutacaktır.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Select from Select from {sitesCount} Mevcut harita. Bir harita seçmek sizi bu yere götürecek.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Görmek için harita seçin",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Farklı bir görüşe gitmek için bir harita seçin",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Navigate to {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Seçilmiş haritaya geçiş. Lütfen bekleyin.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Skip to main content",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "zh-cn": {
-          "file": "d0403e210f8d",
+          "file": "3e53bd8d0959",
           "counts": {
             "esri": 0,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "地图切换器",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "切换到...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "没有配置站点",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "未配置站点 。 请在部件设置中配置地图站点 。",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "地图切换器 - 选择要导航的地图",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "选择从 {sitesCount} 可用地图。 选择一个地图将引导您到该位置, 并保留当前底图 。",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "选择从 {sitesCount} 可用地图。 选择地图将引导您前往该位置 。",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "选择从 {sitesCount} 可用地图。 选择一个地图将引导您到该位置, 并保留当前底图 。",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "选择从 {sitesCount} 可用地图。 选择地图将引导您前往该位置 。",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "选择要查看的地图",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "选择导航到不同视图的地图",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "导航到 {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "导航到选中的地图 。 请等一下",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "跳转到主内容",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "uk": {
-          "file": "23ed58d08aab",
+          "file": "69e9f84c77a2",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Карта Switcher",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Перемикач...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Немає сайтів, налаштованих",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Немає сайтів, налаштованих. Будь ласка, налаштуйте сайти на карті в налаштуваннях віджету.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Карта Switcher - Виберіть карту для навігації",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Виберіть {sitesCount} доступні карти. Вибір карти буде навігувати вас до цього місця розташування і зберігати поточний базовий карти.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Виберіть {sitesCount} доступні карти. Вибір карти буде навігати вас на це місце.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Виберіть {sitesCount} доступна карта. Вибір карти буде навігувати вас до цього місця розташування і зберігати поточний базовий карти.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Виберіть {sitesCount} доступна карта. Вибір карти буде навігати вас на це місце.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Виберіть карту для перегляду",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Виберіть карту для навігації в інший вид",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Навігація {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Навігація до вибраної карти. Будь ласка, почекайте.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Головна",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "vi": {
-          "file": "9610d3c648e1",
+          "file": "19bbe5f9ead1",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "Trình đổi bản đồ",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "Chuyển sang...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "Chưa cấu hình nơi Mạng",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "Chưa cấu hình nơi Mạng. Hãy cấu hình sơ đồ trong thiết lập ô điều khiển.",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "Trình đổi bản đồ - Chọn bản đồ cần định hướng tới",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "Chọn từ {sitesCount} Bản đồ có sẵn. Chọn một bản đồ sẽ định hướng bạn đến vị trí đó và giữ sơ đồ cơ sở hiện thời.",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "Chọn từ {sitesCount} Bản đồ có sẵn. Chọn một bản đồ sẽ định hướng bạn đến địa điểm đó.",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "Chọn từ {sitesCount} có sẵn bản đồ. Chọn một bản đồ sẽ định hướng bạn đến vị trí đó và giữ sơ đồ cơ sở hiện thời.",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "Chọn từ {sitesCount} có sẵn bản đồ. Chọn một bản đồ sẽ định hướng bạn đến địa điểm đó.",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "Chọn bản đồ cần xem",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "Chọn một bản đồ để di chuyển tới một ô xem khác",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "Chuyển tới {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "Chuyển sang bản đồ đã chọn. Đợi đã.",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "Bỏ qua nội dung chính",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "zh-hk": {
-          "file": "b92d09d141c6",
+          "file": "7a98b156a833",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "地圖切換器",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "切換到...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "沒有設定站台",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "未設定網站 。 請在元件設定中設定地圖站點 。",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "地圖切換器 - 選擇要導航的地圖",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "選擇從 {sitesCount} 可用的地圖 。 選擇地圖會導引您到那個位置, 並保留目前的基底圖 。",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "選擇從 {sitesCount} 可用的地圖 。 選擇地圖會導引您到那個位置 。",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "選擇從 {sitesCount} 可用的地圖 。 選擇地圖會導引您到那個位置, 並保留目前的基底圖 。",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "選擇從 {sitesCount} 可用的地圖 。 選擇地圖會導引您到那個位置 。",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "選擇要查看的地圖",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "選擇通向不同檢視的地圖",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "導航到 {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "導引到選取的地圖 。 等等",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "跳到主內容",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         },
         "zh-tw": {
-          "file": "b92d09d141c6",
+          "file": "7a98b156a833",
           "counts": {
             "esri": 1,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 14,
             "stale": 0,
-            "missing": 14
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "_widgetLabel": {
+              "t": "地圖切換器",
+              "src": "machine",
+              "h": "f5068177f7c4"
+            },
+            "switchTo": {
+              "t": "切換到...",
+              "src": "machine",
+              "h": "7faac7eed79f"
+            },
+            "noSitesConfigured": {
+              "t": "沒有設定站台",
+              "src": "machine",
+              "h": "2488a958ab85"
+            },
+            "noSitesConfiguredPleaseConfigureMap": {
+              "t": "未設定網站 。 請在元件設定中設定地圖站點 。",
+              "src": "machine",
+              "h": "dfc347ca5568"
+            },
+            "mapSwitcherSelectAMapTo": {
+              "t": "地圖切換器 - 選擇要導航的地圖",
+              "src": "machine",
+              "h": "aa4ca19fcb09"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting": {
+              "t": "選擇從 {sitesCount} 可用的地圖 。 選擇地圖會導引您到那個位置, 並保留目前的基底圖 。",
+              "src": "machine",
+              "h": "6322726f526b"
+            },
+            "chooseFromSitesCountAvailableMapsSelecting2": {
+              "t": "選擇從 {sitesCount} 可用的地圖 。 選擇地圖會導引您到那個位置 。",
+              "src": "machine",
+              "h": "153d5ae18907"
+            },
+            "chooseFromSitesCountAvailableMapSelecting": {
+              "t": "選擇從 {sitesCount} 可用的地圖 。 選擇地圖會導引您到那個位置, 並保留目前的基底圖 。",
+              "src": "machine",
+              "h": "c29f6b1616f0"
+            },
+            "chooseFromSitesCountAvailableMapSelecting2": {
+              "t": "選擇從 {sitesCount} 可用的地圖 。 選擇地圖會導引您到那個位置 。",
+              "src": "machine",
+              "h": "a7756e092cd9"
+            },
+            "selectMapToView": {
+              "t": "選擇要查看的地圖",
+              "src": "machine",
+              "h": "e4eb3d868253"
+            },
+            "selectAMapToNavigateTo": {
+              "t": "選擇通向不同檢視的地圖",
+              "src": "machine",
+              "h": "1c91c9a8804d"
+            },
+            "navigateToLabel": {
+              "t": "導航到 {label}",
+              "src": "machine",
+              "h": "28ad3e189c32"
+            },
+            "navigatingToSelectedMapPleaseWait": {
+              "t": "導引到選取的地圖 。 等等",
+              "src": "machine",
+              "h": "89ed4e33a129"
+            },
+            "skipToMainContent": {
+              "t": "跳到主內容",
+              "src": "machine",
+              "h": "be504f616fd1"
+            }
+          }
         }
       }
     },
@@ -594,32 +3150,124 @@
       },
       "locales": {
         "ar": {
-          "file": "727228ce55b7",
+          "file": "8dbeabb9d0c0",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "خريطة الأساس",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "يرسل خريطة القاعدة التي تم اختيارها في أي من معرض ألعاب القاعدة إلى التطبيق التالي The destination app needs a Map Switcher connected to its map to apply it.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "No map selected: the first Map widget in the app is used. اختيار واحد هنا إذا كان التطبيق لديه أكثر من خريطة واحدة.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "المقاعد",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Site {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "موقع النقل {index} استيقظ",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "موقع النقل {index} للأسفل",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "اسم الموقع",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "مضبوطة",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "bg": {
-          "file": "9c91de69d7c2",
+          "file": "b3dfce51278d",
           "counts": {
             "esri": 6,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Пренасяне на базова карта към следващата карта",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Изпращане на основната карта, избрана в някоя от базовите карти галерия към следващото приложение. Приложението за местоназначение се нуждае от Map Switcher, свързан към картата му, за да го прилага.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Не е избрана карта: се използва първата карта джаджа в приложението. Изберете един тук, ако приложението има повече от една карта.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Обекти",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Място {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Преместване на мястото {index} Нагоре",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Преместване на мястото {index} Долу",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Име на сайта",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Добавяне на сайта",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "bs": {
           "file": "4351f366b697",
@@ -636,144 +3284,604 @@
           "entries": {}
         },
         "ca": {
-          "file": "ed0bee3e34fc",
+          "file": "9bf8f293e933",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Carrega el mapa base al mapa següent",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Envia el mapa base seleccionat en una galeria basemap a la següent aplicació. L' aplicació de destí necessita un intercanvi de mapes connectat al seu mapa per aplicar- lo.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "No s' ha seleccionat cap mapa: s' usa el primer estri de mapa de l' aplicació. Seleccioneu un aquí si l' aplicació té més d' un mapa.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Llocs",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Lloc {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Mou el lloc {index} amunt",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Mou el lloc {index} avall",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Nom del lloc",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Afegeix lloc",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "cs": {
-          "file": "7a130c780f32",
+          "file": "2bffe52983d4",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Přenést basemap na další mapu",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Odesílá basemap vybraný v každé z nich galerie na další aplikaci. Cílová aplikace potřebuje přepínač mapy připojený k její mapě, aby ji mohl použít.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Není zvolena žádná mapa: je použit první widget mapy v aplikaci. Vyberte jednu zde, pokud aplikace má více než jednu mapu.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Stránky",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Místo {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Přesun {index} Nahoru",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Přesun {index} dolů",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Název lokality",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Přidat místo",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "da": {
-          "file": "944b46ae1001",
+          "file": "541e669a7b7f",
           "counts": {
             "esri": 6,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Bær basemap til næste kort",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Sender basemap valgt i enten basemap galleri til den næste app. Destinationen app har brug for en kort switcher tilsluttet til sit kort til at anvende det.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Intet kort valgt: Den første kortkontrol i appen bruges. Vælg en her hvis appen har mere end et kort.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Sider",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Område {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Flyt sted {index} op",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Flyt sted {index} ned",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Navn",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Tilføj side",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "de": {
-          "file": "a0585094f889",
+          "file": "af195c2842f0",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Basemap auf die nächste Karte übertragen",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Sendet die in der Basemap-Galerie ausgewählte Basemap an die nächste App. Die Ziel-App benötigt einen Map Switcher, der mit ihrer Karte verbunden ist, um sie anzuwenden.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Keine Karte ausgewählt: Das erste Map-Widget in der App wird verwendet. Wählen Sie hier eine aus, wenn die App mehr als eine Karte hat.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Gebiete",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Standort {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Standort verschieben {index} bis",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Standort verschieben {index} nach unten",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Name des Gebiets",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Site hinzufügen",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "el": {
-          "file": "f1c7a9d4cba4",
+          "file": "1bc177946464",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Μεταφορά χάρτη βάσης στον επόμενο χάρτη",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Στέλνει τον χάρτη βάσης που επιλέγεται σε οποιαδήποτε γκαλερί basemap στην επόμενη εφαρμογή. Η εφαρμογή προορισμού χρειάζεται ένα Map Switcher συνδεδεμένο στο χάρτη του για να το εφαρμόσει.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Δεν επιλέχθηκε χάρτης: χρησιμοποιείται το πρώτο γραφικό συστατικό χάρτη στην εφαρμογή. Επιλέξτε ένα εδώ αν η εφαρμογή έχει περισσότερους από έναν χάρτες.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Τόποι",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Ιστοσελίδα {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Μετακίνηση τοποθεσίας {index} Πάνω",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Μετακίνηση τοποθεσίας {index} Κάτω",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Όνομα τοποθεσίας",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Προσθήκη τοποθεσίας",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "es": {
-          "file": "07a7f80e2c24",
+          "file": "b4c75fce6870",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Carry basemap al siguiente mapa",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Envia el mapa base elegido en la galería basemap a la siguiente aplicación. La aplicación de destino necesita un conmutador de mapa conectado a su mapa para aplicarlo.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "No se ha seleccionado ningún mapa: se utiliza el primer widget de mapa en la aplicación. Seleccione uno aquí si la aplicación tiene más de un mapa.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Sitios",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Sitio {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Mover sitio {index} arriba",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Mover sitio {index} abajo",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Nombre del sitio",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Agregar sitio",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "et": {
-          "file": "16556a196304",
+          "file": "853c02cf025a",
           "counts": {
             "esri": 6,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Aluskaardi kandmine järgmisele kaardile",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Saadab mõlemas aluskaardi galeriis valitud aluskaardi järgmisele rakendusele. Sihtkoha rakendus vajab selle rakendamiseks kaardilülitit, mis on ühendatud selle kaardiga.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Kaarti pole valitud: kasutatakse rakenduse esimest kaardividinat. Valige üks siin, kui rakendusel on rohkem kui üks kaart.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Saidid",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Site {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Liikumiskoht {index} üles",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Liikumiskoht {index} alla",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Saidi nimi",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Lisa veebileht",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "fi": {
-          "file": "2da4c3ab7dbb",
+          "file": "bdb5e01c513d",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Kantaa pohjakartta seuraavaan karttaan",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Lähettää joko basemap galleriassa valitun pohjakartta seuraavan sovelluksen. Kohdesovellus tarvitsee karttaan liitetyn karttakytkimen.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Karttaa ei ole valittu: käytetään sovelluksen ensimmäistä kartta-elementtiä. Valitse yksi tästä, jos sovelluksessa on useampi kuin yksi kartta.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Sivustot",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Alue {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Siirrä sivusto {index} ylös",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Siirrä sivusto {index} alas",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Kohteen nimi",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Lisää sivu",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "fr": {
-          "file": "25bd4794a0e2",
+          "file": "9aea732ba285",
           "counts": {
             "esri": 6,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Porter la carte de base à la carte suivante",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Envoie la carte de base choisie dans chaque galerie de carte de base à l'application suivante. L'application de destination a besoin d'un commutateur de carte connecté à sa carte pour l'appliquer.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Aucune carte sélectionnée : le premier widget Map de l'application est utilisé. Sélectionnez-en un ici si l'application a plus d'une carte.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Sites",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Site {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Déplacer le site {index} en haut",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Déplacer le site {index} baisse",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Nom du site",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Ajouter un site",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "he": {
-          "file": "90b7eebc1c76",
+          "file": "b5986ef88a15",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "ערכת בסיס למפה הבאה",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "שולח את מפת הבסיס שנבחרה בגלריית מפת בסיס לאפליקציית הבאה. אפליקציית היעד זקוקה ל- Map Switcher המחובר למפה כדי ליישם אותה.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "אין מפה שנבחרה: הראשון מפה widget ביישום משמש. בחרו כאן אם לאפליקציית יש יותר ממפה אחת.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "אתרים",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "אתר Site {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "העברת אתר {index} למעלה",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "העברת אתר {index} למטה למטה",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "שם אתר",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "הוסף אתר",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "hr": {
           "file": "4351f366b697",
@@ -790,228 +3898,964 @@
           "entries": {}
         },
         "hu": {
-          "file": "3ff0521f4ea0",
+          "file": "a4b5c1a10a1d",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Basemap átvitele a következő térképre",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "A bazemapot bármelyik basemap galériában a következő alkalmazásra küldi. A célalkalmazáshoz egy térképváltóra van szükség, amely a térképéhez csatlakozik.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Nincs kijelölve térkép: az alkalmazásban található első térkép widget. Válasszon ki egyet, ha az alkalmazásnak egynél több térképe van.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Oldalak",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Helyszín {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Mozgatás {index} Fel",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Mozgatás {index} lefelé",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Webhely neve",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Helyszín hozzáadása",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "id": {
-          "file": "81cf22f526dc",
+          "file": "d508fdf4e8c8",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Bawa peta dasar ke peta berikutnya",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Mengirim peta dasar yang dipilih dalam galeri peta dasar ke aplikasi berikutnya. Aplikasi tujuan memerlukan Pengalih Peta yang terhubung ke peta untuk menerapkannya.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Tak ada peta yang dipilih: Widget Peta pertama di aplikasi dipakai. Pilih satu di sini jika aplikasi memiliki lebih dari satu peta.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Situs",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Situs {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Pindah situs {index} naik",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Pindah situs {index} turun",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Nama tempat",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Tambah Situs",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "it": {
-          "file": "b655daf8571d",
+          "file": "6c5eda1ab8dc",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Carry basemap per la prossima mappa",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Invia la mappa di base scelta nella galleria di basemap alla prossima app. L'app di destinazione ha bisogno di un Switcher Map collegato alla sua mappa per applicarlo.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Nessuna mappa selezionata: viene utilizzato il primo widget della mappa nell'app. Selezionare uno qui se l'applicazione ha più di una mappa.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Siti",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Sito web {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Spostare il sito {index} su",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Spostare il sito {index} giù",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Nome del sito",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Aggiungi il sito",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "ja": {
-          "file": "baa93083922f",
+          "file": "64e7a074fd0e",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "次のマップへ",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "ベースマップギャラリーで選択したベースマップを次のアプリに送信します。 宛先アプリは、マップに接続されたマップに接続されたマップが必要です。",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "選択したマップなし:アプリの最初のマップウィジェットが使用されます。 アプリが複数のマップを持っている場合は、こちらを選択します。",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "サイトマップ",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "サイトマップ {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "サイトマップ {index} ニュース",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "サイトマップ {index} ダウンダウン",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "サイトマップ",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "サイトの追加",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "ko": {
-          "file": "ad1184324168",
+          "file": "6585a0854a78",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "다음 맵으로 이동",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "basemap 갤러리에서 다음 앱으로 선택된 basemap을 보냅니다. 대상 앱은 지도에 연결된 Map Switcher가 필요합니다.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "선택된 지도 없음: 앱의 첫번째 지도 위젯은 사용됩니다. 앱이 1 개 이상의지도가있는 경우 여기에서 하나를 선택하십시오.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "사이트 맵",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "사이트 맵 {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "사이트 맵 {index} 맨 위로",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "사이트 맵 {index} 맨 위로",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "사이트 이름",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "사이트 맵",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "lt": {
-          "file": "9e675f1759d3",
+          "file": "210da4ce968f",
           "counts": {
             "esri": 6,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Perkelti basemap į kitą žemėlapį",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Siunčia basemap pasirinktą arba basemap galerija į kitą programą. Paskirties programėlei reikia Žemėlapio perjungiklio, prijungto prie žemėlapio.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Nepasirinktas žemėlapis: naudojamas pirmasis programos Žemėlapio valdiklis. Pasirinkite vieną čia, jei programa turi daugiau nei vieną žemėlapį.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Teritorijos",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Vieta {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Perkelti vietą {index} aukštyn",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Perkelti vietą {index} žemyn",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Teritorijos pavadinimas",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Pridėti svetainę",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "lv": {
-          "file": "172db7c2c91f",
+          "file": "b219e5f5e5cd",
           "counts": {
             "esri": 6,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Pārvietot bāzes karti uz nākamo karti",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Nosūta izvēlētās bāzes kartes vai nu bāzes kartes galerijā uz nākamo programmu. Lai to piemērotu, mērķa lietotnei ir nepieciešams ar karti savienots karšu pārslēdzējs.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Nav izvēlēta karte: tiek izmantota pirmā lietotnes karte. Šeit izvēlieties vienu, ja programmai ir vairāk nekā viena karte.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Vietnes",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Vieta {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Pārvietot vietu {index} līdz",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Pārvietot vietu {index} lejup",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Vietas nosaukums",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Pievienot vietni",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "no": {
-          "file": "a0feeeb15f10",
+          "file": "510f5d43a57f",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Bær basekart til neste kart",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Sender basiskartet valgt i enten basiskartgalleri til neste app. Destinasjon app trenger en Map Switcher koblet til sitt kart for å bruke det.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Ingen kart valgt: den første kart widgeten i appen brukes. Velg et her hvis appen har mer enn ett kart.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Nettsteder",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Nettsted {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Flytteområde {index} opp",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Flytteområde {index} ned",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Nettstedsnavn",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Legg til nettsted",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "nl": {
-          "file": "f47f630e1adf",
+          "file": "f8aff3a8e7f8",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Basiskaart naar volgende kaart dragen",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Stuurt de basismap die in beide basismapgalerijen is gekozen naar de volgende app. De bestemmingsapp heeft een kaartwisselaar nodig die is aangesloten op de kaart om deze toe te passen.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Geen kaart geselecteerd: de eerste kaartwidget in de app wordt gebruikt. Selecteer hier één als de app meer dan één kaart heeft.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Sites",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Site {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Plaats verplaatsen {index} omhoog",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Plaats verplaatsen {index} omlaag",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Sitenaam",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Site toevoegen",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "pl": {
-          "file": "ef657f276a6f",
+          "file": "75fc41270283",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Przenieś Basemap do następnej mapy",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Wysyła do następnej aplikacji mapę bazową wybraną w każdej galerii. Aplikacja docelowa potrzebuje Map Switcher podłączonego do mapy, aby ją zastosować.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Nie wybrano mapy: używany jest pierwszy widget mapy w aplikacji. Wybierz tutaj, jeśli aplikacja ma więcej niż jedną mapę.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Strony",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Strona {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Przenieś stronę {index} Początek rozdziału",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Przenieś stronę {index} w dół",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Nazwa strony",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Dodaj stronę",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "pt-br": {
-          "file": "3cbc5cf989db",
+          "file": "e95ca9d53409",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Leve o mapa para o próximo mapa.",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Envia o mapa escolhido em qualquer galeria para o próximo aplicativo. O aplicativo de destino precisa de um interruptor de mapa conectado ao mapa para aplicá-lo.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Nenhum mapa selecionado: o primeiro widget do mapa no aplicativo é usado. Selecione um aqui se o aplicativo tiver mais de um mapa.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Sites",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Site {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Mova o site {index} Para cima.",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Mova o site {index} Para baixo.",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Nome do site",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Adicionar site",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "pt-pt": {
-          "file": "9b123f55a1c6",
+          "file": "71d707a59f13",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Carregar o mapa de base para o próximo mapa",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Envia o mapa de base escolhido em qualquer galeria de mapas de base para o próximo aplicativo. O aplicativo de destino precisa de um switcher de mapa conectado ao seu mapa para aplicá-lo.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Nenhum mapa selecionado: o primeiro widget do Mapa na aplicação é usado. Selecione um aqui se a aplicação tiver mais de um mapa.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Sites",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Local {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Mover site {index} up",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Mover site {index} para baixo",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Nome do sítio",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Adicionar um Site",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "ro": {
-          "file": "e05015efceff",
+          "file": "d6ce06af3320",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Carry basemap la harta următoare",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Trimite harta de bază aleasă în oricare galerie de bază la următoarea aplicație. Aplicația de destinație are nevoie de un Switcher de hartă conectat la harta sa pentru a o aplica.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Nicio hartă selectată: prima hartă widget din aplicație este utilizată. Alegeți unul aici dacă aplicația are mai mult de o hartă.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Locuri",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Site {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Mută locul {index} sus",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Mută locul {index} jos",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Numele locului",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Adaugă site",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "ru": {
-          "file": "9b3b2e05c47c",
+          "file": "45fddd16d029",
           "counts": {
             "esri": 6,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Перенос базовой карты на следующую карту",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Отправляет базовую карту, выбранную в любой галерее базовой карты, в следующее приложение. Приложению назначения нужен коммутатор карты, подключенный к его карте, чтобы применить его.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Карта не выбрана: используется первый виджет карты в приложении. Выберите один из них, если приложение имеет более одной карты.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Сайты",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Сайт {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Переместить сайт {index} вверх",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Переместить сайт {index} вниз",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Название сайта",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Добавить сайт",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "sk": {
-          "file": "80838f3287be",
+          "file": "fdf89f6aa18b",
           "counts": {
             "esri": 6,
             "esri-check": 1,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Nosiť basemap na nasledujúcu mapu",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Poslať basemap vybraný v oboch basemap galérie do ďalšej aplikácie. Cieľová aplikácia potrebuje Map Switcher pripojený na svoju mapu.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Nevybraná mapa: v aplikácii sa používa prvý widget Mapy. Vyberte jednu, ak má aplikácia viac ako jednu mapu.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Miesta",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Miesto {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Presunúť stránku {index} Hore",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Presunúť stránku {index} dole",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Názov lokality",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Pridať stránku",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "sl": {
-          "file": "e9be0ac015a7",
+          "file": "1878211acf72",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Prenos osnovne karte na naslednjo karto",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "V naslednji aplikaciji pošlje izbrano osnovno karto v galeriji. Ciljna aplikacija za uporabo potrebuje Map Switcher, ki je povezan z zemljevidom.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Ni izbrane karte: uporabljen je prvi gradnik zemljevida v aplikaciji. Tu izberite enega, če ima aplikacija več kot en zemljevid.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Mesta",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Kraj {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Premakni mesto {index} Gor.",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Premakni mesto {index} Dol",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Ime območja",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Dodaj mesto",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "sr": {
           "file": "992010a9b6a4",
@@ -1028,116 +4872,484 @@
           "entries": {}
         },
         "sv": {
-          "file": "e0c2b05c492d",
+          "file": "1397e4adddfe",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Carry Basemap till nästa karta",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Skickar baskartan som valts i antingen basemap galleri till nästa app. Den destination app behöver en karta Switcher ansluten till sin karta för att tillämpa den.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Ingen karta vald: den första kartan widget i appen används. Välj en här om appen har mer än en karta.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Webbplatser",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Webbplats {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Flytta plats {index} Upp",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Flytta plats {index} ner",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Webbplatsnamn",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Lägg till webbplats",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "th": {
-          "file": "47cf92a8998c",
+          "file": "d248c14eb769",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "ลากฐานแมพไปยังแผนที่ถัดไป",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "ส่งบาแมปที่ถูกเลือกในคลังภาพฐานแมปไปยังโปรแกรมถัดไป App ปลายทางต้องการตัวสลับแผนที่ที่เชื่อมต่อกับแผนที่ของมันเพื่อนําไปใช้",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "ยังไม่มีการเลือกแผนที่: วิดเจ็ตแรกของแผนที่ในโปรแกรม เลือกที่นี่ หากโปรแกรมมีแผนที่มากกว่าหนึ่งตัว",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "ที่นั่ง",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Site {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "ย้ายไซต์ {index} ขึ้น",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "ย้ายไซต์ {index} ลง",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "ชื่อไซต์",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "เพิ่มไซต์",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "tr": {
-          "file": "3215343fa237",
+          "file": "6bf8da9a80b1",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Basemap'ı bir sonraki haritaya taşıyın",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Bazmap galeride bir sonraki uygulama için seçilen üssü gönderin. Hedef uygulama, onu uygulamak için haritasına bağlı bir Map Switcher'e ihtiyaç duyar.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Seçilen harita yok: Uygulamadaki ilk Map widget kullanılır. Uygulamanın birden fazla haritaya sahip olup olmadığını buradan seçin.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Siteler",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Site Sitesi {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Move site {index} yukarı yukarı yukarı",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Move site {index} aşağı aşağı aşağı aşağı aşağı",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Site adı",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Add Site Ekle",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "zh-cn": {
-          "file": "b2b6745d5750",
+          "file": "ce9cf71302fb",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "将基准映射到下一张地图",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "将任一碱性映射画廊中选择的碱性映射发送到下一个应用程序 。 目的地应用需要连接到其地图的地图切换器来应用.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "没有选择地图: 应用中的第一个地图部件被使用 。 如果应用程序有多个地图, 请在此选择一个 。",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "站点",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "站点 {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "移动网站 {index} 上来",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "移动网站 {index} 下来",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "站点名称",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "添加站点",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "uk": {
-          "file": "6a68e61e0ee8",
+          "file": "f9afaaa1f1f9",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Карта каррі на карті",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Надсилання базової карти, обраної в галереї базової карти на наступний додаток. Програма призначення вимагає перемикача карти, підключеного до його карти, щоб застосувати його.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Немає вибраної карти: використовується перший віджет карти в додатку. Виберіть один тут, якщо додаток має більше однієї карти.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Сайти",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Веб-сайт {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Веб-сайт {index} вгору",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Веб-сайт {index} вниз",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Назва сайту",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Додати сайт",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "vi": {
-          "file": "0335662e631b",
+          "file": "06aa0e96630e",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "Đem sơ đồ cơ bản tới bản đồ kế tiếp",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "Gửi sơ đồ cơ bản được chọn trong cả hai khung ảnh cơ bản tới ứng dụng tiếp theo. Ứng dụng đích cần một bộ chuyển bản đồ kết nối với bản đồ để áp dụng nó.",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "Chưa chọn bản đồ: các ô điều khiển sơ đồ đầu tiên trong ứng dụng này được dùng. Ở đây hãy chọn một nếu ứng dụng có nhiều bản đồ.",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "Nơi ngồi",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "Nơi Mạng {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "Chuyển vị trí {index} lên",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "Chuyển vị trí {index} & Xuống",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "Tên chỗ",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "Thêm chỗ ngồi",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "zh-hk": {
-          "file": "ccfea8bd0b0f",
+          "file": "803e154e3125",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "將底部圖帶到下一張地圖",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "將在任一基底圖畫廊中選擇的基底圖傳送至下一個應用程式 。 目的應用程式需要與其地圖連接的地圖切換器來應用它 。",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "沒有選擇地圖: 使用應用程式中的第一個地圖元件 。 如果應用程式有不止一個地圖, 請在這裡選擇一個 。",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "站点",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "站 {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "移動網站 {index} 上",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "移動網站 {index} 下",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "站點名稱",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "新增站台",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         },
         "zh-tw": {
-          "file": "ccfea8bd0b0f",
+          "file": "803e154e3125",
           "counts": {
             "esri": 7,
             "esri-check": 0,
             "community": 0,
             "manual": 0,
             "existing": 0,
-            "machine": 0,
+            "machine": 9,
             "stale": 0,
-            "missing": 9
+            "missing": 0
           },
-          "entries": {}
+          "entries": {
+            "carryBasemapToNextMap": {
+              "t": "將底部圖帶到下一張地圖",
+              "src": "machine",
+              "h": "3218bca51b9b"
+            },
+            "sendsTheBasemapChosenInEither": {
+              "t": "將在任一基底圖畫廊中選擇的基底圖傳送至下一個應用程式 。 目的應用程式需要與其地圖連接的地圖切換器來應用它 。",
+              "src": "machine",
+              "h": "24ade7050d03"
+            },
+            "noMapSelectedTheFirstMap": {
+              "t": "沒有選擇地圖: 使用應用程式中的第一個地圖元件 。 如果應用程式有不止一個地圖, 請在這裡選擇一個 。",
+              "src": "machine",
+              "h": "17f452b3a793"
+            },
+            "sites": {
+              "t": "站点",
+              "src": "machine",
+              "h": "5cae88ddf533"
+            },
+            "siteIndex": {
+              "t": "站 {index}",
+              "src": "machine",
+              "h": "8c91567e3055"
+            },
+            "moveSiteIndexUp": {
+              "t": "移動網站 {index} 上",
+              "src": "machine",
+              "h": "1535e30a0eef"
+            },
+            "moveSiteIndexDown": {
+              "t": "移動網站 {index} 下",
+              "src": "machine",
+              "h": "644806cbc35b"
+            },
+            "siteName": {
+              "t": "站點名稱",
+              "src": "machine",
+              "h": "f0e0cf0b4b11"
+            },
+            "addSite": {
+              "t": "新增站台",
+              "src": "machine",
+              "h": "529d5a5a962d"
+            }
+          }
         }
       }
     }

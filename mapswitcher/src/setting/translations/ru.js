@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Базовая карта",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "Перенос базовой карты на следующую карту",
+        sendsTheBasemapChosenInEither: "Отправляет базовую карту, выбранную в любой галерее базовой карты, в следующее приложение. Приложению назначения нужен коммутатор карты, подключенный к его карте, чтобы применить его.",
+        noMapSelectedTheFirstMap: "Карта не выбрана: используется первый виджет карты в приложении. Выберите один из них, если приложение имеет более одной карты.",
+        sites: "Сайты",
+        siteIndex: "Сайт {index}",
         moveUp: "Выше",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Переместить сайт {index} вверх",
         moveDown: "Ниже",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Переместить сайт {index} вниз",
         label: "Подпись",
-        siteName: "Site name",
+        siteName: "Название сайта",
         url: "URL",
         remove: "Удалить",
-        addSite: "Add Site"
+        addSite: "Добавить сайт"
       })
     }
   }

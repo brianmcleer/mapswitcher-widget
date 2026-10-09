@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Temeljna karta",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "Prenos osnovne karte na naslednjo karto",
+        sendsTheBasemapChosenInEither: "V naslednji aplikaciji pošlje izbrano osnovno karto v galeriji. Ciljna aplikacija za uporabo potrebuje Map Switcher, ki je povezan z zemljevidom.",
+        noMapSelectedTheFirstMap: "Ni izbrane karte: uporabljen je prvi gradnik zemljevida v aplikaciji. Tu izberite enega, če ima aplikacija več kot en zemljevid.",
+        sites: "Mesta",
+        siteIndex: "Kraj {index}",
         moveUp: "Premakni gor",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Premakni mesto {index} Gor.",
         moveDown: "Premakni dol",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Premakni mesto {index} Dol",
         label: "Napis",
-        siteName: "Site name",
+        siteName: "Ime območja",
         url: "URL",
         remove: "Odstrani",
-        addSite: "Add Site"
+        addSite: "Dodaj mesto"
       })
     }
   }

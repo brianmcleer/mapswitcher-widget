@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Kaartenwisselaar",
+        switchTo: "Overschakelen naar...",
+        noSitesConfigured: "Geen sites ingesteld",
+        noSitesConfiguredPleaseConfigureMap: "Geen sites geconfigureerd. Configureren van kaart sites in de widget-instellingen.",
+        mapSwitcherSelectAMapTo: "Kaartenwisselaar - Selecteer een kaart om naar te navigeren",
+        chooseFromSitesCountAvailableMapsSelecting: "Kies uit {sitesCount} beschikbare kaarten. Een kaart selecteren zal u naar die locatie navigeren en de huidige basismap behouden.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Kies uit {sitesCount} beschikbare kaarten. Een kaart selecteren zal u naar die locatie navigeren.",
+        chooseFromSitesCountAvailableMapSelecting: "Kies uit {sitesCount} beschikbare kaart. Een kaart selecteren zal u naar die locatie navigeren en de huidige basismap behouden.",
+        chooseFromSitesCountAvailableMapSelecting2: "Kies uit {sitesCount} beschikbare kaart. Een kaart selecteren zal u naar die locatie navigeren.",
+        selectMapToView: "Selecteer de kaart om te bekijken",
+        selectAMapToNavigateTo: "Selecteer een kaart om naar een andere weergave te navigeren",
+        navigateToLabel: "Navigeren naar {label}",
         loading: "Bezig met laden...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Navigeren naar geselecteerde kaart. Wacht even.",
+        skipToMainContent: "Overslaan en naar de inhoud gaan"
       })
     }
   }

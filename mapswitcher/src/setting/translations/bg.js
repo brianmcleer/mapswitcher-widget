@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "Базова карта",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
-        siteIndex: "Site {index}",
+        carryBasemapToNextMap: "Пренасяне на базова карта към следващата карта",
+        sendsTheBasemapChosenInEither: "Изпращане на основната карта, избрана в някоя от базовите карти галерия към следващото приложение. Приложението за местоназначение се нуждае от Map Switcher, свързан към картата му, за да го прилага.",
+        noMapSelectedTheFirstMap: "Не е избрана карта: се използва първата карта джаджа в приложението. Изберете един тук, ако приложението има повече от една карта.",
+        sites: "Обекти",
+        siteIndex: "Място {index}",
         moveUp: "Нагоре",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "Преместване на мястото {index} Нагоре",
         moveDown: "Надолу",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "Преместване на мястото {index} Долу",
         label: "Надпис",
-        siteName: "Site name",
+        siteName: "Име на сайта",
         url: "URL адрес",
         remove: "Премахване",
-        addSite: "Add Site"
+        addSite: "Добавяне на сайта"
       })
     }
   }

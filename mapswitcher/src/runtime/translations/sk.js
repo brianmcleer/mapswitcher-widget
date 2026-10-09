@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Prepínač mapy",
+        switchTo: "Prepnúť na...",
+        noSitesConfigured: "Žiadne konfigurované stránky",
+        noSitesConfiguredPleaseConfigureMap: "Žiadne stránky konfigurované. Prosím, konfigurujte mapové stránky v nastaveniach widgetu.",
+        mapSwitcherSelectAMapTo: "Mapový switcher - Vyberte mapu pre navigáciu",
+        chooseFromSitesCountAvailableMapsSelecting: "Vyberte z {sitesCount} dostupné mapy. Výber mapy vás naviguje na toto miesto a zachová aktuálnu mapu.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Vyberte z {sitesCount} dostupné mapy. Výberom mapy sa dostanete na toto miesto.",
+        chooseFromSitesCountAvailableMapSelecting: "Vyberte z {sitesCount} dostupná mapa. Výber mapy vás naviguje na toto miesto a zachová aktuálnu mapu.",
+        chooseFromSitesCountAvailableMapSelecting2: "Vyberte z {sitesCount} dostupná mapa. Výberom mapy sa dostanete na toto miesto.",
+        selectMapToView: "Vyberte mapu pre zobrazenie",
+        selectAMapToNavigateTo: "Vyberte mapu pre prechod na iný pohľad",
+        navigateToLabel: "Navigovať do {label}",
         loading: "Načítava sa...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Navigácia na vybranú mapu. Prosím, počkajte.",
+        skipToMainContent: "Preskočiť na hlavný obsah"
       })
     }
   }

@@ -3,21 +3,21 @@ System.register([], function (e) {
   return {
     execute: function () {
       e({
-        _widgetLabel: "Map Switcher",
-        switchTo: "Switch to...",
-        noSitesConfigured: "No sites configured",
-        noSitesConfiguredPleaseConfigureMap: "No sites configured. Please configure map sites in the widget settings.",
-        mapSwitcherSelectAMapTo: "Map Switcher - Select a map to navigate to",
-        chooseFromSitesCountAvailableMapsSelecting: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapsSelecting2: "Choose from {sitesCount} available maps. Selecting a map will navigate you to that location.",
-        chooseFromSitesCountAvailableMapSelecting: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location and keep the current basemap.",
-        chooseFromSitesCountAvailableMapSelecting2: "Choose from {sitesCount} available map. Selecting a map will navigate you to that location.",
-        selectMapToView: "Select map to view",
-        selectAMapToNavigateTo: "Select a map to navigate to a different view",
-        navigateToLabel: "Navigate to {label}",
+        _widgetLabel: "Trình đổi bản đồ",
+        switchTo: "Chuyển sang...",
+        noSitesConfigured: "Chưa cấu hình nơi Mạng",
+        noSitesConfiguredPleaseConfigureMap: "Chưa cấu hình nơi Mạng. Hãy cấu hình sơ đồ trong thiết lập ô điều khiển.",
+        mapSwitcherSelectAMapTo: "Trình đổi bản đồ - Chọn bản đồ cần định hướng tới",
+        chooseFromSitesCountAvailableMapsSelecting: "Chọn từ {sitesCount} Bản đồ có sẵn. Chọn một bản đồ sẽ định hướng bạn đến vị trí đó và giữ sơ đồ cơ sở hiện thời.",
+        chooseFromSitesCountAvailableMapsSelecting2: "Chọn từ {sitesCount} Bản đồ có sẵn. Chọn một bản đồ sẽ định hướng bạn đến địa điểm đó.",
+        chooseFromSitesCountAvailableMapSelecting: "Chọn từ {sitesCount} có sẵn bản đồ. Chọn một bản đồ sẽ định hướng bạn đến vị trí đó và giữ sơ đồ cơ sở hiện thời.",
+        chooseFromSitesCountAvailableMapSelecting2: "Chọn từ {sitesCount} có sẵn bản đồ. Chọn một bản đồ sẽ định hướng bạn đến địa điểm đó.",
+        selectMapToView: "Chọn bản đồ cần xem",
+        selectAMapToNavigateTo: "Chọn một bản đồ để di chuyển tới một ô xem khác",
+        navigateToLabel: "Chuyển tới {label}",
         loading: "Đang tải...",
-        navigatingToSelectedMapPleaseWait: "Navigating to selected map. Please wait.",
-        skipToMainContent: "Skip to main content"
+        navigatingToSelectedMapPleaseWait: "Chuyển sang bản đồ đã chọn. Đợi đã.",
+        skipToMainContent: "Bỏ qua nội dung chính"
       })
     }
   }

@@ -5,20 +5,20 @@ System.register([], function (e) {
       e({
         basemap: "แผนที่ฐาน",
         mapWidget: "Map widget",
-        carryBasemapToNextMap: "Carry basemap to next map",
-        sendsTheBasemapChosenInEither: "Sends the basemap chosen in either basemap gallery to the next app. The destination app needs a Map Switcher connected to its map to apply it.",
-        noMapSelectedTheFirstMap: "No map selected: the first Map widget in the app is used. Select one here if the app has more than one map.",
-        sites: "Sites",
+        carryBasemapToNextMap: "ลากฐานแมพไปยังแผนที่ถัดไป",
+        sendsTheBasemapChosenInEither: "ส่งบาแมปที่ถูกเลือกในคลังภาพฐานแมปไปยังโปรแกรมถัดไป App ปลายทางต้องการตัวสลับแผนที่ที่เชื่อมต่อกับแผนที่ของมันเพื่อนําไปใช้",
+        noMapSelectedTheFirstMap: "ยังไม่มีการเลือกแผนที่: วิดเจ็ตแรกของแผนที่ในโปรแกรม เลือกที่นี่ หากโปรแกรมมีแผนที่มากกว่าหนึ่งตัว",
+        sites: "ที่นั่ง",
         siteIndex: "Site {index}",
         moveUp: "เลื่อนขึ้น",
-        moveSiteIndexUp: "Move site {index} up",
+        moveSiteIndexUp: "ย้ายไซต์ {index} ขึ้น",
         moveDown: "เลื่อนลง",
-        moveSiteIndexDown: "Move site {index} down",
+        moveSiteIndexDown: "ย้ายไซต์ {index} ลง",
         label: "ป้ายชื่อ",
-        siteName: "Site name",
+        siteName: "ชื่อไซต์",
         url: "URL",
         remove: "ลบทิ้ง",
-        addSite: "Add Site"
+        addSite: "เพิ่มไซต์"
       })
     }
   }
